@@ -13,7 +13,9 @@
         "custom/media"
     ],
     "modules-center": [
-        "sway/window"
+        // "sway/window"
+	"clock"
+
     ],
     "modules-right": [
         "mpd",
@@ -29,11 +31,22 @@
         // "sway/language",
         // "battery",
         // "battery#bat2",
-        "clock",
 	"custom/weather",
         "tray",
         "custom/power"
     ],
+
+//"custom/weather": {
+//    "format": "{}°",
+//    "tooltip": true,
+//    "interval": 3600,
+//    "exec": "wttrbar",
+//    "return-type": "json"
+//},
+    
+
+
+
 
 "custom/weather": {
         "exec": "curl wttr.in/phoenix?format=1",
@@ -41,6 +54,7 @@
         "interval": 600,
         "format": "{}"
     },
+
 
 
         // Modules configuration
@@ -114,14 +128,16 @@
     },
     "tray": {
         // "icon-size": 21,
-        "spacing": 20
+        "spacing": 10
         // "icons": {
-        //   "blueman": "bluetooth",
+        //   "blueman": "bluetooth"
         //   "TelegramDesktop": "$HOME/.local/share/icons/hicolor/16x16/apps/telegram.png"
         // }
     },
     "clock": {
         // "timezone": "America/New_York",
+	"interval": 1,
+	"format": "{:%a, %b %d %H:%M:%S}",
         "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>",
         "format-alt": "{:%Y-%m-%d}"
     },
@@ -177,7 +193,8 @@
     "network": {
         // "interface": "wlp2*", // (Optional) To force the use of this interface
         "format-wifi": "{essid} ({signalStrength}%) ",
-        "format-ethernet": "{ipaddr}/{cidr} ",
+        "format-ethernet": "󰈀 {bandwidthDownBits}",
+	"interval": 5,
         "tooltip-format": "{ifname} via {gwaddr} ",
         "format-linked": "{ifname} (No IP) ",
         "format-disconnected": "Disconnected ⚠",
@@ -227,13 +244,5 @@
 		}
     }
 }
-
-//"custom/weather": {
-//	"format": "weather {}",
-//	"interval": "300",
-//	"exec": "curl wttr.in/phoenix?format=1"
-//
-//}
-
 
 
