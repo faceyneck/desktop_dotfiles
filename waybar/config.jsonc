@@ -2,7 +2,7 @@
 {
     // "layer": "top", // Waybar at top layer
     // "position": "bottom", // Waybar position (top|bottom|left|right)
-    "height": 20, // Waybar height (to be removed for auto height)
+    "height": 22, // Waybar height (to be removed for auto height)
     // "width": 1280, // Waybar width
     "spacing": 4, // Gaps between modules (4px)
     // Choose the order of the modules
@@ -14,7 +14,8 @@
     ],
     "modules-center": [
         // "sway/window"
-	"clock"
+	"clock",
+	"custom/weather"
 
     ],
     "modules-right": [
@@ -22,7 +23,6 @@
         "idle_inhibitor",
         "pulseaudio",
         "network",
-        "power-profiles-daemon",
         "cpu",
         "memory",
         "temperature",
@@ -31,9 +31,7 @@
         // "sway/language",
         // "battery",
         // "battery#bat2",
-	"custom/weather",
-        "tray",
-        "custom/power"
+        "tray"
     ],
 
 //"custom/weather": {

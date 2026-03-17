@@ -1,11 +1,18 @@
 * {
-    font-family: 'Noto Sans Mono', 'Font Awesome 6 Free', 'Font Awesome 6 Brands', monospace;
+    border: none;
+    /* border-radius: 0; */
+    font-family: JetBrainsMono, 'Noto Sans Mono', 'Font Awesome 6 Free', 'Font Awesome 6 Brands', Roboto, Helvetica, Arial, sans-serif;
     font-size: 13px;
+    min-height: 0;
+    margin: 0;
+    padding: 0;
 }
 
 window#waybar {
-    background-color: rgba(43, 48, 59, 0.5);
-    border-bottom: 3px solid rgba(100, 114, 125, 0.5);
+    /*background-color: rgba(43, 48, 59, 0.5);*/
+    background-color: transparent;
+
+    /*border-bottom: 3px solid rgba(100, 114, 125, 0.5);*/
     color: #ffffff;
     transition-property: background-color;
     transition-duration: .5s;
@@ -52,23 +59,39 @@ button:hover {
     background-color: #a37800;
 }
 
+/* #clock {
+      background-color: #64727D;
+      background-color: rgba(0, 0, 102, 0.2);
+      border: 1px solid transparent;
+      border-color: rgba(204, 204, 204, 0.8);
+      font-weight: bold;
+}*/
+
 #workspaces button {
     padding: 0 5px;
-    background-color: transparent;
+    background-color: rgba(0, 0, 102, 0.2);
+    border: 1px solid transparent;
+    border-color: rgba(102, 102, 102, 0.8);
+    border-radius: 5px;
     color: #ffffff;
 }
 
 #workspaces button:hover {
     background: rgba(0, 0, 0, 0.2);
+    border: 1px solid transparent;
 }
 
 #workspaces button.focused {
     background-color: #64727D;
-    box-shadow: inset 0 -3px #ffffff;
+/*    box-shadow: inset 0 -3px #ffffff;*/
+    border: 1px solid #ffffff;
+
 }
 
 #workspaces button.urgent {
     background-color: #eb4d4b;
+    border: 1px solid transparent;
+
 }
 
 #mode {
@@ -90,30 +113,45 @@ button:hover {
 #tray,
 #mode,
 #idle_inhibitor,
-#scratchpad,
+/*#scratchpad,*/
 #power-profiles-daemon,
 #mpd {
     padding: 0 10px;
     color: #ffffff;
+    font-weight: bold;
+    border-radius: 5px;
+    
+
 }
 
 #window,
 #workspaces {
     margin: 0 4px;
+    border: 1px solid transparent;
+    font-weight: bold;
+
 }
 
 /* If workspaces is the leftmost module, omit left margin */
 .modules-left > widget:first-child > #workspaces {
     margin-left: 0;
+    border: 1px solid transparent;
+
 }
 
 /* If workspaces is the rightmost module, omit right margin */
 .modules-right > widget:last-child > #workspaces {
     margin-right: 0;
+    border: 1px solid transparent;
+
 }
 
 #clock {
-    background-color: #64727D;
+    /*background-color: #64727D;*/
+      background-color: rgba(0, 0, 102, 0.2);
+      border: 1px solid transparent;
+      border-color: rgba(204, 204, 204, 0.8);
+      font-weight: bold;
 }
 
 #battery {
@@ -168,12 +206,20 @@ label:focus {
 }
 
 #cpu {
-    background-color: #2ecc71;
-    color: #000000;
+    background-color: rgba(151, 231, 185, 0.2);
+    color: #ffffff;
+    border: 1px solid transparent;
+    border-color: rgba(151, 231, 185, 0.5);
+
 }
 
 #memory {
-    background-color: #9b59b6;
+    background-color: rgba(155, 89, 182, 0.2);
+    color: #ffffff;
+    border: 1px solid transparent;
+    border-color: rgba(155, 89, 182, 0.5);
+
+
 }
 
 #disk {
@@ -185,7 +231,9 @@ label:focus {
 }
 
 #network {
-    background-color: #2980b9;
+    background-color: rgba(41, 128, 185, 0.2);
+    border: 1px solid transparent;
+    border-color: rgba(41, 128, 185, 0.5);
     min-width: 100px;
 }
 
@@ -194,8 +242,10 @@ label:focus {
 }
 
 #pulseaudio {
-    background-color: #f1c40f;
-    color: #000000;
+    background-color: rgba(241, 196, 15, 0.2);
+    color: #ffffff;
+    border: 1px solid transparent;
+    border-color: rgba(241, 196, 15, 0.5);
 }
 
 #pulseaudio.muted {
@@ -235,7 +285,10 @@ label:focus {
 }
 
 #tray {
-    background-color: #2980b9;
+    background-color: rgba(41, 128, 185, 0.5);
+    border: 1px solid transparent;
+    border-color: rgba(41, 128, 185, 0.5);
+
 }
 
 #tray > .passive {
@@ -248,7 +301,10 @@ label:focus {
 }
 
 #idle_inhibitor {
-    background-color: #2d3436;
+    background-color: rgba(45, 52, 54, 0.2);
+    border: 1px solid transparent;
+    border-color: rgba(204, 204, 204, 0.8);
+
 }
 
 #idle_inhibitor.activated {
@@ -297,13 +353,24 @@ label:focus {
     background: rgba(0, 0, 0, 0.2);
 }
 
+@define-color text_color #ffffff;
+@define-color border_color rgba(102, 102, 102, 0.8);
+
+
 #scratchpad {
-    background: rgba(0, 0, 0, 0.2);
+    background-color: rgba(0, 0, 102, 0.8);
+    border: 1px solid @border_color;
+    color: @text_color;
+    border-radius: 5px;
+    padding: 0 10px;
+    font-weight: bold;
+  
 }
 
-#scratchpad.empty {
+/*#scratchpad.empty {
 	background-color: transparent;
-}
+	background-color: #ffffff;
+}*/
 
 #privacy {
     padding: 0;
@@ -324,4 +391,12 @@ label:focus {
 
 #privacy-item.audio-out {
     background-color: #0069d4;
+}
+
+#custom-weather {
+    font-weight: bold;
+    background-color: rgba(0, 0, 0, 0.5);
+    border: 1px solid transparent;
+    border-color: rgba(204, 204, 204, 0.8);
+    border-radius: 5px;
 }

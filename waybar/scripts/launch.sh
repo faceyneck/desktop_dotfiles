@@ -1,5 +1,4 @@
 #! /bin/bash
 
-killall -9 waybar
-
+pkill -x waybar || true
 waybar &
