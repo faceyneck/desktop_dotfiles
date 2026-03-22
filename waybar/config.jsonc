@@ -15,7 +15,8 @@
     "modules-center": [
         // "sway/window"
 	"clock",
-	"custom/weather"
+	"custom/weather",
+	"custom/luna"
 
     ],
     "modules-right": [
@@ -49,7 +50,12 @@
         "format": "{}"
     },
 
-
+ "custom/luna": {
+        "exec": "~/.config/waybar/scripts/luna.sh",
+        "tooltip": false,
+        "interval": 600,
+        "format": "{}"
+    },
 
         // Modules configuration
     // "sway/workspaces": {

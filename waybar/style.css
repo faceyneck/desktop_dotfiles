@@ -400,3 +400,12 @@ label:focus {
     border-color: rgba(204, 204, 204, 0.8);
     border-radius: 5px;
 }
+
+#custom-luna {
+    font-weight: bold;
+    background-color: rgba(0, 0, 0, 0.5);
+    border: 1px solid transparent;
+    border-color: rgba(204, 204, 204, 0.8);
+    border-radius: 5px;
+}
+
