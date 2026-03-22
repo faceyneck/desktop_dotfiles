@@ -29,6 +29,9 @@ config.inactive_pane_hsb = {
 config.font_size = 10
 config.color_scheme = 'AdventureTime'
 
+-- Setting JetBrains as the font. I dunno why it went away:
+config.font = wezterm.font 'JetBrains Mono'
+
 -- Here's me trying to set "retro" style for tabs:
 config.colors = {
   tab_bar = {

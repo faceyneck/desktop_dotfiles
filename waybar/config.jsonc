@@ -27,7 +27,7 @@
         "memory",
         "temperature",
         "backlight",
-        "keyboard-state",
+        //"keyboard-state",
         // "sway/language",
         // "battery",
         // "battery#bat2",
@@ -42,12 +42,8 @@
 //    "return-type": "json"
 //},
     
-
-
-
-
-"custom/weather": {
-        "exec": "curl wttr.in/phoenix?format=1",
+ "custom/weather": {
+        "exec": "curl 'wttr.in/phoenix?u&format=1'",
         "tooltip": false,
         "interval": 600,
         "format": "{}"
@@ -75,6 +71,8 @@
     "keyboard-state": {
         "numlock": true,
         "capslock": true,
+	//"device-path": "/dev/input/event7",
+	//"binding-keys": ["58", "69"],
         "format": "{name} {icon}",
         "format-icons": {
             "locked": "",
@@ -190,7 +188,7 @@
     },
     "network": {
         // "interface": "wlp2*", // (Optional) To force the use of this interface
-        "format-wifi": "{essid} ({signalStrength}%) ",
+        "format-wifi": "  {bandwidthDownBits}",
         "format-ethernet": "󰈀 {bandwidthDownBits}",
 	"interval": 5,
         "tooltip-format": "{ifname} via {gwaddr} ",
