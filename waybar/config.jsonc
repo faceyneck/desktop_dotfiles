@@ -44,7 +44,7 @@
 //},
     
  "custom/weather": {
-        "exec": "curl 'wttr.in/phoenix?u&format=1'",
+        "exec": "~/.config/waybar/scripts/weather.sh",
         "tooltip": false,
         "interval": 600,
         "format": "{}"
