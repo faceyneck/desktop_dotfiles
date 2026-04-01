@@ -1,1 +1,1 @@
-curl 'wttr.in/phoenix?u&format=1' | sed 's/   +//'
+curl  "wttr.in/phoenix?u&format=%c+%t" | sed 's/  +//'
