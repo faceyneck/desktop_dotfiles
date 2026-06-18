@@ -1,0 +1,428 @@
+2026-03-03 03:37:16.865 [info] [GitExtensionServiceImpl] Initializing Git extension service.
+2026-03-03 03:37:16.865 [info] [GitExtensionServiceImpl] Successfully activated the vscode.git extension.
+2026-03-03 03:37:16.865 [info] [GitExtensionServiceImpl] Enablement state of the vscode.git extension: true.
+2026-03-03 03:37:16.865 [info] [GitExtensionServiceImpl] Successfully registered Git commit message provider.
+2026-03-03 03:37:16.890 [info] Logged in as xxsisyphusxx-star
+2026-03-03 03:37:16.894 [info] Using the Electron fetcher.
+2026-03-03 03:37:16.934 [info] ConversationFeature: Waiting for copilot token to activate conversation feature
+2026-03-03 03:37:16.935 [info] Creating node-pty shim: source=/usr/share/code/resources/app/node_modules/node-pty/build/Release, dest=/home/faceyneck/.vscode/extensions/github.copilot-chat-0.37.9/node_modules/@github/copilot/sdk/prebuilds/linux-x64
+2026-03-03 03:37:16.935 [info] Creating ripgrep shim: source=/usr/share/code/resources/app/node_modules/@vscode/ripgrep/bin, dest=/home/faceyneck/.vscode/extensions/github.copilot-chat-0.37.9/node_modules/@github/copilot/sdk/ripgrep/bin/linux-x64
+2026-03-03 03:37:17.112 [info] Found 1 entries to copy: rg
+2026-03-03 03:37:17.112 [info] Found 1 entries to copy: pty.node
+2026-03-03 03:37:17.120 [info] [CopilotCLI] MCP server started. Lock file: /home/faceyneck/.copilot/ide/2bd626ae-af84-45d8-a746-ecd38584decc.lock
+2026-03-03 03:37:17.120 [info] [CopilotCLI] Server URI: unix:/tmp/mcp-dlZV09/mcp.sock#%2Fmcp
+2026-03-03 03:37:17.534 [info] Got Copilot token for xxsisyphusxx-star
+2026-03-03 03:37:17.534 [info] Copilot Chat: 0.37.9, VS Code: 1.109.5
+2026-03-03 03:37:17.539 [info] [context keys] Setting context key: github.copilot-chat.activated
+2026-03-03 03:37:17.540 [info] activationBlocker from 'languageModelAccess' took for 623ms
+2026-03-03 03:37:17.579 [info] AuthenticationService: firing onDidAuthenticationChange from handleAuthChangeEvent. Has token: true
+2026-03-03 03:37:17.579 [info] copilot token sku: free_limited_copilot
+2026-03-03 03:37:17.579 [info] ConversationFeature: Activating contributions
+2026-03-03 03:37:17.579 [info] GitHub.vscode-pull-request-github extension is not yet activated.
+2026-03-03 03:37:17.587 [info] Registering default platform agent...
+2026-03-03 03:37:17.588 [info] ConversationFeature: onDidAuthenticationChange has token: true
+2026-03-03 03:37:17.588 [info] [code-referencing] Public code references are enabled.
+2026-03-03 03:37:17.588 [info] activationBlocker from 'conversationFeature' took for 674ms
+2026-03-03 03:37:17.592 [info] GithubAvailableEmbeddingTypesManager: Got embeddings. Primary: metis-1024-I16-Binary. Deprecated: 
+2026-03-03 03:37:17.593 [info] WorkspaceChunkSearchService: using embedding type metis-1024-I16-Binary
+2026-03-03 03:37:17.606 [info] BYOK: Copilot Chat known models list fetched successfully.
+2026-03-03 03:37:17.962 [info] Fetched model metadata in 1038ms f003baee-67bf-4618-a6aa-90860aea11bb
+2026-03-03 03:37:18.039 [info] Latest entry: ccreq:latest.copilotmd
+2026-03-03 03:37:18.040 [info] ccreq:7072d552.copilotmd | markdown
+2026-03-03 03:46:57.025 [info] [fetchCompletions] Request 259b3c55-3bb9-494f-a20c-2388782e7a52 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 246.79449700005352ms
+2026-03-03 03:46:57.105 [info] [streamChoices] solution 0 returned. finish reason: [stop]
+2026-03-03 03:46:57.114 [info] ccreq:da54f2f9.copilotmd | markdown
+2026-03-03 03:46:57.355 [info] [fetchCompletions] Request e4b8ffef-9f76-4aac-9a33-fd946805c1fa at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 232.71446299995296ms
+2026-03-03 03:46:57.360 [error] [AsyncCompletionManager] [e4b8ffef-9f76-4aac-9a33-fd946805c1fa] Request errored with [AbortError: The operation was aborted
+	at handleKnownInternalErrors (node:internal/webstreams/adapters:111:14)
+	at IncomingMessage.<anonymous> (node:internal/webstreams/adapters:476:13)
+	at AsyncResource.runInAsyncScope (node:async_hooks:214:14)
+	at IncomingMessage.<anonymous> (node:internal/streams/end-of-stream:61:21)
+	at IncomingMessage.<anonymous> (node:internal/util:570:20)
+	at IncomingMessage.onclose (node:internal/streams/end-of-stream:165:25)
+	at IncomingMessage.emit (node:events:519:28)
+	at emitCloseNT (node:internal/streams/destroy:148:10)
+	at process.processTicksAndRejections (node:internal/process/task_queues:89:21)] {
+  code: 'ABORT_ERR',
+  [cause]: [Error: Premature close
+  	at IncomingMessage.onclose (node:internal/streams/end-of-stream:166:30)
+  	at IncomingMessage.emit (node:events:519:28)
+  	at emitCloseNT (node:internal/streams/destroy:148:10)
+  	at process.processTicksAndRejections (node:internal/process/task_queues:89:21)] {
+    code: 'ERR_STREAM_PREMATURE_CLOSE'
+  }
+}
+2026-03-03 03:46:58.213 [info] [fetchCompletions] Request 86de6227-e58b-4c4b-b3c8-dbf208a27d2d at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 169.52952500001993ms
+2026-03-03 03:46:58.312 [info] [streamChoices] solution 0 returned. finish reason: [stop]
+2026-03-03 03:46:58.469 [info] [fetchCompletions] Request 19753c3f-9d34-4c83-92ae-c1d6a0c92bbd at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 142.87435100006405ms
+2026-03-03 03:46:58.583 [info] [streamChoices] solution 0 returned. finish reason: [stop]
+2026-03-03 03:46:58.586 [info] ccreq:f7e8a1b0.copilotmd | markdown
+2026-03-03 03:46:58.781 [info] [fetchCompletions] Request d029a292-e206-4c0b-87bd-7f529a7060d6 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 189.89207299996633ms
+2026-03-03 03:46:58.864 [info] [streamChoices] solution 0 returned. finish reason: [null]
+2026-03-03 03:46:59.051 [info] [fetchCompletions] Request 2d9e7471-dae5-495e-b7ee-a71b7b653322 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 174.68071400001645ms
+2026-03-03 03:46:59.143 [info] [streamChoices] solution 0 returned. finish reason: [stop]
+2026-03-03 03:46:59.146 [info] ccreq:6797b487.copilotmd | markdown
+2026-03-03 03:46:59.697 [info] [fetchCompletions] Request 78ab0afc-b524-40a3-917b-cb415a39372b at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 136.6528849999886ms
+2026-03-03 03:46:59.800 [info] [streamChoices] solution 0 returned. finish reason: [stop]
+2026-03-03 03:46:59.803 [info] ccreq:94d9f80c.copilotmd | markdown
+2026-03-03 03:47:01.235 [info] [fetchCompletions] Request 0ae2ee16-36bb-4c5d-b499-afa83e62a891 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 171.59237700002268ms
+2026-03-03 03:47:01.243 [info] [streamChoices] solution 0 returned. finish reason: [stop]
+2026-03-03 03:47:01.244 [info] ccreq:4844111b.copilotmd | markdown
+2026-03-03 03:47:18.778 [info] [fetchCompletions] Request 916ca032-a2bb-4f5c-8570-86aee4049b2c at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 162.12367500003893ms
+2026-03-03 03:47:18.809 [error] [AsyncCompletionManager] [916ca032-a2bb-4f5c-8570-86aee4049b2c] Request errored with [AbortError: The operation was aborted
+	at handleKnownInternalErrors (node:internal/webstreams/adapters:111:14)
+	at IncomingMessage.<anonymous> (node:internal/webstreams/adapters:476:13)
+	at AsyncResource.runInAsyncScope (node:async_hooks:214:14)
+	at IncomingMessage.<anonymous> (node:internal/streams/end-of-stream:61:21)
+	at IncomingMessage.<anonymous> (node:internal/util:570:20)
+	at IncomingMessage.onclose (node:internal/streams/end-of-stream:165:25)
+	at IncomingMessage.emit (node:events:519:28)
+	at emitCloseNT (node:internal/streams/destroy:148:10)
+	at process.processTicksAndRejections (node:internal/process/task_queues:89:21)] {
+  code: 'ABORT_ERR',
+  [cause]: [Error: Premature close
+  	at IncomingMessage.onclose (node:internal/streams/end-of-stream:166:30)
+  	at IncomingMessage.emit (node:events:519:28)
+  	at emitCloseNT (node:internal/streams/destroy:148:10)
+  	at process.processTicksAndRejections (node:internal/process/task_queues:89:21)] {
+    code: 'ERR_STREAM_PREMATURE_CLOSE'
+  }
+}
+2026-03-03 03:47:18.955 [info] [fetchCompletions] Request dcd76cdb-b9a4-41b1-856e-ba4e867343ad at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 145.60029000008944ms
+2026-03-03 03:47:19.025 [error] [AsyncCompletionManager] [dcd76cdb-b9a4-41b1-856e-ba4e867343ad] Request errored with [AbortError: The operation was aborted
+	at handleKnownInternalErrors (node:internal/webstreams/adapters:111:14)
+	at IncomingMessage.<anonymous> (node:internal/webstreams/adapters:476:13)
+	at AsyncResource.runInAsyncScope (node:async_hooks:214:14)
+	at IncomingMessage.<anonymous> (node:internal/streams/end-of-stream:61:21)
+	at IncomingMessage.<anonymous> (node:internal/util:570:20)
+	at IncomingMessage.onclose (node:internal/streams/end-of-stream:165:25)
+	at IncomingMessage.emit (node:events:519:28)
+	at emitCloseNT (node:internal/streams/destroy:148:10)
+	at process.processTicksAndRejections (node:internal/process/task_queues:89:21)] {
+  code: 'ABORT_ERR',
+  [cause]: [Error: Premature close
+  	at IncomingMessage.onclose (node:internal/streams/end-of-stream:166:30)
+  	at IncomingMessage.emit (node:events:519:28)
+  	at emitCloseNT (node:internal/streams/destroy:148:10)
+  	at process.processTicksAndRejections (node:internal/process/task_queues:89:21)] {
+    code: 'ERR_STREAM_PREMATURE_CLOSE'
+  }
+}
+2026-03-03 03:47:19.166 [info] [fetchCompletions] Request 0becf436-d2dc-404d-a60e-33453f1ff247 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 139.6236439999193ms
+2026-03-03 03:47:19.208 [error] [AsyncCompletionManager] [0becf436-d2dc-404d-a60e-33453f1ff247] Request errored with [AbortError: The operation was aborted
+	at handleKnownInternalErrors (node:internal/webstreams/adapters:111:14)
+	at IncomingMessage.<anonymous> (node:internal/webstreams/adapters:476:13)
+	at AsyncResource.runInAsyncScope (node:async_hooks:214:14)
+	at IncomingMessage.<anonymous> (node:internal/streams/end-of-stream:61:21)
+	at IncomingMessage.<anonymous> (node:internal/util:570:20)
+	at IncomingMessage.onclose (node:internal/streams/end-of-stream:165:25)
+	at IncomingMessage.emit (node:events:519:28)
+	at emitCloseNT (node:internal/streams/destroy:148:10)
+	at process.processTicksAndRejections (node:internal/process/task_queues:89:21)] {
+  code: 'ABORT_ERR',
+  [cause]: [Error: Premature close
+  	at IncomingMessage.onclose (node:internal/streams/end-of-stream:166:30)
+  	at IncomingMessage.emit (node:events:519:28)
+  	at emitCloseNT (node:internal/streams/destroy:148:10)
+  	at process.processTicksAndRejections (node:internal/process/task_queues:89:21)] {
+    code: 'ERR_STREAM_PREMATURE_CLOSE'
+  }
+}
+2026-03-03 03:47:19.365 [info] [fetchCompletions] Request 35e9e2f4-2d50-4672-8328-8fb06b8558d0 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 156.6416760000866ms
+2026-03-03 03:47:19.375 [error] [AsyncCompletionManager] [35e9e2f4-2d50-4672-8328-8fb06b8558d0] Request errored with [AbortError: The operation was aborted
+	at handleKnownInternalErrors (node:internal/webstreams/adapters:111:14)
+	at IncomingMessage.<anonymous> (node:internal/webstreams/adapters:476:13)
+	at AsyncResource.runInAsyncScope (node:async_hooks:214:14)
+	at IncomingMessage.<anonymous> (node:internal/streams/end-of-stream:61:21)
+	at IncomingMessage.<anonymous> (node:internal/util:570:20)
+	at IncomingMessage.onclose (node:internal/streams/end-of-stream:165:25)
+	at IncomingMessage.emit (node:events:519:28)
+	at emitCloseNT (node:internal/streams/destroy:148:10)
+	at process.processTicksAndRejections (node:internal/process/task_queues:89:21)] {
+  code: 'ABORT_ERR',
+  [cause]: [Error: Premature close
+  	at IncomingMessage.onclose (node:internal/streams/end-of-stream:166:30)
+  	at IncomingMessage.emit (node:events:519:28)
+  	at emitCloseNT (node:internal/streams/destroy:148:10)
+  	at process.processTicksAndRejections (node:internal/process/task_queues:89:21)] {
+    code: 'ERR_STREAM_PREMATURE_CLOSE'
+  }
+}
+2026-03-03 03:47:19.524 [info] [fetchCompletions] Request a46565e8-0da2-4a9c-ae83-6389ddb16fd7 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 148.0645599999698ms
+2026-03-03 03:47:19.542 [error] [AsyncCompletionManager] [a46565e8-0da2-4a9c-ae83-6389ddb16fd7] Request errored with [AbortError: The operation was aborted
+	at handleKnownInternalErrors (node:internal/webstreams/adapters:111:14)
+	at IncomingMessage.<anonymous> (node:internal/webstreams/adapters:476:13)
+	at AsyncResource.runInAsyncScope (node:async_hooks:214:14)
+	at IncomingMessage.<anonymous> (node:internal/streams/end-of-stream:61:21)
+	at IncomingMessage.<anonymous> (node:internal/util:570:20)
+	at IncomingMessage.onclose (node:internal/streams/end-of-stream:165:25)
+	at IncomingMessage.emit (node:events:519:28)
+	at emitCloseNT (node:internal/streams/destroy:148:10)
+	at process.processTicksAndRejections (node:internal/process/task_queues:89:21)] {
+  code: 'ABORT_ERR',
+  [cause]: [Error: Premature close
+  	at IncomingMessage.onclose (node:internal/streams/end-of-stream:166:30)
+  	at IncomingMessage.emit (node:events:519:28)
+  	at emitCloseNT (node:internal/streams/destroy:148:10)
+  	at process.processTicksAndRejections (node:internal/process/task_queues:89:21)] {
+    code: 'ERR_STREAM_PREMATURE_CLOSE'
+  }
+}
+2026-03-03 03:47:19.688 [info] [fetchCompletions] Request 22eda7d1-2d96-4214-b9c9-0c1fa67dfa1b at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 145.56343099998776ms
+2026-03-03 03:47:19.741 [error] [AsyncCompletionManager] [22eda7d1-2d96-4214-b9c9-0c1fa67dfa1b] Request errored with [AbortError: The operation was aborted
+	at handleKnownInternalErrors (node:internal/webstreams/adapters:111:14)
+	at IncomingMessage.<anonymous> (node:internal/webstreams/adapters:476:13)
+	at AsyncResource.runInAsyncScope (node:async_hooks:214:14)
+	at IncomingMessage.<anonymous> (node:internal/streams/end-of-stream:61:21)
+	at IncomingMessage.<anonymous> (node:internal/util:570:20)
+	at IncomingMessage.onclose (node:internal/streams/end-of-stream:165:25)
+	at IncomingMessage.emit (node:events:519:28)
+	at emitCloseNT (node:internal/streams/destroy:148:10)
+	at process.processTicksAndRejections (node:internal/process/task_queues:89:21)] {
+  code: 'ABORT_ERR',
+  [cause]: [Error: Premature close
+  	at IncomingMessage.onclose (node:internal/streams/end-of-stream:166:30)
+  	at IncomingMessage.emit (node:events:519:28)
+  	at emitCloseNT (node:internal/streams/destroy:148:10)
+  	at process.processTicksAndRejections (node:internal/process/task_queues:89:21)] {
+    code: 'ERR_STREAM_PREMATURE_CLOSE'
+  }
+}
+2026-03-03 03:47:19.892 [info] [fetchCompletions] Request 108ca555-b038-4b41-8317-3667052422f5 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 150.04253299999982ms
+2026-03-03 03:47:20.008 [error] [AsyncCompletionManager] [108ca555-b038-4b41-8317-3667052422f5] Request errored with [AbortError: The operation was aborted
+	at handleKnownInternalErrors (node:internal/webstreams/adapters:111:14)
+	at IncomingMessage.<anonymous> (node:internal/webstreams/adapters:476:13)
+	at AsyncResource.runInAsyncScope (node:async_hooks:214:14)
+	at IncomingMessage.<anonymous> (node:internal/streams/end-of-stream:61:21)
+	at IncomingMessage.<anonymous> (node:internal/util:570:20)
+	at IncomingMessage.onclose (node:internal/streams/end-of-stream:165:25)
+	at IncomingMessage.emit (node:events:519:28)
+	at emitCloseNT (node:internal/streams/destroy:148:10)
+	at process.processTicksAndRejections (node:internal/process/task_queues:89:21)] {
+  code: 'ABORT_ERR',
+  [cause]: [Error: Premature close
+  	at IncomingMessage.onclose (node:internal/streams/end-of-stream:166:30)
+  	at IncomingMessage.emit (node:events:519:28)
+  	at emitCloseNT (node:internal/streams/destroy:148:10)
+  	at process.processTicksAndRejections (node:internal/process/task_queues:89:21)] {
+    code: 'ERR_STREAM_PREMATURE_CLOSE'
+  }
+}
+2026-03-03 03:47:20.146 [info] [fetchCompletions] Request 5178df89-5bca-4537-b044-4cfcfba6e7e2 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 137.40313300001435ms
+2026-03-03 03:47:20.242 [error] [AsyncCompletionManager] [5178df89-5bca-4537-b044-4cfcfba6e7e2] Request errored with [AbortError: The operation was aborted
+	at handleKnownInternalErrors (node:internal/webstreams/adapters:111:14)
+	at IncomingMessage.<anonymous> (node:internal/webstreams/adapters:476:13)
+	at AsyncResource.runInAsyncScope (node:async_hooks:214:14)
+	at IncomingMessage.<anonymous> (node:internal/streams/end-of-stream:61:21)
+	at IncomingMessage.<anonymous> (node:internal/util:570:20)
+	at IncomingMessage.onclose (node:internal/streams/end-of-stream:165:25)
+	at IncomingMessage.emit (node:events:519:28)
+	at emitCloseNT (node:internal/streams/destroy:148:10)
+	at process.processTicksAndRejections (node:internal/process/task_queues:89:21)] {
+  code: 'ABORT_ERR',
+  [cause]: [Error: Premature close
+  	at IncomingMessage.onclose (node:internal/streams/end-of-stream:166:30)
+  	at IncomingMessage.emit (node:events:519:28)
+  	at emitCloseNT (node:internal/streams/destroy:148:10)
+  	at process.processTicksAndRejections (node:internal/process/task_queues:89:21)] {
+    code: 'ERR_STREAM_PREMATURE_CLOSE'
+  }
+}
+2026-03-03 03:47:20.386 [info] [fetchCompletions] Request ed546ba5-0bbf-43c5-9e0a-835686440b86 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 143.63407799997367ms
+2026-03-03 03:47:20.458 [error] [AsyncCompletionManager] [ed546ba5-0bbf-43c5-9e0a-835686440b86] Request errored with [AbortError: The operation was aborted
+	at handleKnownInternalErrors (node:internal/webstreams/adapters:111:14)
+	at IncomingMessage.<anonymous> (node:internal/webstreams/adapters:476:13)
+	at AsyncResource.runInAsyncScope (node:async_hooks:214:14)
+	at IncomingMessage.<anonymous> (node:internal/streams/end-of-stream:61:21)
+	at IncomingMessage.<anonymous> (node:internal/util:570:20)
+	at IncomingMessage.onclose (node:internal/streams/end-of-stream:165:25)
+	at IncomingMessage.emit (node:events:519:28)
+	at emitCloseNT (node:internal/streams/destroy:148:10)
+	at process.processTicksAndRejections (node:internal/process/task_queues:89:21)] {
+  code: 'ABORT_ERR',
+  [cause]: [Error: Premature close
+  	at IncomingMessage.onclose (node:internal/streams/end-of-stream:166:30)
+  	at IncomingMessage.emit (node:events:519:28)
+  	at emitCloseNT (node:internal/streams/destroy:148:10)
+  	at process.processTicksAndRejections (node:internal/process/task_queues:89:21)] {
+    code: 'ERR_STREAM_PREMATURE_CLOSE'
+  }
+}
+2026-03-03 03:47:20.588 [info] [fetchCompletions] Request a9347983-13e5-4aa9-9c83-6e1b06abfbe6 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 129.65415399998892ms
+2026-03-03 03:47:20.741 [info] [streamChoices] solution 0 returned. finish reason: [stop]
+2026-03-03 03:47:20.744 [info] ccreq:fa8329b2.copilotmd | markdown
+2026-03-03 03:47:20.888 [info] [fetchCompletions] Request f47d5011-9c1d-4fb6-9721-d1907dfcb08b at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 140.14345100009814ms
+2026-03-03 03:47:20.890 [info] [streamChoices] solution 0 returned. finish reason: [stop]
+2026-03-03 03:47:20.925 [error] [AsyncCompletionManager] [f47d5011-9c1d-4fb6-9721-d1907dfcb08b] Request errored with [AbortError: The operation was aborted
+	at handleKnownInternalErrors (node:internal/webstreams/adapters:111:14)
+	at IncomingMessage.<anonymous> (node:internal/webstreams/adapters:476:13)
+	at AsyncResource.runInAsyncScope (node:async_hooks:214:14)
+	at IncomingMessage.<anonymous> (node:internal/streams/end-of-stream:61:21)
+	at IncomingMessage.<anonymous> (node:internal/util:570:20)
+	at IncomingMessage.onclose (node:internal/streams/end-of-stream:165:25)
+	at IncomingMessage.emit (node:events:519:28)
+	at emitCloseNT (node:internal/streams/destroy:148:10)
+	at process.processTicksAndRejections (node:internal/process/task_queues:89:21)] {
+  code: 'ABORT_ERR',
+  [cause]: [Error: Premature close
+  	at IncomingMessage.onclose (node:internal/streams/end-of-stream:166:30)
+  	at IncomingMessage.emit (node:events:519:28)
+  	at emitCloseNT (node:internal/streams/destroy:148:10)
+  	at process.processTicksAndRejections (node:internal/process/task_queues:89:21)] {
+    code: 'ERR_STREAM_PREMATURE_CLOSE'
+  }
+}
+2026-03-03 03:47:21.071 [info] [fetchCompletions] Request 618093d1-69f2-40a5-bccb-3d8066a7cef8 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 145.2614520000061ms
+2026-03-03 03:47:21.127 [error] [AsyncCompletionManager] [618093d1-69f2-40a5-bccb-3d8066a7cef8] Request errored with [AbortError: The operation was aborted
+	at handleKnownInternalErrors (node:internal/webstreams/adapters:111:14)
+	at IncomingMessage.<anonymous> (node:internal/webstreams/adapters:476:13)
+	at AsyncResource.runInAsyncScope (node:async_hooks:214:14)
+	at IncomingMessage.<anonymous> (node:internal/streams/end-of-stream:61:21)
+	at IncomingMessage.<anonymous> (node:internal/util:570:20)
+	at IncomingMessage.onclose (node:internal/streams/end-of-stream:165:25)
+	at IncomingMessage.emit (node:events:519:28)
+	at emitCloseNT (node:internal/streams/destroy:148:10)
+	at process.processTicksAndRejections (node:internal/process/task_queues:89:21)] {
+  code: 'ABORT_ERR',
+  [cause]: [Error: Premature close
+  	at IncomingMessage.onclose (node:internal/streams/end-of-stream:166:30)
+  	at IncomingMessage.emit (node:events:519:28)
+  	at emitCloseNT (node:internal/streams/destroy:148:10)
+  	at process.processTicksAndRejections (node:internal/process/task_queues:89:21)] {
+    code: 'ERR_STREAM_PREMATURE_CLOSE'
+  }
+}
+2026-03-03 03:47:21.296 [info] [fetchCompletions] Request 174f0f51-62ff-4358-9d2f-cafb3c635894 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 168.33620000001974ms
+2026-03-03 03:47:21.325 [error] [AsyncCompletionManager] [174f0f51-62ff-4358-9d2f-cafb3c635894] Request errored with [AbortError: The operation was aborted
+	at handleKnownInternalErrors (node:internal/webstreams/adapters:111:14)
+	at IncomingMessage.<anonymous> (node:internal/webstreams/adapters:476:13)
+	at AsyncResource.runInAsyncScope (node:async_hooks:214:14)
+	at IncomingMessage.<anonymous> (node:internal/streams/end-of-stream:61:21)
+	at IncomingMessage.<anonymous> (node:internal/util:570:20)
+	at IncomingMessage.onclose (node:internal/streams/end-of-stream:165:25)
+	at IncomingMessage.emit (node:events:519:28)
+	at emitCloseNT (node:internal/streams/destroy:148:10)
+	at process.processTicksAndRejections (node:internal/process/task_queues:89:21)] {
+  code: 'ABORT_ERR',
+  [cause]: [Error: Premature close
+  	at IncomingMessage.onclose (node:internal/streams/end-of-stream:166:30)
+  	at IncomingMessage.emit (node:events:519:28)
+  	at emitCloseNT (node:internal/streams/destroy:148:10)
+  	at process.processTicksAndRejections (node:internal/process/task_queues:89:21)] {
+    code: 'ERR_STREAM_PREMATURE_CLOSE'
+  }
+}
+2026-03-03 03:47:21.507 [info] [fetchCompletions] Request a2222873-44ed-4e34-b706-817604af7662 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 181.27003800007515ms
+2026-03-03 03:47:21.511 [error] [AsyncCompletionManager] [a2222873-44ed-4e34-b706-817604af7662] Request errored with [AbortError: The operation was aborted
+	at handleKnownInternalErrors (node:internal/webstreams/adapters:111:14)
+	at IncomingMessage.<anonymous> (node:internal/webstreams/adapters:476:13)
+	at AsyncResource.runInAsyncScope (node:async_hooks:214:14)
+	at IncomingMessage.<anonymous> (node:internal/streams/end-of-stream:61:21)
+	at IncomingMessage.<anonymous> (node:internal/util:570:20)
+	at IncomingMessage.onclose (node:internal/streams/end-of-stream:165:25)
+	at IncomingMessage.emit (node:events:519:28)
+	at emitCloseNT (node:internal/streams/destroy:148:10)
+	at process.processTicksAndRejections (node:internal/process/task_queues:89:21)] {
+  code: 'ABORT_ERR',
+  [cause]: [Error: Premature close
+  	at IncomingMessage.onclose (node:internal/streams/end-of-stream:166:30)
+  	at IncomingMessage.emit (node:events:519:28)
+  	at emitCloseNT (node:internal/streams/destroy:148:10)
+  	at process.processTicksAndRejections (node:internal/process/task_queues:89:21)] {
+    code: 'ERR_STREAM_PREMATURE_CLOSE'
+  }
+}
+2026-03-03 03:47:21.676 [info] [fetchCompletions] Request 25e402a1-89d0-48e7-a6a5-32411f021feb at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 164.3740659999894ms
+2026-03-03 03:47:21.725 [error] [AsyncCompletionManager] [25e402a1-89d0-48e7-a6a5-32411f021feb] Request errored with [AbortError: The operation was aborted
+	at handleKnownInternalErrors (node:internal/webstreams/adapters:111:14)
+	at IncomingMessage.<anonymous> (node:internal/webstreams/adapters:476:13)
+	at AsyncResource.runInAsyncScope (node:async_hooks:214:14)
+	at IncomingMessage.<anonymous> (node:internal/streams/end-of-stream:61:21)
+	at IncomingMessage.<anonymous> (node:internal/util:570:20)
+	at IncomingMessage.onclose (node:internal/streams/end-of-stream:165:25)
+	at IncomingMessage.emit (node:events:519:28)
+	at emitCloseNT (node:internal/streams/destroy:148:10)
+	at process.processTicksAndRejections (node:internal/process/task_queues:89:21)] {
+  code: 'ABORT_ERR',
+  [cause]: [Error: Premature close
+  	at IncomingMessage.onclose (node:internal/streams/end-of-stream:166:30)
+  	at IncomingMessage.emit (node:events:519:28)
+  	at emitCloseNT (node:internal/streams/destroy:148:10)
+  	at process.processTicksAndRejections (node:internal/process/task_queues:89:21)] {
+    code: 'ERR_STREAM_PREMATURE_CLOSE'
+  }
+}
+2026-03-03 03:47:21.864 [info] [fetchCompletions] Request 5c4867fe-72a6-41af-a074-a4aedea9f6c6 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 137.4499819999328ms
+2026-03-03 03:47:21.925 [error] [AsyncCompletionManager] [5c4867fe-72a6-41af-a074-a4aedea9f6c6] Request errored with [AbortError: The operation was aborted
+	at handleKnownInternalErrors (node:internal/webstreams/adapters:111:14)
+	at IncomingMessage.<anonymous> (node:internal/webstreams/adapters:476:13)
+	at AsyncResource.runInAsyncScope (node:async_hooks:214:14)
+	at IncomingMessage.<anonymous> (node:internal/streams/end-of-stream:61:21)
+	at IncomingMessage.<anonymous> (node:internal/util:570:20)
+	at IncomingMessage.onclose (node:internal/streams/end-of-stream:165:25)
+	at IncomingMessage.emit (node:events:519:28)
+	at emitCloseNT (node:internal/streams/destroy:148:10)
+	at process.processTicksAndRejections (node:internal/process/task_queues:89:21)] {
+  code: 'ABORT_ERR',
+  [cause]: [Error: Premature close
+  	at IncomingMessage.onclose (node:internal/streams/end-of-stream:166:30)
+  	at IncomingMessage.emit (node:events:519:28)
+  	at emitCloseNT (node:internal/streams/destroy:148:10)
+  	at process.processTicksAndRejections (node:internal/process/task_queues:89:21)] {
+    code: 'ERR_STREAM_PREMATURE_CLOSE'
+  }
+}
+2026-03-03 03:47:22.089 [info] [fetchCompletions] Request 3e776622-8450-44d7-9a4c-0a6a2a8af645 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 163.27763000002597ms
+2026-03-03 03:47:22.142 [error] [AsyncCompletionManager] [3e776622-8450-44d7-9a4c-0a6a2a8af645] Request errored with [AbortError: The operation was aborted
+	at handleKnownInternalErrors (node:internal/webstreams/adapters:111:14)
+	at IncomingMessage.<anonymous> (node:internal/webstreams/adapters:476:13)
+	at AsyncResource.runInAsyncScope (node:async_hooks:214:14)
+	at IncomingMessage.<anonymous> (node:internal/streams/end-of-stream:61:21)
+	at IncomingMessage.<anonymous> (node:internal/util:570:20)
+	at IncomingMessage.onclose (node:internal/streams/end-of-stream:165:25)
+	at IncomingMessage.emit (node:events:519:28)
+	at emitCloseNT (node:internal/streams/destroy:148:10)
+	at process.processTicksAndRejections (node:internal/process/task_queues:89:21)] {
+  code: 'ABORT_ERR',
+  [cause]: [Error: Premature close
+  	at IncomingMessage.onclose (node:internal/streams/end-of-stream:166:30)
+  	at IncomingMessage.emit (node:events:519:28)
+  	at emitCloseNT (node:internal/streams/destroy:148:10)
+  	at process.processTicksAndRejections (node:internal/process/task_queues:89:21)] {
+    code: 'ERR_STREAM_PREMATURE_CLOSE'
+  }
+}
+2026-03-03 03:47:22.308 [info] [fetchCompletions] Request 52b686b7-1649-4922-bea6-47e336c27b0a at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 165.71503099997062ms
+2026-03-03 03:47:22.525 [error] [AsyncCompletionManager] [52b686b7-1649-4922-bea6-47e336c27b0a] Request errored with [AbortError: The operation was aborted
+	at handleKnownInternalErrors (node:internal/webstreams/adapters:111:14)
+	at IncomingMessage.<anonymous> (node:internal/webstreams/adapters:476:13)
+	at AsyncResource.runInAsyncScope (node:async_hooks:214:14)
+	at IncomingMessage.<anonymous> (node:internal/streams/end-of-stream:61:21)
+	at IncomingMessage.<anonymous> (node:internal/util:570:20)
+	at IncomingMessage.onclose (node:internal/streams/end-of-stream:165:25)
+	at IncomingMessage.emit (node:events:519:28)
+	at emitCloseNT (node:internal/streams/destroy:148:10)
+	at process.processTicksAndRejections (node:internal/process/task_queues:89:21)] {
+  code: 'ABORT_ERR',
+  [cause]: [Error: Premature close
+  	at IncomingMessage.onclose (node:internal/streams/end-of-stream:166:30)
+  	at IncomingMessage.emit (node:events:519:28)
+  	at emitCloseNT (node:internal/streams/destroy:148:10)
+  	at process.processTicksAndRejections (node:internal/process/task_queues:89:21)] {
+    code: 'ERR_STREAM_PREMATURE_CLOSE'
+  }
+}
+2026-03-03 03:47:22.688 [info] [fetchCompletions] Request 54d4e24e-757d-4d29-a4c1-b36291b058ef at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 162.70835199998692ms
+2026-03-03 03:47:22.771 [info] [streamChoices] solution 0 returned. finish reason: [stop]
+2026-03-03 03:47:22.774 [info] ccreq:b2bf41c7.copilotmd | markdown
+2026-03-03 03:47:23.125 [info] [fetchCompletions] Request 07f6d5c8-b172-45ad-9277-114e6f29c908 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 149.26182500005234ms
+2026-03-03 03:47:23.130 [info] [streamChoices] solution 0 returned. finish reason: [stop]
+2026-03-03 03:47:23.180 [info] ccreq:f83ade68.copilotmd | markdown
+2026-03-03 03:47:24.861 [info] [fetchCompletions] Request 1c762ec1-7ebe-4145-be84-d454799d85e5 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 157.25839400000405ms
+2026-03-03 03:47:24.939 [info] [streamChoices] solution 0 returned. finish reason: [stop]
+2026-03-03 03:47:24.941 [info] ccreq:6bb04fb9.copilotmd | markdown
+2026-03-03 03:47:25.118 [info] [fetchCompletions] Request 66d3580a-8e32-49de-ac20-c1e72ef1809e at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 173.52699899999425ms
+2026-03-03 03:47:25.123 [info] [streamChoices] solution 0 returned. finish reason: [stop]
+2026-03-03 03:47:30.249 [info] [fetchCompletions] Request a6acc625-3a25-47ab-abc5-a7d1e32d478e at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 174.68899399996735ms
+2026-03-03 03:47:30.255 [info] [streamChoices] solution 0 returned. finish reason: [stop]
+2026-03-03 03:47:30.323 [info] ccreq:b385c7e9.copilotmd | markdown

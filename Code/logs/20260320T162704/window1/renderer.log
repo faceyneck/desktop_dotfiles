@@ -1,0 +1,29 @@
+2026-03-20 16:27:05.310 [error] Error: The editor could not be opened because the file was not found.
+    at z8.handleSetInputError (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:3570:92271)
+    at async z8.setInput (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:3570:91285)
+    at async w_e.doSetInput (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1128:33580)
+    at async w_e.doOpenEditor (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1128:31366)
+    at async w_e.openEditor (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1128:30315)
+    at async vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1240:31275
+2026-03-20 16:27:05.333 [info] Started local extension host with pid 943923.
+2026-03-20 16:27:05.846 [info] MCP Registry configured: https://api.mcp.github.com
+2026-03-20 16:27:05.869 [info] Settings Sync: Account status changed from uninitialized to unavailable
+2026-03-20 16:27:06.290 [error] [Extension Host] (node:943923) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `exe --trace-deprecation ...` to show where the warning was created)
+2026-03-20 16:27:06.290 [error] [Extension Host] (node:943923) ExperimentalWarning: SQLite is an experimental feature and might change at any time
+2026-03-20 16:27:08.223 [info] [perf] Render performance baseline is 13ms
+2026-03-20 16:27:08.911 [error] Error: The editor could not be opened because the file was not found.
+    at z8.handleSetInputError (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:3570:92271)
+    at async z8.setInput (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:3570:91285)
+    at async w_e.doSetInput (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1128:33580)
+    at async w_e.doOpenEditor (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1128:31366)
+    at async w_e.openEditor (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1128:30315)
+    at async vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1240:31275
+2026-03-20 16:33:39.610 [error] Error: The editor could not be opened because the file was not found.
+    at z8.handleSetInputError (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:3570:92271)
+    at async z8.setInput (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:3570:91285)
+    at async w_e.doSetInput (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1128:33580)
+    at async w_e.doOpenEditor (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1128:31366)
+    at async w_e.openEditor (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1128:30315)
+    at async vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1240:31275
+    at async s (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1132:57610)

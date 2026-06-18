@@ -1,0 +1,9 @@
+{
+    "workbench.colorTheme": "Monokai",
+"terminal.integrated.fontFamily": "'FiraCode Nerd Font'",
+"terminal.integrated.fontWeight": "normal",
+"terminal.integrated.fontLigatures": true,
+"editor.fontFamily": "'FiraCode Nerd Font', 'Fira Code', monospace","editor.fontSize": 13,
+"editor.fontLigatures": true,
+"files.encoding": "utf8"
+}

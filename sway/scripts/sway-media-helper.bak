@@ -1,0 +1,32 @@
+#!/usr/bin/env bash
+
+# 1. Execute the media control instruction passed from the hotkey
+playerctl "$1"
+
+# Give the media player a tiny fraction of a second to update its metadata state
+sleep 0.1
+
+# 2. Extract song info out of playerctl
+STATUS=$(playerctl status 2>/dev/null)
+TITLE=$(playerctl metadata title 2>/dev/null)
+ARTIST=$(playerctl metadata artist 2>/dev/null)
+# Pull the local path or URL to the album cover image if available
+ART_URL=$(playerctl metadata mpris:artUrl 2>/dev/null | sed 's/file:\/\///')
+
+# If no music is active, stop the script safely
+if [ -z "$STATUS" ]; then
+    exit 0
+fi
+
+# 3. Format the display notification based on playback status
+if [ "$STATUS" = "Paused" ]; then
+    notify-send -h string:x-dunst-stack-tag:media -a "Media Player" -i media-playback-pause "Paused" "$TITLE\nby $ARTIST" -t 2000
+else
+    # If album art exists locally, Dunst will display it as an icon on the side
+    if [ -f "$ART_URL" ]; then
+        notify-send -h string:x-dunst-stack-tag:media -a "Media Player" -i "$ART_URL" "Now Playing" "$TITLE\nby $ARTIST" -t 3000
+    else
+        notify-send -h string:x-dunst-stack-tag:media -a "Media Player" -i media-playback-start "Now Playing" "$TITLE\nby $ARTIST" -t 3000
+    fi
+fi
+

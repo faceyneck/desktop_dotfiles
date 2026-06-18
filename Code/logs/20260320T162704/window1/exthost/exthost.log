@@ -1,0 +1,65 @@
+2026-03-20 16:27:05.661 [info] Extension host with pid 943923 started
+2026-03-20 16:27:05.661 [info] Skipping acquiring lock for /home/faceyneck/.config/Code/User/workspaceStorage/8e989af2a68d82f2dd057c55069faf22.
+2026-03-20 16:27:05.679 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2026-03-20 16:27:05.691 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2026-03-20 16:27:05.700 [info] ExtensionService#_doActivateExtension GitHub.copilot-chat, startup: false, activationEvent: 'onChatSession:claude-code'
+2026-03-20 16:27:06.328 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: false, activationEvent: 'api', root cause: GitHub.copilot-chat
+2026-03-20 16:27:06.457 [info] ExtensionService#_doActivateExtension vscode.terminal-suggest, startup: false, activationEvent: 'onTerminalShellIntegration:*'
+2026-03-20 16:27:06.493 [info] ExtensionService#_doActivateExtension vscode.microsoft-authentication, startup: false, activationEvent: 'onAuthenticationRequest:microsoft'
+2026-03-20 16:27:06.575 [info] ExtensionService#_doActivateExtension vscode.git, startup: false, activationEvent: 'api', root cause: GitHub.copilot-chat
+2026-03-20 16:27:06.673 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2026-03-20 16:27:06.759 [info] Eager extensions activated
+2026-03-20 16:27:06.886 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2026-03-20 16:27:06.888 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2026-03-20 16:27:06.896 [info] ExtensionService#_doActivateExtension ms-vscode-remote.remote-containers, startup: false, activationEvent: 'onStartupFinished'
+2026-03-20 16:28:11.368 [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:jsonc'
+2026-03-20 16:28:11.373 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2026-03-20 16:28:11.417 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2026-03-20 16:28:11.627 [info] ExtensionService#_doActivateExtension vscode.extension-editing, startup: false, activationEvent: 'onLanguage:json'
+2026-03-20 16:28:11.635 [info] ExtensionService#_doActivateExtension vscode.npm, startup: false, activationEvent: 'onLanguage:json'
+2026-03-20 16:51:29.646 [info] ExtensionService#_doActivateExtension vscode.markdown-language-features, startup: false, activationEvent: 'onLanguage:markdown'
+2026-03-20 16:51:29.875 [info] ExtensionService#_doActivateExtension vscode.markdown-math, startup: false, activationEvent: 'api', root cause: vscode.markdown-language-features
+2026-03-20 20:17:14.020 [info] Extension host terminating: renderer closed the MessagePort
+2026-03-20 20:17:14.049 [error] An error occurred when disposing the subscriptions for extension 'GitHub.copilot-chat':
+2026-03-20 20:17:14.049 [error] Error: Channel has been closed
+	at i (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:501:3935)
+	at Object.info (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:501:4305)
+	at UOe.logIt (/home/faceyneck/.vscode/extensions/github.copilot-chat-0.38.2/dist/extension.js:2673:2136)
+	at /home/faceyneck/.vscode/extensions/github.copilot-chat-0.38.2/dist/extension.js:1059:2208
+	at Array.forEach (<anonymous>)
+	at iet._logIt (/home/faceyneck/.vscode/extensions/github.copilot-chat-0.38.2/dist/extension.js:1059:2195)
+	at iet.info (/home/faceyneck/.vscode/extensions/github.copilot-chat-0.38.2/dist/extension.js:1059:2285)
+	at n.info (/home/faceyneck/.vscode/extensions/github.copilot-chat-0.38.2/dist/extension.js:1059:2804)
+	at FXe._fn (/home/faceyneck/.vscode/extensions/github.copilot-chat-0.38.2/dist/extension.js:1798:31983)
+	at FXe.dispose (/home/faceyneck/.vscode/extensions/github.copilot-chat-0.38.2/dist/extension.js:1046:1210)
+	at Dv (/home/faceyneck/.vscode/extensions/github.copilot-chat-0.38.2/dist/extension.js:1046:695)
+	at n.clear (/home/faceyneck/.vscode/extensions/github.copilot-chat-0.38.2/dist/extension.js:1046:1527)
+	at n.dispose (/home/faceyneck/.vscode/extensions/github.copilot-chat-0.38.2/dist/extension.js:1046:1437)
+	at y9e.dispose (/home/faceyneck/.vscode/extensions/github.copilot-chat-0.38.2/dist/extension.js:1046:2325)
+	at Dv (/home/faceyneck/.vscode/extensions/github.copilot-chat-0.38.2/dist/extension.js:1046:695)
+	at n.clear (/home/faceyneck/.vscode/extensions/github.copilot-chat-0.38.2/dist/extension.js:1046:1527)
+	at n.dispose (/home/faceyneck/.vscode/extensions/github.copilot-chat-0.38.2/dist/extension.js:1046:1437)
+	at cJ.dispose (/home/faceyneck/.vscode/extensions/github.copilot-chat-0.38.2/dist/extension.js:1046:2325)
+	at Dv (/home/faceyneck/.vscode/extensions/github.copilot-chat-0.38.2/dist/extension.js:1046:695)
+	at n.clear (/home/faceyneck/.vscode/extensions/github.copilot-chat-0.38.2/dist/extension.js:1046:1527)
+	at n.dispose (/home/faceyneck/.vscode/extensions/github.copilot-chat-0.38.2/dist/extension.js:1046:1437)
+	at See.dispose (/home/faceyneck/.vscode/extensions/github.copilot-chat-0.38.2/dist/extension.js:1046:2325)
+	at Dv (/home/faceyneck/.vscode/extensions/github.copilot-chat-0.38.2/dist/extension.js:1046:695)
+	at n.clear (/home/faceyneck/.vscode/extensions/github.copilot-chat-0.38.2/dist/extension.js:1046:1527)
+	at n.dispose (/home/faceyneck/.vscode/extensions/github.copilot-chat-0.38.2/dist/extension.js:1046:1437)
+	at aL.dispose (/home/faceyneck/.vscode/extensions/github.copilot-chat-0.38.2/dist/extension.js:1046:2325)
+	at In (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:401:736)
+	at Uk._fn (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:498:18365)
+	at Uk.dispose (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:401:1248)
+	at lk._deactivate (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:498:14704)
+	at file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:498:12006
+	at Array.map (<anonymous>)
+	at lk._deactivateAll (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:498:11994)
+	at lk.terminate (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:498:12345)
+	at r.terminate (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:500:1072)
+	at Os (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:780:11691)
+	at MessagePortMain.<anonymous> (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:780:8122)
+	at MessagePortMain.emit (node:events:519:28)
+	at MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:2959)
+	at Object.callbackTrampoline (node:internal/async_hooks:130:17)
+2026-03-20 20:17:14.053 [info] Extension host with pid 943923 exiting with code 0

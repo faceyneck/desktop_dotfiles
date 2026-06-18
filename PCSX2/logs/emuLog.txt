@@ -1,0 +1,265 @@
+	Bound  PAD: libonepad.so [OnePAD 0 2.0.0]
+	Bound  PAD: libonepad.so [OnePAD 0 2.0.0]
+
+Loading plugins from /usr/lib/games/pcsx2...
+	Bound   GS: libGSdx-AVX2.so [GSdx (GCC 14.1.1 AVX2/AVX2) 1.2.0]
+	Bound  PAD: libonepad.so [OnePAD 0 2.0.0]
+	Bound SPU2: libspu2x-2.0.0.so [SPU2-X 2.0.0]
+	Bound CDVD: libCDVDnull.so [CDVDnull Driver 0 0.6.0]
+	Bound  USB: libUSBnull-0.7.0.so [USBnull Driver 0 0.7.0]
+	Bound   FW: libFWnull-0.7.0.so [FWnull Driver 0 0.7.0]
+	Bound DEV9: libdev9ghzdrk-0.4.so [GiGaHeRz's DEV9 Driver 0.4.0]
+Plugins loaded successfully.
+
+Initializing plugins...
+	Init GS
+	Init PAD
+	Init SPU2
+	Init CDVD
+	Init USB
+	Init FW
+	Init DEV9
+Plugins initialized successfully.
+
+Bios Found: Japan   v01.50(18/01/2001)  Devel
+Bios Found: USA     v02.20(20/06/2005)  Devel
+Bios Found: HK      v01.90(23/06/2003)  Console
+Bios Found: Europe  v02.20(20/06/2005)  Console
+Bios Found: Europe  v01.70(27/02/2003)  Console
+Bios Found: Japan   v01.20(27/10/2000)  Console
+Bios Found: Europe  v01.60(04/07/2001)  Console
+Bios Found: Europe  v02.00(14/06/2004)  Console
+Bios Found: USA     v01.90(23/06/2003)  Console
+Bios Found: Europe  v02.00(14/06/2004)  Console
+Bios Found: Europe  v02.30(20/02/2008)  Console
+Bios Found: USA     v01.50(28/12/2000)  Console
+Bios Found: Japan   v02.10(17/09/2004)  Console
+Bios Found: USA     v02.20(10/02/2006)  Console
+Bios Found: HK      v01.60(26/04/2002)  Console
+Bios Found: Europe  v01.50(28/12/2000)  Console
+Bios Found: Japan   v01.70(06/02/2003)  Console
+Bios Found: USA     v01.50(28/12/2000)  Devel
+Bios Found: USA     v01.90(23/06/2003)  Console
+Bios Found: Europe  v01.20(02/09/2000)  Console
+Bios Found: Europe  v01.90(23/06/2003)  Console
+Bios Found: USA     v01.70(25/03/2003)  Console
+Bios Found: HK      v02.30(20/02/2008)  Console
+Bios Found: Japan   v01.60(27/04/2001)  Console
+Bios Found: Japan   v01.90(22/08/2003)  Console
+Bios Found: Europe  v01.60(04/10/2001)  Console
+Bios Found: HK      v02.20(10/02/2006)  Console
+Bios Found: USA     v01.70(25/03/2003)  Devel
+Bios Found: USA     v01.50(28/12/2000)  Devel
+Bios Found: China   v01.80(24/02/2003)  Devel
+Bios Found: HK      v02.20(20/06/2005)  Console
+Bios Found: Test    v01.01(24/02/2000)  Devel
+Bios Found: Europe  v01.20(02/09/2000)  Devel
+Bios Found: USA     v01.50(28/12/2000)  Devel
+Bios Found: Japan   v01.00(17/01/2000)  Console
+Bios Found: Europe  v02.00(04/11/2004)  Console
+Bios Found: Japan   v01.00(17/01/2000)  Console
+Bios Found: Japan   v01.20(27/10/2000)  Console
+Bios Found: Japan   v01.60(26/04/2002)  Console
+Bios Found: Europe  v01.60(04/10/2001)  Console
+Bios Found: Japan   v01.50(18/01/2001)  Console
+Bios Found: Europe  v01.90(22/08/2003)  Console
+Bios Found: Europe  v01.60(04/10/2001)  Console
+Bios Found: Europe  v02.20(10/02/2006)  Console
+Bios Found: Japan   v02.10(17/09/2004)  Console
+Bios Found: Europe  v01.20(02/09/2000)  Console
+Bios Found: Europe  v01.90(23/06/2003)  Console
+Bios Found: Europe  v02.50(15/04/2010)  Console
+Bios Found: USA     v02.20(20/06/2005)  Console
+Bios Found: Europe  v01.60(04/10/2001)  Console
+Bios Found: Japan   v02.20(05/09/2006)  Console
+Bios Found: Japan   v02.30(20/02/2008)  Console
+Bios Found: China   v01.80(24/02/2003)  Devel
+Bios Found: Japan   v01.01(17/02/2000)  Console
+Bios Found: Europe  v02.20(10/02/2006)  Console
+Bios Found: Europe  v01.70(27/02/2003)  Console
+Bios Found: Test    v01.01(24/02/2000)  Devel
+Bios Found: Europe  v02.20(20/06/2005)  Console
+Bios Found: Japan   v01.80(28/10/2003)  Console
+Bios Found: USA     v02.20(10/02/2006)  Console
+Bios Found: USA     v02.00(14/06/2004)  Console
+Bios Found: Europe  v01.50(28/12/2000)  Devel
+Bios Found: USA     v02.20(05/09/2006)  Devel
+Bios Found: Japan   v01.00(17/01/2000)  Console
+Bios Found: USA     v01.10(27/07/2000)  Console
+Bios Found: HK      v02.20(05/09/2006)  Console
+Bios Found: HK      v02.00(14/06/2004)  Console
+Bios Found: USA     v01.60(07/02/2002)  Console
+Bios Found: China   v01.90(23/06/2003)  Console
+Bios Found: Japan   v01.60(26/04/2002)  Console
+Bios Found: USA     v01.60(19/03/2002)  Console
+Bios Found: Japan   v01.00(17/01/2000)  Console
+Bios Found: USA     v01.70(25/03/2003)  Devel
+Bios Found: Japan   v02.20(05/09/2006)  Console
+Bios Found: USA     v01.20(02/09/2000)  Console
+Bios Found: Europe  v01.60(19/03/2002)  Console
+Bios Found: Europe  v01.20(02/09/2000)  Devel
+Bios Found: USA     v01.60(04/07/2001)  Console
+Bios Found: HK      v02.30(20/02/2008)  Console
+Bios Found: Europe  v02.20(20/06/2005)  Console
+Bios Found: Japan   v02.20(10/02/2006)  Console
+Bios Found: Japan   v01.90(23/06/2003)  Console
+Bios Found: HK      v01.60(30/07/2001)  Console
+Bios Found: HK      v01.60(30/07/2001)  Console
+Bios Found: Japan   v02.30(20/02/2008)  Console
+Bios Found: Europe  v02.00(14/06/2004)  Console
+Bios Found: HK      v02.20(20/06/2005)  Console
+Bios Found: Japan   v02.20(20/06/2005)  Console
+Bios Found: USA     v02.20(10/02/2006)  Console
+Bios Found: Europe  v01.60(04/07/2001)  Console
+Bios Found: USA     v02.00(14/06/2004)  Console
+Bios Found: Japan   v01.90(22/08/2003)  Console
+Bios Found: USA     v01.60(04/07/2001)  Console
+Bios Found: Japan   v02.50(15/04/2010)  Console
+Bios Found: Japan   v01.00(17/01/2000)  Devel
+Bios Found: Japan   v02.20(05/09/2006)  Console
+Bios Found: HK      v02.20(10/02/2006)  Console
+Bios Found: USA     v02.20(20/06/2005)  Devel
+Bios Found: USA     v02.20(20/06/2005)  Console
+Bios Found: Europe  v02.20(10/02/2006)  Console
+Bios Found: Japan   v01.50(18/01/2001)  Console
+Bios Found: Japan   v01.01(17/02/2000)  Devel
+Bios Found: Japan   v02.00(14/06/2004)  Console
+Bios Found: Japan   v02.20(05/09/2006)  Console
+Bios Found: Japan   v01.00(17/01/2000)  Console
+Bios Found: Japan   v01.01(17/02/2000)  Devel
+Bios Found: Europe  v01.60(26/04/2002)  Console
+Bios Found: USA     v01.60(27/04/2001)  Console
+Bios Found: USA     v02.20(05/09/2006)  Devel
+Bios Found: USA     v01.20(02/09/2000)  Console
+Bios Found: Japan   v01.50(18/01/2001)  Console
+Bios Found: Europe  v02.00(14/06/2004)  Console
+Bios Found: Japan   v02.50(15/04/2010)  Console
+Bios Found: Europe  v01.90(23/06/2003)  Console
+Bios Found: Japan   v01.00(17/01/2000)  Console
+Bios Found: Japan   v02.20(10/02/2006)  Console
+Bios Found: Japan   v02.20(05/09/2006)  Console
+Bios Found: Europe  v02.20(05/09/2006)  Console
+Bios Found: Europe  v02.20(10/02/2006)  Console
+Bios Found: Europe  v01.90(23/06/2003)  Console
+Bios Found: USA     v01.60(04/10/2001)  Console
+Bios Found: Europe  v01.50(28/12/2000)  Console
+Bios Found: USA     v01.60(07/02/2002)  Console
+Bios Found: USA     v01.10(27/07/2000)  Devel
+Bios Found: Europe  v01.70(27/02/2003)  Devel
+Bios Found: Japan   v01.20(27/10/2000)  Console
+Bios Found: USA     v02.00(14/06/2004)  Console
+Bios Found: USA     v01.70(25/03/2003)  Console
+Bios Found: HK      v01.60(26/04/2002)  Console
+Bios Found: Europe  v02.00(14/06/2004)  Console
+Bios Found: Europe  v01.70(27/02/2003)  Devel
+Bios Found: HK      v02.00(14/06/2004)  Console
+Bios Found: USA     v01.60(07/02/2002)  Console
+Bios Found: Japan   v01.80(28/10/2003)  Console
+Bios Found: China   v01.90(23/06/2003)  Console
+Bios Found: USA     v02.30(20/02/2008)  Console
+Bios Found: Japan   v01.50(18/01/2001)  Devel
+Bios Found: Europe  v02.50(15/04/2010)  Console
+Bios Found: USA     v01.60(07/02/2002)  Console
+Bios Found: Japan   v01.20(27/10/2000)  Console
+Bios Found: USA     v01.60(04/10/2001)  Console
+Bios Found: Europe  v01.90(23/06/2003)  Console
+Bios Found: USA     v01.60(19/03/2002)  Console
+Bios Found: USA     v01.50(28/12/2000)  Console
+Bios Found: USA     v01.10(27/07/2000)  Console
+Bios Found: Europe  v01.20(02/09/2000)  Console
+Bios Found: Europe  v02.20(20/06/2005)  Console
+Bios Found: HK      v02.00(14/06/2004)  Console
+Bios Found: Europe  v01.60(26/04/2002)  Console
+Bios Found: China   v01.90(23/06/2003)  Console
+Bios Found: Europe  v02.20(20/06/2005)  Console
+Bios Found: Japan   v01.00(17/01/2000)  Devel
+Bios Found: USA     v02.20(05/09/2006)  Console
+Bios Found: Japan   v01.60(27/04/2001)  Console
+Bios Found: Europe  v02.30(20/02/2008)  Console
+Bios Found: Japan   v01.70(06/02/2003)  Console
+Bios Found: Japan   v02.00(14/06/2004)  Console
+Bios Found: Japan   v02.20(20/06/2005)  Console
+Bios Found: USA     v01.90(29/03/2004)  Console
+Bios Found: Europe  v01.50(28/12/2000)  Devel
+Bios Found: USA     v01.90(29/03/2004)  Console
+Bios Found: Japan   v01.90(23/06/2003)  Console
+Bios Found: Japan   v01.01(17/02/2000)  Console
+Bios Found: Europe  v02.00(14/06/2004)  Console
+Bios Found: Europe  v02.20(10/02/2006)  Console
+Bios Found: Europe  v01.20(02/09/2000)  Devel
+Bios Found: USA     v01.60(07/02/2002)  Console
+Bios Found: USA     v01.10(27/07/2000)  Devel
+Bios Found: Europe  v02.20(05/09/2006)  Console
+Bios Found: Japan   v01.70(06/02/2003)  Console
+Bios Found: Europe  v01.60(04/10/2001)  Console
+Bios Found: USA     v02.30(20/02/2008)  Console
+Bios Found: Europe  v02.00(14/06/2004)  Console
+Bios Found: Europe  v01.60(19/03/2002)  Console
+Bios Found: Europe  v02.00(04/11/2004)  Console
+Bios Found: HK      v01.90(23/06/2003)  Console
+Bios Found: Europe  v01.60(19/03/2002)  Console
+Bios Found: USA     v02.20(10/02/2006)  Console
+Bios Found: Europe  v02.20(10/02/2006)  Console
+Bios Found: Europe  v01.60(04/10/2001)  Console
+Bios Found: USA     v02.20(05/09/2006)  Console
+Bios Found: USA     v01.60(27/04/2001)  Console
+Bios Found: Europe  v01.60(04/10/2001)  Console
+Bios Found: Europe  v02.00(14/06/2004)  Console
+Bios Found: USA     v02.30(20/02/2008)  Console
+Bios Found: Japan   v02.00(14/06/2004)  Console
+Bios Found: USA     v02.00(14/06/2004)  Console
+Bios Found: Europe  v02.20(10/02/2006)  Console
+Bios Found: Europe  v01.20(02/09/2000)  Devel
+Bios Found: Europe  v01.90(22/08/2003)  Console
+Bios Found: Japan   v02.20(05/09/2006)  Console
+Shutting down plugins...
+PCSX2 1.6.0-0- compiled on Aug  3 2024
+Savestate version: 0x9a0e0000
+
+Host Machine Init:
+	Operating System =  Linux 6.13.5-200.fc41.x86_64 x86_64
+	Physical RAM     =  30710 MB
+	CPU name         =  AMD Ryzen 7 7800X3D 8-Core Processor
+	Vendor/Model     =  AuthenticAMD (stepping 02)
+	CPU speed        =  4.195 ghz (16 logical threads)
+	x86PType         =  Standard OEM
+	x86Flags         =  178bfbff 7ed8320b
+	x86EFlags        =  2fd3fbff
+
+x86 Features Detected:
+	SSE2.. SSE3.. SSSE3.. SSE4.1.. SSE4.2.. AVX.. AVX2.. FMA
+	SSE4a 
+
+Plugins shutdown successfully.
+Installing POSIX SIGSEGV handler...
+Reserving memory for recompilers...
+
+Loading plugins from /usr/lib/games/pcsx2...
+	Bound   GS: libGSdx-AVX2.so [GSdx (GCC 14.1.1 AVX2/AVX2) 1.2.0]
+	Bound  PAD: libonepad.so [OnePAD 0 2.0.0]
+	Bound SPU2: libspu2x-2.0.0.so [SPU2-X 2.0.0]
+	Bound CDVD: libCDVDnull.so [CDVDnull Driver 0 0.6.0]
+	Bound  USB: libUSBnull-0.7.0.so [USBnull Driver 0 0.7.0]
+	Bound   FW: libFWnull-0.7.0.so [FWnull Driver 0 0.7.0]
+	Bound DEV9: libdev9ghzdrk-0.4.so [GiGaHeRz's DEV9 Driver 0.4.0]
+Plugins loaded successfully.
+
+(GameDB) 9858 games on record (loaded in 73ms)
+(FileMcd) Creating new PS2 8MB memory card: '/home/faceyneck/.config/PCSX2/memcards/Mcd001.ps2'
+Memory card created: '/home/faceyneck/.config/PCSX2/memcards/Mcd001.ps2'.
+(FileMcd) Creating new PS2 8MB memory card: '/home/faceyneck/.config/PCSX2/memcards/Mcd002.ps2'
+Memory card created: '/home/faceyneck/.config/PCSX2/memcards/Mcd002.ps2'.
+Apply memory cards:
+slot[0]='Mcd001.ps2'
+slot[1]='Mcd002.ps2'
+Apply memory cards:
+No active slots.
+Apply memory cards:
+slot[0]='Silent.Hill.Games.ps2'
+Apply memory cards:
+slot[0]='Silent.Hill.Games.ps2'
+slot[1]='Silent_Hill_2.ps2'
+Apply memory cards:
+slot[0]='Silent.Hill.Games.ps2'
+slot[1]='Silent_Hill_2.ps2'
+(GameDB) Unloading...

@@ -1,6 +1,5 @@
 # A TOML linter such as https://taplo.tamasfe.dev/ can use this schema to validate your config.
 # If you encounter any issues, please make an issue at https://github.com/yazi-rs/schemas.
-"$schema" = "https://yazi-rs.github.io/schemas/yazi.json"
 
 [mgr]
 ratio          = [ 1, 4, 3 ]
@@ -29,13 +28,16 @@ ueberzug_scale  = 1
 ueberzug_offset = [ 0, 0, 0, 0 ]
 
 [opener]
+ristretto = [
+    { run = 'ristretto "$@"', orphan = true, desc = "Ristretto" }
+]
 edit = [
 	{ run = "${EDITOR:-vi} %s", desc = "$EDITOR",      for = "unix", block = true },
 	{ run = "code %s",          desc = "code",         for = "windows", orphan = true },
 	{ run = "code -w %s",       desc = "code (block)", for = "windows", block = true },
 ]
 play = [
-	{ run = "xdg-open %s1",    desc = "Play", for = "linux", orphan = true },
+	{ run = "mpv %s", orphan = true, for = "unix" },
 	{ run = "open %s",         desc = "Play", for = "macos" },
 	{ run = 'start "" %s1',    desc = "Play", for = "windows", orphan = true },
 	{ run = "termux-open %s1", desc = "Play", for = "android" },
@@ -64,6 +66,10 @@ download = [
 ]
 
 [open]
+prepend_rules = [
+    { mime = "image/*", use = [ "ristretto", "open" ] }
+]
+
 rules = [
 	# Folder
 	{ url = "*/", use = [ "edit", "open", "reveal" ] },
@@ -95,12 +101,12 @@ image_bound      = [ 10000, 10000 ]
 suppress_preload = false
 
 [plugin]
-fetchers = [
-	# Mimetype
-	{ id = "mime", url = "*/",         run = "mime.dir", prio = "high" },
-	{ id = "mime", url = "local://*",  run = "mime.local", prio = "high" },
-	{ id = "mime", url = "remote://*", run = "mime.remote", prio = "high" },
-]
+# fetchers = [
+# 	# Mimetype
+# 	{ id = 5mime", url = "*/",         run = "mime.dir", prio = "high" },
+# 	{ id = "mime", url = "local://*",  run = "mime.local", prio = "high" },
+# 	{ id = "mime", url = "remote://*", run = "mime.remote", prio = "high" },
+# ]
 spotters = [
 	{ url = "*/", run = "folder" },
 	# Code

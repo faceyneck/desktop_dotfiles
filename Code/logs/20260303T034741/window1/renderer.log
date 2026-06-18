@@ -1,0 +1,8 @@
+2026-03-03 03:47:42.316 [info] Started local extension host with pid 443805.
+2026-03-03 03:47:43.142 [info] MCP Registry configured: https://api.mcp.github.com
+2026-03-03 03:47:43.165 [info] Settings Sync: Account status changed from uninitialized to unavailable
+2026-03-03 03:47:43.462 [error] [Extension Host] (node:443805) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `exe --trace-deprecation ...` to show where the warning was created)
+2026-03-03 03:47:43.463 [error] [Extension Host] (node:443805) ExperimentalWarning: SQLite is an experimental feature and might change at any time
+2026-03-03 03:47:44.979 [info] [perf] Render performance baseline is 13ms
+2026-03-03 04:03:31.053 [error] An unknown error occurred. Please consult the log for more details.

@@ -1,0 +1,28 @@
+2026-03-13 17:36:57.406 [info] [GitExtensionServiceImpl] Initializing Git extension service.
+2026-03-13 17:36:57.407 [info] [GitExtensionServiceImpl] Successfully activated the vscode.git extension.
+2026-03-13 17:36:57.407 [info] [GitExtensionServiceImpl] Enablement state of the vscode.git extension: true.
+2026-03-13 17:36:57.407 [info] [GitExtensionServiceImpl] Successfully registered Git commit message provider.
+2026-03-13 17:36:57.436 [info] Logged in as xxsisyphusxx-star
+2026-03-13 17:36:57.438 [info] Using the Electron fetcher.
+2026-03-13 17:36:57.595 [info] ConversationFeature: Waiting for copilot token to activate conversation feature
+2026-03-13 17:36:57.650 [info] [CopilotCLI] MCP server started. Lock file: /home/faceyneck/.copilot/ide/f2ec660e-551b-4d83-aa29-aa0d17c5e86a.lock
+2026-03-13 17:36:57.650 [info] [CopilotCLI] Server URI: unix:/tmp/mcp-FILF52/mcp.sock#%2Fmcp
+2026-03-13 17:36:58.037 [info] Got Copilot token for xxsisyphusxx-star
+2026-03-13 17:36:58.037 [info] Copilot Chat: 0.38.2, VS Code: 1.110.0
+2026-03-13 17:36:58.045 [info] [context keys] Setting context key: github.copilot-chat.activated
+2026-03-13 17:36:58.046 [info] activationBlocker from 'languageModelAccess' took for 471ms
+2026-03-13 17:36:58.098 [info] AuthenticationService: firing onDidAuthenticationChange from handleAuthChangeEvent. Has token: true
+2026-03-13 17:36:58.098 [info] copilot token sku: free_limited_copilot
+2026-03-13 17:36:58.098 [info] ConversationFeature: Activating contributions
+2026-03-13 17:36:58.098 [info] GitHub.vscode-pull-request-github extension is not yet activated.
+2026-03-13 17:36:58.107 [info] Registering default platform agent...
+2026-03-13 17:36:58.107 [info] [ChatDebugLogProvider] Registering chat debug log provider
+2026-03-13 17:36:58.107 [info] ConversationFeature: onDidAuthenticationChange has token: true
+2026-03-13 17:36:58.107 [info] [code-referencing] Public code references are enabled.
+2026-03-13 17:36:58.107 [info] activationBlocker from 'conversationFeature' took for 537ms
+2026-03-13 17:36:58.114 [info] GithubAvailableEmbeddingTypesManager: Got embeddings. Primary: metis-1024-I16-Binary. Deprecated: 
+2026-03-13 17:36:58.115 [info] WorkspaceChunkSearchService: using embedding type metis-1024-I16-Binary
+2026-03-13 17:36:58.129 [info] BYOK: Copilot Chat known models list fetched successfully.
+2026-03-13 17:36:58.440 [info] Fetched model metadata in 857ms b99d944b-9bc7-47fe-a53f-71a1c55756ae
+2026-03-13 17:36:58.518 [info] Latest entry: ccreq:latest.copilotmd
+2026-03-13 17:36:58.518 [info] ccreq:51dd63a0.copilotmd | markdown

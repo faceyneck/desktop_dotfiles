@@ -1,0 +1,33 @@
+2026-03-03 04:06:53.000 [info] read schema from vscode: vscode://schemas/settings/user
+2026-03-03 04:06:53.528 [info] read schema from vscode: vscode://schemas/settings/resourceLanguage
+2026-03-03 04:06:53.540 [info] read schema from vscode: vscode://schemas/ignoredSettings
+2026-03-03 04:06:53.549 [info] read schema from vscode: vscode://schemas/launch
+2026-03-03 04:06:53.557 [info] read schema from vscode: vscode://schemas/token-styling
+2026-03-03 04:06:53.557 [info] read schema from vscode: vscode://schemas/textmate-colors
+2026-03-03 04:06:53.558 [info] read schema from vscode: vscode://schemas/workbench-colors
+2026-03-03 04:06:53.610 [info] cancelled
+2026-03-03 04:06:53.741 [info] schema change detected vscode://schemas/settings/resourceLanguage
+2026-03-03 04:06:53.742 [info] read schema from vscode: vscode://schemas/settings/user
+2026-03-03 04:06:53.751 [info] schema change detected vscode://schemas/ignoredSettings
+2026-03-03 04:06:53.818 [info] schema change detected vscode://schemas/settings/user
+2026-03-03 04:06:53.823 [info] read schema from vscode: vscode://schemas/settings/resourceLanguage
+2026-03-03 04:06:53.823 [info] read schema from vscode: vscode://schemas/ignoredSettings
+2026-03-03 04:06:53.876 [info] cancelled
+2026-03-03 04:06:53.877 [info] cancelled
+2026-03-03 04:06:53.877 [info] read schema from vscode: vscode://schemas/settings/user
+2026-03-03 04:06:53.927 [info] schema change detected vscode://schemas/settings/user
+2026-03-03 04:06:53.947 [info] read schema from vscode: vscode://schemas/settings/resourceLanguage
+2026-03-03 04:06:53.947 [info] read schema from vscode: vscode://schemas/ignoredSettings
+2026-03-03 04:06:53.949 [info] read schema from vscode: vscode://schemas/launch
+2026-03-03 04:06:53.950 [info] read schema from vscode: vscode://schemas/token-styling
+2026-03-03 04:06:53.951 [info] read schema from vscode: vscode://schemas/textmate-colors
+2026-03-03 04:06:53.951 [info] read schema from vscode: vscode://schemas/workbench-colors
+2026-03-03 04:06:54.002 [info] cancelled
+2026-03-03 04:06:54.003 [info] read schema from vscode: vscode://schemas/settings/user
+2026-03-03 04:06:54.553 [info] schema change detected vscode://schemas/settings/user
+2026-03-03 04:06:54.554 [info] read schema from vscode: vscode://schemas/settings/user
+2026-03-03 04:06:55.122 [info] schema change detected vscode://schemas/settings/user
+2026-03-03 04:06:55.123 [info] read schema from vscode: vscode://schemas/settings/user
+2026-03-03 04:06:58.507 [info] schema change detected vscode://schemas/launch
+2026-03-03 04:06:58.507 [info] read schema from vscode: vscode://schemas/settings/user
+2026-03-03 04:06:58.555 [info] read schema from vscode: vscode://schemas/launch

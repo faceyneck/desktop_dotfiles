@@ -1,0 +1,9 @@
+{
+    "workbench.colorTheme": "Monokai",
+"terminal.integrated.fontFamily": "'JetBrainsMono Nerd Font', 'Symbols Nerd Font'",
+"terminal.integrated.fontWeight": "normal",
+"terminal.integrated.fontLigatures": true,
+"editor.fontFamily": "'JetBrainsMono Nerd Font', 'JetBrains Mono', monospace",
+"editor.fontLigatures": true,
+"files.encoding": "utf8"
+}

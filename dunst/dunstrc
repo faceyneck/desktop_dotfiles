@@ -1,0 +1,7 @@
+[global]
+    # LEFT CLICK: Open the channel action OR web link, then dismiss the alert box
+    mouse_left_click = do_action, open_url, close_current
+    
+    # MIDDLE CLICK: Alternative backup click behavior to close the window normally
+    mouse_middle_click = close_current
+

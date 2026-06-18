@@ -1,0 +1,14 @@
+" ==========================================
+" MODERN VIM CONFIGURATION (~/.config/vim/vimrc)
+" ==========================================
+
+" Force True Color (24-bit RGB) support inside modern term wrappers like tmux
+if has('termguicolors')
+    set termguicolors
+endif
+
+" Force Vim to render highlights explicitly designed for dark terminal theme environments
+set background=dark
+
+" Enable syntax highlighting
+syntax on

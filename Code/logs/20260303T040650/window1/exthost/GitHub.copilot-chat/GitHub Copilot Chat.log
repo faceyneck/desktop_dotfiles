@@ -1,0 +1,941 @@
+2026-03-03 04:06:52.752 [info] [GitExtensionServiceImpl] Initializing Git extension service.
+2026-03-03 04:06:52.752 [info] [GitExtensionServiceImpl] Successfully activated the vscode.git extension.
+2026-03-03 04:06:52.752 [info] [GitExtensionServiceImpl] Enablement state of the vscode.git extension: true.
+2026-03-03 04:06:52.752 [info] [GitExtensionServiceImpl] Successfully registered Git commit message provider.
+2026-03-03 04:06:52.778 [info] Logged in as xxsisyphusxx-star
+2026-03-03 04:06:52.782 [info] Using the Electron fetcher.
+2026-03-03 04:06:52.917 [info] ConversationFeature: Waiting for copilot token to activate conversation feature
+2026-03-03 04:06:52.917 [info] Creating node-pty shim: source=/usr/share/code/resources/app/node_modules/node-pty/build/Release, dest=/home/faceyneck/.vscode/extensions/github.copilot-chat-0.37.9/node_modules/@github/copilot/sdk/prebuilds/linux-x64
+2026-03-03 04:06:52.917 [info] Creating ripgrep shim: source=/usr/share/code/resources/app/node_modules/@vscode/ripgrep/bin, dest=/home/faceyneck/.vscode/extensions/github.copilot-chat-0.37.9/node_modules/@github/copilot/sdk/ripgrep/bin/linux-x64
+2026-03-03 04:06:52.997 [info] Found 1 entries to copy: rg
+2026-03-03 04:06:52.997 [info] Found 1 entries to copy: pty.node
+2026-03-03 04:06:52.999 [info] [CopilotCLI] MCP server started. Lock file: /home/faceyneck/.copilot/ide/48d7c215-6122-4cb7-8dfd-a449fadfb1c4.lock
+2026-03-03 04:06:52.999 [info] [CopilotCLI] Server URI: unix:/tmp/mcp-eygL8w/mcp.sock#%2Fmcp
+2026-03-03 04:06:53.453 [info] Got Copilot token for xxsisyphusxx-star
+2026-03-03 04:06:53.453 [info] Copilot Chat: 0.37.9, VS Code: 1.109.5
+2026-03-03 04:06:53.459 [info] [context keys] Setting context key: github.copilot-chat.activated
+2026-03-03 04:06:53.459 [info] activationBlocker from 'languageModelAccess' took for 561ms
+2026-03-03 04:06:53.511 [info] AuthenticationService: firing onDidAuthenticationChange from handleAuthChangeEvent. Has token: true
+2026-03-03 04:06:53.511 [info] copilot token sku: free_limited_copilot
+2026-03-03 04:06:53.511 [info] ConversationFeature: Activating contributions
+2026-03-03 04:06:53.511 [info] GitHub.vscode-pull-request-github extension is not yet activated.
+2026-03-03 04:06:53.519 [info] Registering default platform agent...
+2026-03-03 04:06:53.519 [info] ConversationFeature: onDidAuthenticationChange has token: true
+2026-03-03 04:06:53.520 [info] [code-referencing] Public code references are enabled.
+2026-03-03 04:06:53.520 [info] activationBlocker from 'conversationFeature' took for 624ms
+2026-03-03 04:06:53.525 [info] GithubAvailableEmbeddingTypesManager: Got embeddings. Primary: metis-1024-I16-Binary. Deprecated: 
+2026-03-03 04:06:53.526 [info] WorkspaceChunkSearchService: using embedding type metis-1024-I16-Binary
+2026-03-03 04:06:53.541 [info] BYOK: Copilot Chat known models list fetched successfully.
+2026-03-03 04:06:53.854 [info] Fetched model metadata in 947ms 8e75d820-161d-4ca9-852c-1a8636904db4
+2026-03-03 04:06:53.929 [info] Latest entry: ccreq:latest.copilotmd
+2026-03-03 04:06:53.929 [info] ccreq:ca142a48.copilotmd | markdown
+2026-03-03 05:01:53.002 [info] Logged in as xxsisyphusxx-star
+2026-03-03 05:01:53.475 [info] Got Copilot token for xxsisyphusxx-star
+2026-03-03 05:01:53.475 [info] Copilot Chat: 0.37.9, VS Code: 1.109.5
+2026-03-03 05:01:53.480 [info] AuthenticationService: firing onDidAuthenticationChange from handleAuthChangeEvent. Has token: true
+2026-03-03 05:01:53.480 [info] copilot token sku: free_limited_copilot
+2026-03-03 05:01:53.480 [info] ConversationFeature: onDidAuthenticationChange has token: true
+2026-03-03 05:01:53.480 [info] [code-referencing] Public code references are enabled.
+2026-03-03 05:01:53.859 [info] Fetched model metadata in 379ms 49a4a26f-51be-4199-a85b-3e27b3ea67f8
+2026-03-03 05:01:53.934 [info] ccreq:27054b69.copilotmd | markdown
+2026-03-03 05:56:53.011 [info] Logged in as xxsisyphusxx-star
+2026-03-03 05:56:53.493 [info] Got Copilot token for xxsisyphusxx-star
+2026-03-03 05:56:53.493 [info] Copilot Chat: 0.37.9, VS Code: 1.109.5
+2026-03-03 05:56:53.507 [info] AuthenticationService: firing onDidAuthenticationChange from handleAuthChangeEvent. Has token: true
+2026-03-03 05:56:53.507 [info] copilot token sku: free_limited_copilot
+2026-03-03 05:56:53.507 [info] ConversationFeature: onDidAuthenticationChange has token: true
+2026-03-03 05:56:53.507 [info] [code-referencing] Public code references are enabled.
+2026-03-03 05:56:53.947 [info] Fetched model metadata in 440ms 727ba6b0-92ca-46c2-901b-9e7c76f68ad2
+2026-03-03 05:56:54.028 [info] ccreq:b6709509.copilotmd | markdown
+2026-03-03 06:51:54.003 [info] Logged in as xxsisyphusxx-star
+2026-03-03 06:51:54.504 [info] Got Copilot token for xxsisyphusxx-star
+2026-03-03 06:51:54.504 [info] Copilot Chat: 0.37.9, VS Code: 1.109.5
+2026-03-03 06:51:54.509 [info] AuthenticationService: firing onDidAuthenticationChange from handleAuthChangeEvent. Has token: true
+2026-03-03 06:51:54.509 [info] copilot token sku: free_limited_copilot
+2026-03-03 06:51:54.509 [info] ConversationFeature: onDidAuthenticationChange has token: true
+2026-03-03 06:51:54.509 [info] [code-referencing] Public code references are enabled.
+2026-03-03 06:51:54.925 [info] Fetched model metadata in 415ms 3dfd4d88-9783-4838-a8f4-95c5201134de
+2026-03-03 06:51:55.007 [info] ccreq:4d43a16d.copilotmd | markdown
+2026-03-03 07:46:55.002 [info] Logged in as xxsisyphusxx-star
+2026-03-03 07:46:55.525 [info] Got Copilot token for xxsisyphusxx-star
+2026-03-03 07:46:55.525 [info] Copilot Chat: 0.37.9, VS Code: 1.109.5
+2026-03-03 07:46:55.530 [info] AuthenticationService: firing onDidAuthenticationChange from handleAuthChangeEvent. Has token: true
+2026-03-03 07:46:55.530 [info] copilot token sku: free_limited_copilot
+2026-03-03 07:46:55.530 [info] ConversationFeature: onDidAuthenticationChange has token: true
+2026-03-03 07:46:55.530 [info] [code-referencing] Public code references are enabled.
+2026-03-03 07:46:55.944 [info] Fetched model metadata in 415ms 5e41967e-2b0e-4a62-b4c5-6ce438340bc2
+2026-03-03 07:46:56.021 [info] ccreq:1f87378f.copilotmd | markdown
+2026-03-03 08:41:56.001 [info] Logged in as xxsisyphusxx-star
+2026-03-03 08:41:56.528 [info] Got Copilot token for xxsisyphusxx-star
+2026-03-03 08:41:56.528 [info] Copilot Chat: 0.37.9, VS Code: 1.109.5
+2026-03-03 08:41:56.533 [info] AuthenticationService: firing onDidAuthenticationChange from handleAuthChangeEvent. Has token: true
+2026-03-03 08:41:56.533 [info] copilot token sku: free_limited_copilot
+2026-03-03 08:41:56.533 [info] ConversationFeature: onDidAuthenticationChange has token: true
+2026-03-03 08:41:56.533 [info] [code-referencing] Public code references are enabled.
+2026-03-03 08:41:56.961 [info] Fetched model metadata in 428ms 8cea6e02-77b6-479a-9573-1e91459648e7
+2026-03-03 08:41:57.039 [info] ccreq:b4f9e6fb.copilotmd | markdown
+2026-03-03 09:36:57.003 [info] Logged in as xxsisyphusxx-star
+2026-03-03 09:36:57.505 [info] Got Copilot token for xxsisyphusxx-star
+2026-03-03 09:36:57.505 [info] Copilot Chat: 0.37.9, VS Code: 1.109.5
+2026-03-03 09:36:57.510 [info] AuthenticationService: firing onDidAuthenticationChange from handleAuthChangeEvent. Has token: true
+2026-03-03 09:36:57.510 [info] copilot token sku: free_limited_copilot
+2026-03-03 09:36:57.510 [info] ConversationFeature: onDidAuthenticationChange has token: true
+2026-03-03 09:36:57.510 [info] [code-referencing] Public code references are enabled.
+2026-03-03 09:36:57.942 [info] Fetched model metadata in 432ms 10d5d565-0d82-4ad5-b8e0-bebc40512f1c
+2026-03-03 09:36:58.015 [info] ccreq:cee5133b.copilotmd | markdown
+2026-03-03 10:31:58.001 [info] Logged in as xxsisyphusxx-star
+2026-03-03 10:31:58.477 [info] Got Copilot token for xxsisyphusxx-star
+2026-03-03 10:31:58.477 [info] Copilot Chat: 0.37.9, VS Code: 1.109.5
+2026-03-03 10:31:58.482 [info] AuthenticationService: firing onDidAuthenticationChange from handleAuthChangeEvent. Has token: true
+2026-03-03 10:31:58.482 [info] copilot token sku: free_limited_copilot
+2026-03-03 10:31:58.482 [info] ConversationFeature: onDidAuthenticationChange has token: true
+2026-03-03 10:31:58.482 [info] [code-referencing] Public code references are enabled.
+2026-03-03 10:31:58.913 [info] Fetched model metadata in 432ms fcfd0d67-c7ee-422a-96e9-f91e30da3217
+2026-03-03 10:31:58.989 [info] ccreq:3eb3132e.copilotmd | markdown
+2026-03-03 11:26:59.009 [info] Logged in as xxsisyphusxx-star
+2026-03-03 11:26:59.479 [info] Got Copilot token for xxsisyphusxx-star
+2026-03-03 11:26:59.479 [info] Copilot Chat: 0.37.9, VS Code: 1.109.5
+2026-03-03 11:26:59.483 [info] AuthenticationService: firing onDidAuthenticationChange from handleAuthChangeEvent. Has token: true
+2026-03-03 11:26:59.483 [info] copilot token sku: free_limited_copilot
+2026-03-03 11:26:59.483 [info] ConversationFeature: onDidAuthenticationChange has token: true
+2026-03-03 11:26:59.483 [info] [code-referencing] Public code references are enabled.
+2026-03-03 11:26:59.861 [info] Fetched model metadata in 378ms 7e6fb07d-66d3-414b-9079-61e42c2ddfb1
+2026-03-03 11:26:59.937 [info] ccreq:baed02bd.copilotmd | markdown
+2026-03-03 12:22:00.002 [info] Logged in as xxsisyphusxx-star
+2026-03-03 12:22:00.553 [info] Got Copilot token for xxsisyphusxx-star
+2026-03-03 12:22:00.553 [info] Copilot Chat: 0.37.9, VS Code: 1.109.5
+2026-03-03 12:22:00.558 [info] AuthenticationService: firing onDidAuthenticationChange from handleAuthChangeEvent. Has token: true
+2026-03-03 12:22:00.558 [info] copilot token sku: free_limited_copilot
+2026-03-03 12:22:00.558 [info] ConversationFeature: onDidAuthenticationChange has token: true
+2026-03-03 12:22:00.558 [info] [code-referencing] Public code references are enabled.
+2026-03-03 12:22:00.979 [info] Fetched model metadata in 421ms d26ad475-7f43-4b6b-93c0-3e0ef1d3c287
+2026-03-03 12:22:01.055 [info] ccreq:59f8361c.copilotmd | markdown
+2026-03-03 13:17:01.002 [info] Logged in as xxsisyphusxx-star
+2026-03-03 13:17:01.472 [info] Got Copilot token for xxsisyphusxx-star
+2026-03-03 13:17:01.473 [info] Copilot Chat: 0.37.9, VS Code: 1.109.5
+2026-03-03 13:17:01.477 [info] AuthenticationService: firing onDidAuthenticationChange from handleAuthChangeEvent. Has token: true
+2026-03-03 13:17:01.478 [info] copilot token sku: free_limited_copilot
+2026-03-03 13:17:01.478 [info] ConversationFeature: onDidAuthenticationChange has token: true
+2026-03-03 13:17:01.478 [info] [code-referencing] Public code references are enabled.
+2026-03-03 13:17:01.897 [info] Fetched model metadata in 420ms a2f3863b-2b2f-4e07-89f6-e13994841ec6
+2026-03-03 13:17:01.974 [info] ccreq:d23f1e72.copilotmd | markdown
+2026-03-03 14:12:02.002 [info] Logged in as xxsisyphusxx-star
+2026-03-03 14:12:02.487 [info] Got Copilot token for xxsisyphusxx-star
+2026-03-03 14:12:02.487 [info] Copilot Chat: 0.37.9, VS Code: 1.109.5
+2026-03-03 14:12:02.492 [info] AuthenticationService: firing onDidAuthenticationChange from handleAuthChangeEvent. Has token: true
+2026-03-03 14:12:02.492 [info] copilot token sku: free_limited_copilot
+2026-03-03 14:12:02.492 [info] ConversationFeature: onDidAuthenticationChange has token: true
+2026-03-03 14:12:02.492 [info] [code-referencing] Public code references are enabled.
+2026-03-03 14:12:02.963 [info] Fetched model metadata in 471ms 69529382-9eb6-43e7-a660-e58bb587b1aa
+2026-03-03 14:12:03.042 [info] ccreq:9f1e1d6a.copilotmd | markdown
+2026-03-03 15:07:03.002 [info] Logged in as xxsisyphusxx-star
+2026-03-03 15:07:03.483 [info] Got Copilot token for xxsisyphusxx-star
+2026-03-03 15:07:03.483 [info] Copilot Chat: 0.37.9, VS Code: 1.109.5
+2026-03-03 15:07:03.487 [info] AuthenticationService: firing onDidAuthenticationChange from handleAuthChangeEvent. Has token: true
+2026-03-03 15:07:03.487 [info] copilot token sku: free_limited_copilot
+2026-03-03 15:07:03.487 [info] ConversationFeature: onDidAuthenticationChange has token: true
+2026-03-03 15:07:03.487 [info] [code-referencing] Public code references are enabled.
+2026-03-03 15:07:03.889 [info] Fetched model metadata in 402ms f0cd7c05-a9d2-44ab-b71b-8d82c52c6015
+2026-03-03 15:07:03.965 [info] ccreq:66aac8d6.copilotmd | markdown
+2026-03-03 16:02:04.002 [info] Logged in as xxsisyphusxx-star
+2026-03-03 16:02:04.564 [info] Got Copilot token for xxsisyphusxx-star
+2026-03-03 16:02:04.564 [info] Copilot Chat: 0.37.9, VS Code: 1.109.5
+2026-03-03 16:02:04.569 [info] AuthenticationService: firing onDidAuthenticationChange from handleAuthChangeEvent. Has token: true
+2026-03-03 16:02:04.569 [info] copilot token sku: free_limited_copilot
+2026-03-03 16:02:04.569 [info] ConversationFeature: onDidAuthenticationChange has token: true
+2026-03-03 16:02:04.569 [info] [code-referencing] Public code references are enabled.
+2026-03-03 16:02:04.943 [info] Fetched model metadata in 375ms 089a2352-3420-4a13-b7d1-d4d62575bdb7
+2026-03-03 16:02:05.019 [info] ccreq:e3363d79.copilotmd | markdown
+2026-03-03 16:57:05.001 [info] Logged in as xxsisyphusxx-star
+2026-03-03 16:57:05.443 [info] Got Copilot token for xxsisyphusxx-star
+2026-03-03 16:57:05.443 [info] Copilot Chat: 0.37.9, VS Code: 1.109.5
+2026-03-03 16:57:05.447 [info] AuthenticationService: firing onDidAuthenticationChange from handleAuthChangeEvent. Has token: true
+2026-03-03 16:57:05.447 [info] copilot token sku: free_limited_copilot
+2026-03-03 16:57:05.447 [info] ConversationFeature: onDidAuthenticationChange has token: true
+2026-03-03 16:57:05.447 [info] [code-referencing] Public code references are enabled.
+2026-03-03 16:57:05.810 [info] Fetched model metadata in 363ms 3e30afb2-f0b6-49d5-9a1c-8ee0fcb88fc5
+2026-03-03 16:57:05.884 [info] ccreq:1bf0af3e.copilotmd | markdown
+2026-03-03 17:52:05.003 [info] Logged in as xxsisyphusxx-star
+2026-03-03 17:52:05.528 [info] Got Copilot token for xxsisyphusxx-star
+2026-03-03 17:52:05.528 [info] Copilot Chat: 0.37.9, VS Code: 1.109.5
+2026-03-03 17:52:05.532 [info] AuthenticationService: firing onDidAuthenticationChange from handleAuthChangeEvent. Has token: true
+2026-03-03 17:52:05.532 [info] copilot token sku: free_limited_copilot
+2026-03-03 17:52:05.532 [info] ConversationFeature: onDidAuthenticationChange has token: true
+2026-03-03 17:52:05.532 [info] [code-referencing] Public code references are enabled.
+2026-03-03 17:52:05.932 [info] Fetched model metadata in 400ms cd28ed1b-70b4-49ef-96b9-b2a45c5af0ae
+2026-03-03 17:52:06.008 [info] ccreq:3b1c8bc0.copilotmd | markdown
+2026-03-03 18:47:06.001 [info] Logged in as xxsisyphusxx-star
+2026-03-03 18:47:06.430 [info] Got Copilot token for xxsisyphusxx-star
+2026-03-03 18:47:06.430 [info] Copilot Chat: 0.37.9, VS Code: 1.109.5
+2026-03-03 18:47:06.435 [info] AuthenticationService: firing onDidAuthenticationChange from handleAuthChangeEvent. Has token: true
+2026-03-03 18:47:06.435 [info] copilot token sku: free_limited_copilot
+2026-03-03 18:47:06.435 [info] ConversationFeature: onDidAuthenticationChange has token: true
+2026-03-03 18:47:06.435 [info] [code-referencing] Public code references are enabled.
+2026-03-03 18:47:06.807 [info] Fetched model metadata in 372ms 8107633d-c6b5-4dd9-8ed3-09fc109e23a6
+2026-03-03 18:47:06.882 [info] ccreq:5d4754a8.copilotmd | markdown
+2026-03-03 19:42:06.002 [info] Logged in as xxsisyphusxx-star
+2026-03-03 19:42:06.433 [info] Got Copilot token for xxsisyphusxx-star
+2026-03-03 19:42:06.433 [info] Copilot Chat: 0.37.9, VS Code: 1.109.5
+2026-03-03 19:42:06.438 [info] AuthenticationService: firing onDidAuthenticationChange from handleAuthChangeEvent. Has token: true
+2026-03-03 19:42:06.438 [info] copilot token sku: free_limited_copilot
+2026-03-03 19:42:06.438 [info] ConversationFeature: onDidAuthenticationChange has token: true
+2026-03-03 19:42:06.438 [info] [code-referencing] Public code references are enabled.
+2026-03-03 19:42:06.813 [info] Fetched model metadata in 376ms 974f5df9-4e64-470d-9f2c-3dea535bd60e
+2026-03-03 19:42:06.888 [info] ccreq:1b183ea6.copilotmd | markdown
+2026-03-03 20:37:06.002 [info] Logged in as xxsisyphusxx-star
+2026-03-03 20:37:06.459 [info] Got Copilot token for xxsisyphusxx-star
+2026-03-03 20:37:06.459 [info] Copilot Chat: 0.37.9, VS Code: 1.109.5
+2026-03-03 20:37:06.463 [info] AuthenticationService: firing onDidAuthenticationChange from handleAuthChangeEvent. Has token: true
+2026-03-03 20:37:06.463 [info] copilot token sku: free_limited_copilot
+2026-03-03 20:37:06.463 [info] ConversationFeature: onDidAuthenticationChange has token: true
+2026-03-03 20:37:06.464 [info] [code-referencing] Public code references are enabled.
+2026-03-03 20:37:06.889 [info] Fetched model metadata in 426ms 55bd2b6f-babe-4b8d-aaf5-61d5ff88d512
+2026-03-03 20:37:06.962 [info] ccreq:b6ef0f39.copilotmd | markdown
+2026-03-03 21:32:07.002 [info] Logged in as xxsisyphusxx-star
+2026-03-03 21:32:07.432 [info] Got Copilot token for xxsisyphusxx-star
+2026-03-03 21:32:07.432 [info] Copilot Chat: 0.37.9, VS Code: 1.109.5
+2026-03-03 21:32:07.437 [info] AuthenticationService: firing onDidAuthenticationChange from handleAuthChangeEvent. Has token: true
+2026-03-03 21:32:07.437 [info] copilot token sku: free_limited_copilot
+2026-03-03 21:32:07.437 [info] ConversationFeature: onDidAuthenticationChange has token: true
+2026-03-03 21:32:07.437 [info] [code-referencing] Public code references are enabled.
+2026-03-03 21:32:07.793 [info] Fetched model metadata in 356ms f90cb4ba-85d3-4272-8f43-2d2bb5a91473
+2026-03-03 21:32:07.869 [info] ccreq:f6ab5b30.copilotmd | markdown
+2026-03-03 22:27:07.002 [info] Logged in as xxsisyphusxx-star
+2026-03-03 22:27:07.444 [info] Got Copilot token for xxsisyphusxx-star
+2026-03-03 22:27:07.444 [info] Copilot Chat: 0.37.9, VS Code: 1.109.5
+2026-03-03 22:27:07.448 [info] AuthenticationService: firing onDidAuthenticationChange from handleAuthChangeEvent. Has token: true
+2026-03-03 22:27:07.448 [info] copilot token sku: free_limited_copilot
+2026-03-03 22:27:07.448 [info] ConversationFeature: onDidAuthenticationChange has token: true
+2026-03-03 22:27:07.448 [info] [code-referencing] Public code references are enabled.
+2026-03-03 22:27:07.814 [info] Fetched model metadata in 366ms 59b7ed98-bccd-40c4-b096-229931952200
+2026-03-03 22:27:07.886 [info] ccreq:ac8057ee.copilotmd | markdown
+2026-03-03 23:22:07.002 [info] Logged in as xxsisyphusxx-star
+2026-03-03 23:22:07.443 [info] Got Copilot token for xxsisyphusxx-star
+2026-03-03 23:22:07.443 [info] Copilot Chat: 0.37.9, VS Code: 1.109.5
+2026-03-03 23:22:07.448 [info] AuthenticationService: firing onDidAuthenticationChange from handleAuthChangeEvent. Has token: true
+2026-03-03 23:22:07.448 [info] copilot token sku: free_limited_copilot
+2026-03-03 23:22:07.448 [info] ConversationFeature: onDidAuthenticationChange has token: true
+2026-03-03 23:22:07.448 [info] [code-referencing] Public code references are enabled.
+2026-03-03 23:22:07.817 [info] Fetched model metadata in 369ms 6b9de080-6a56-4840-a781-dae2b70fa3a4
+2026-03-03 23:22:07.892 [info] ccreq:5e8e43a3.copilotmd | markdown
+2026-03-04 00:17:07.002 [info] Logged in as xxsisyphusxx-star
+2026-03-04 00:17:07.551 [info] Got Copilot token for xxsisyphusxx-star
+2026-03-04 00:17:07.551 [info] Copilot Chat: 0.37.9, VS Code: 1.109.5
+2026-03-04 00:17:07.555 [info] AuthenticationService: firing onDidAuthenticationChange from handleAuthChangeEvent. Has token: true
+2026-03-04 00:17:07.555 [info] copilot token sku: free_limited_copilot
+2026-03-04 00:17:07.555 [info] ConversationFeature: onDidAuthenticationChange has token: true
+2026-03-04 00:17:07.555 [info] [code-referencing] Public code references are enabled.
+2026-03-04 00:17:07.914 [info] Fetched model metadata in 358ms 5327fc33-5588-4489-9245-f41ded73d787
+2026-03-04 00:17:07.987 [info] ccreq:1d86f0fc.copilotmd | markdown
+2026-03-04 01:12:08.002 [info] Logged in as xxsisyphusxx-star
+2026-03-04 01:12:08.498 [info] Got Copilot token for xxsisyphusxx-star
+2026-03-04 01:12:08.498 [info] Copilot Chat: 0.37.9, VS Code: 1.109.5
+2026-03-04 01:12:08.502 [info] AuthenticationService: firing onDidAuthenticationChange from handleAuthChangeEvent. Has token: true
+2026-03-04 01:12:08.502 [info] copilot token sku: free_limited_copilot
+2026-03-04 01:12:08.502 [info] ConversationFeature: onDidAuthenticationChange has token: true
+2026-03-04 01:12:08.502 [info] [code-referencing] Public code references are enabled.
+2026-03-04 01:12:08.894 [info] Fetched model metadata in 391ms a9f754ec-15be-424d-ad0d-5f72e21ad4ec
+2026-03-04 01:12:08.970 [info] ccreq:7b45bb3a.copilotmd | markdown
+2026-03-04 02:07:09.002 [info] Logged in as xxsisyphusxx-star
+2026-03-04 02:07:09.568 [info] Got Copilot token for xxsisyphusxx-star
+2026-03-04 02:07:09.568 [info] Copilot Chat: 0.37.9, VS Code: 1.109.5
+2026-03-04 02:07:09.573 [info] AuthenticationService: firing onDidAuthenticationChange from handleAuthChangeEvent. Has token: true
+2026-03-04 02:07:09.573 [info] copilot token sku: free_limited_copilot
+2026-03-04 02:07:09.573 [info] ConversationFeature: onDidAuthenticationChange has token: true
+2026-03-04 02:07:09.573 [info] [code-referencing] Public code references are enabled.
+2026-03-04 02:07:09.978 [info] Fetched model metadata in 405ms 7b95aa7b-dd5a-4993-ae99-816465ebbfc4
+2026-03-04 02:07:10.053 [info] ccreq:a2c39623.copilotmd | markdown
+2026-03-04 03:02:10.001 [info] Logged in as xxsisyphusxx-star
+2026-03-04 03:02:10.506 [info] Got Copilot token for xxsisyphusxx-star
+2026-03-04 03:02:10.506 [info] Copilot Chat: 0.37.9, VS Code: 1.109.5
+2026-03-04 03:02:10.510 [info] AuthenticationService: firing onDidAuthenticationChange from handleAuthChangeEvent. Has token: true
+2026-03-04 03:02:10.510 [info] copilot token sku: free_limited_copilot
+2026-03-04 03:02:10.510 [info] ConversationFeature: onDidAuthenticationChange has token: true
+2026-03-04 03:02:10.510 [info] [code-referencing] Public code references are enabled.
+2026-03-04 03:02:10.910 [info] Fetched model metadata in 400ms ae13c079-9960-498a-b14c-e688964119f6
+2026-03-04 03:02:10.984 [info] ccreq:a7ff8aac.copilotmd | markdown
+2026-03-04 03:02:16.350 [info] Refetch model metadata: Succeeded in 360ms f58f2cc0-aff7-4d43-8eb0-4bf3c74954e5 (8DC6:3183AF:269C122:2C1A82B:69A80328) using electron-fetch with status 200.
+2026-03-04 03:02:16.711 [info] Refetch model metadata: Succeeded in 361ms ff896750-69c8-482f-9534-6665d8bf9b0c (8DC8:26CDA4:28D0955:2E499C0:69A80328) using node-http with status 200.
+2026-03-04 03:02:17.075 [info] Refetch model metadata: Succeeded in 364ms 050b37b6-cac0-4691-b733-f3ebafd8a489 (8DCE:10141D:279D0ED:2D177CE:69A80328) using node-fetch with status 200.
+2026-03-04 03:57:11.002 [info] Logged in as xxsisyphusxx-star
+2026-03-04 03:57:11.489 [info] Got Copilot token for xxsisyphusxx-star
+2026-03-04 03:57:11.489 [info] Copilot Chat: 0.37.9, VS Code: 1.109.5
+2026-03-04 03:57:11.494 [info] AuthenticationService: firing onDidAuthenticationChange from handleAuthChangeEvent. Has token: true
+2026-03-04 03:57:11.494 [info] copilot token sku: free_limited_copilot
+2026-03-04 03:57:11.494 [info] ConversationFeature: onDidAuthenticationChange has token: true
+2026-03-04 03:57:11.494 [info] [code-referencing] Public code references are enabled.
+2026-03-04 03:57:11.914 [info] Fetched model metadata in 421ms ff357b1a-919f-4d0c-8d22-c436a77bd12c
+2026-03-04 03:57:11.990 [info] ccreq:d45b6881.copilotmd | markdown
+2026-03-04 04:52:12.001 [info] Logged in as xxsisyphusxx-star
+2026-03-04 04:52:12.626 [info] Got Copilot token for xxsisyphusxx-star
+2026-03-04 04:52:12.626 [info] Copilot Chat: 0.37.9, VS Code: 1.109.5
+2026-03-04 04:52:12.630 [info] AuthenticationService: firing onDidAuthenticationChange from handleAuthChangeEvent. Has token: true
+2026-03-04 04:52:12.630 [info] copilot token sku: free_limited_copilot
+2026-03-04 04:52:12.630 [info] ConversationFeature: onDidAuthenticationChange has token: true
+2026-03-04 04:52:12.630 [info] [code-referencing] Public code references are enabled.
+2026-03-04 04:52:12.986 [info] Fetched model metadata in 356ms aaffe4ad-a3f4-4f9c-92a9-9d7ac794eff2
+2026-03-04 04:52:13.060 [info] ccreq:f9bb483e.copilotmd | markdown
+2026-03-04 05:47:13.000 [info] Logged in as xxsisyphusxx-star
+2026-03-04 05:47:13.464 [info] Got Copilot token for xxsisyphusxx-star
+2026-03-04 05:47:13.464 [info] Copilot Chat: 0.37.9, VS Code: 1.109.5
+2026-03-04 05:47:13.468 [info] AuthenticationService: firing onDidAuthenticationChange from handleAuthChangeEvent. Has token: true
+2026-03-04 05:47:13.468 [info] copilot token sku: free_limited_copilot
+2026-03-04 05:47:13.468 [info] ConversationFeature: onDidAuthenticationChange has token: true
+2026-03-04 05:47:13.468 [info] [code-referencing] Public code references are enabled.
+2026-03-04 05:47:13.880 [info] Fetched model metadata in 413ms 9d3c8fa0-d918-4c17-b7ec-3cac436b3b4d
+2026-03-04 05:47:13.956 [info] ccreq:903196f4.copilotmd | markdown
+2026-03-04 06:42:14.002 [info] Logged in as xxsisyphusxx-star
+2026-03-04 06:42:14.513 [info] Got Copilot token for xxsisyphusxx-star
+2026-03-04 06:42:14.513 [info] Copilot Chat: 0.37.9, VS Code: 1.109.5
+2026-03-04 06:42:14.517 [info] AuthenticationService: firing onDidAuthenticationChange from handleAuthChangeEvent. Has token: true
+2026-03-04 06:42:14.517 [info] copilot token sku: free_limited_copilot
+2026-03-04 06:42:14.517 [info] ConversationFeature: onDidAuthenticationChange has token: true
+2026-03-04 06:42:14.517 [info] [code-referencing] Public code references are enabled.
+2026-03-04 06:42:14.917 [info] Fetched model metadata in 400ms 3e6fe542-6dba-46f2-81b5-e055e28f5184
+2026-03-04 06:42:14.995 [info] ccreq:9774cdd0.copilotmd | markdown
+2026-03-04 07:37:15.001 [info] Logged in as xxsisyphusxx-star
+2026-03-04 07:37:15.471 [info] Got Copilot token for xxsisyphusxx-star
+2026-03-04 07:37:15.471 [info] Copilot Chat: 0.37.9, VS Code: 1.109.5
+2026-03-04 07:37:15.476 [info] AuthenticationService: firing onDidAuthenticationChange from handleAuthChangeEvent. Has token: true
+2026-03-04 07:37:15.476 [info] copilot token sku: free_limited_copilot
+2026-03-04 07:37:15.476 [info] ConversationFeature: onDidAuthenticationChange has token: true
+2026-03-04 07:37:15.476 [info] [code-referencing] Public code references are enabled.
+2026-03-04 07:37:15.869 [info] Fetched model metadata in 393ms 017c2fc3-d16e-41cf-91f9-4c9fe92b585f
+2026-03-04 07:37:15.942 [info] ccreq:cfb1108a.copilotmd | markdown
+2026-03-04 08:32:16.002 [info] Logged in as xxsisyphusxx-star
+2026-03-04 08:32:16.490 [info] Got Copilot token for xxsisyphusxx-star
+2026-03-04 08:32:16.490 [info] Copilot Chat: 0.37.9, VS Code: 1.109.5
+2026-03-04 08:32:16.494 [info] AuthenticationService: firing onDidAuthenticationChange from handleAuthChangeEvent. Has token: true
+2026-03-04 08:32:16.494 [info] copilot token sku: free_limited_copilot
+2026-03-04 08:32:16.494 [info] ConversationFeature: onDidAuthenticationChange has token: true
+2026-03-04 08:32:16.494 [info] [code-referencing] Public code references are enabled.
+2026-03-04 08:32:16.915 [info] Fetched model metadata in 421ms c4f562e5-079d-4bd3-a019-8990adbcc0d1
+2026-03-04 08:32:16.989 [info] ccreq:194ca571.copilotmd | markdown
+2026-03-04 09:27:17.003 [info] Logged in as xxsisyphusxx-star
+2026-03-04 09:27:17.580 [info] Got Copilot token for xxsisyphusxx-star
+2026-03-04 09:27:17.580 [info] Copilot Chat: 0.37.9, VS Code: 1.109.5
+2026-03-04 09:27:17.585 [info] AuthenticationService: firing onDidAuthenticationChange from handleAuthChangeEvent. Has token: true
+2026-03-04 09:27:17.585 [info] copilot token sku: free_limited_copilot
+2026-03-04 09:27:17.585 [info] ConversationFeature: onDidAuthenticationChange has token: true
+2026-03-04 09:27:17.585 [info] [code-referencing] Public code references are enabled.
+2026-03-04 09:27:17.977 [info] Fetched model metadata in 392ms 6f28ffa4-9c36-400c-a1f9-43f026a0381f
+2026-03-04 09:27:18.054 [info] ccreq:bd2e640b.copilotmd | markdown
+2026-03-04 10:22:18.001 [info] Logged in as xxsisyphusxx-star
+2026-03-04 10:22:18.462 [info] Got Copilot token for xxsisyphusxx-star
+2026-03-04 10:22:18.462 [info] Copilot Chat: 0.37.9, VS Code: 1.109.5
+2026-03-04 10:22:18.467 [info] AuthenticationService: firing onDidAuthenticationChange from handleAuthChangeEvent. Has token: true
+2026-03-04 10:22:18.467 [info] copilot token sku: free_limited_copilot
+2026-03-04 10:22:18.467 [info] ConversationFeature: onDidAuthenticationChange has token: true
+2026-03-04 10:22:18.467 [info] [code-referencing] Public code references are enabled.
+2026-03-04 10:22:18.904 [info] Fetched model metadata in 438ms 3d65fb4a-942d-498e-a4b4-c839dc91b589
+2026-03-04 10:22:18.977 [info] ccreq:793700ae.copilotmd | markdown
+2026-03-04 11:17:19.002 [info] Logged in as xxsisyphusxx-star
+2026-03-04 11:17:19.560 [info] Got Copilot token for xxsisyphusxx-star
+2026-03-04 11:17:19.560 [info] Copilot Chat: 0.37.9, VS Code: 1.109.5
+2026-03-04 11:17:19.564 [info] AuthenticationService: firing onDidAuthenticationChange from handleAuthChangeEvent. Has token: true
+2026-03-04 11:17:19.564 [info] copilot token sku: free_limited_copilot
+2026-03-04 11:17:19.564 [info] ConversationFeature: onDidAuthenticationChange has token: true
+2026-03-04 11:17:19.564 [info] [code-referencing] Public code references are enabled.
+2026-03-04 11:17:19.952 [info] Fetched model metadata in 388ms 10180094-38f1-453e-8f59-c16770eb8fa6
+2026-03-04 11:17:20.027 [info] ccreq:1e059f30.copilotmd | markdown
+2026-03-04 12:12:20.001 [info] Logged in as xxsisyphusxx-star
+2026-03-04 12:12:20.461 [info] Got Copilot token for xxsisyphusxx-star
+2026-03-04 12:12:20.461 [info] Copilot Chat: 0.37.9, VS Code: 1.109.5
+2026-03-04 12:12:20.465 [info] AuthenticationService: firing onDidAuthenticationChange from handleAuthChangeEvent. Has token: true
+2026-03-04 12:12:20.465 [info] copilot token sku: free_limited_copilot
+2026-03-04 12:12:20.465 [info] ConversationFeature: onDidAuthenticationChange has token: true
+2026-03-04 12:12:20.465 [info] [code-referencing] Public code references are enabled.
+2026-03-04 12:12:20.843 [info] Fetched model metadata in 378ms b2fe7234-1db9-4bbd-bb37-97ee4f305b1a
+2026-03-04 12:12:20.917 [info] ccreq:22839d94.copilotmd | markdown
+2026-03-04 13:07:20.002 [info] Logged in as xxsisyphusxx-star
+2026-03-04 13:07:20.475 [info] Got Copilot token for xxsisyphusxx-star
+2026-03-04 13:07:20.475 [info] Copilot Chat: 0.37.9, VS Code: 1.109.5
+2026-03-04 13:07:20.479 [info] AuthenticationService: firing onDidAuthenticationChange from handleAuthChangeEvent. Has token: true
+2026-03-04 13:07:20.479 [info] copilot token sku: free_limited_copilot
+2026-03-04 13:07:20.479 [info] ConversationFeature: onDidAuthenticationChange has token: true
+2026-03-04 13:07:20.479 [info] [code-referencing] Public code references are enabled.
+2026-03-04 13:07:20.949 [info] Fetched model metadata in 470ms 63be5ddc-a152-4930-b95e-8618c9eee2a6
+2026-03-04 13:07:21.024 [info] ccreq:c2127a8a.copilotmd | markdown
+2026-03-04 14:02:21.002 [info] Logged in as xxsisyphusxx-star
+2026-03-04 14:02:21.527 [info] Got Copilot token for xxsisyphusxx-star
+2026-03-04 14:02:21.527 [info] Copilot Chat: 0.37.9, VS Code: 1.109.5
+2026-03-04 14:02:21.532 [info] AuthenticationService: firing onDidAuthenticationChange from handleAuthChangeEvent. Has token: true
+2026-03-04 14:02:21.532 [info] copilot token sku: free_limited_copilot
+2026-03-04 14:02:21.532 [info] ConversationFeature: onDidAuthenticationChange has token: true
+2026-03-04 14:02:21.532 [info] [code-referencing] Public code references are enabled.
+2026-03-04 14:02:21.916 [info] Fetched model metadata in 384ms 0daf9cd7-5c81-475c-9523-6e67198ce886
+2026-03-04 14:02:21.996 [info] ccreq:105f127d.copilotmd | markdown
+2026-03-04 14:57:22.001 [info] Logged in as xxsisyphusxx-star
+2026-03-04 14:57:22.438 [info] Got Copilot token for xxsisyphusxx-star
+2026-03-04 14:57:22.438 [info] Copilot Chat: 0.37.9, VS Code: 1.109.5
+2026-03-04 14:57:22.443 [info] AuthenticationService: firing onDidAuthenticationChange from handleAuthChangeEvent. Has token: true
+2026-03-04 14:57:22.443 [info] copilot token sku: free_limited_copilot
+2026-03-04 14:57:22.443 [info] ConversationFeature: onDidAuthenticationChange has token: true
+2026-03-04 14:57:22.443 [info] [code-referencing] Public code references are enabled.
+2026-03-04 14:57:22.844 [info] Fetched model metadata in 401ms eec21dd6-b4bb-4ebd-b28d-40dea9d800d8
+2026-03-04 14:57:22.917 [info] ccreq:7e8358fa.copilotmd | markdown
+2026-03-04 15:52:22.003 [info] Logged in as xxsisyphusxx-star
+2026-03-04 15:52:22.409 [info] Got Copilot token for xxsisyphusxx-star
+2026-03-04 15:52:22.409 [info] Copilot Chat: 0.37.9, VS Code: 1.109.5
+2026-03-04 15:52:22.413 [info] AuthenticationService: firing onDidAuthenticationChange from handleAuthChangeEvent. Has token: true
+2026-03-04 15:52:22.413 [info] copilot token sku: free_limited_copilot
+2026-03-04 15:52:22.413 [info] ConversationFeature: onDidAuthenticationChange has token: true
+2026-03-04 15:52:22.413 [info] [code-referencing] Public code references are enabled.
+2026-03-04 15:52:22.842 [info] Fetched model metadata in 429ms 65fc4128-a90a-483d-b97d-db1d86c720e9
+2026-03-04 15:52:22.923 [info] ccreq:b3dd7d56.copilotmd | markdown
+2026-03-04 16:47:22.002 [info] Logged in as xxsisyphusxx-star
+2026-03-04 16:47:22.450 [info] Got Copilot token for xxsisyphusxx-star
+2026-03-04 16:47:22.450 [info] Copilot Chat: 0.37.9, VS Code: 1.109.5
+2026-03-04 16:47:22.455 [info] AuthenticationService: firing onDidAuthenticationChange from handleAuthChangeEvent. Has token: true
+2026-03-04 16:47:22.455 [info] copilot token sku: free_limited_copilot
+2026-03-04 16:47:22.455 [info] ConversationFeature: onDidAuthenticationChange has token: true
+2026-03-04 16:47:22.455 [info] [code-referencing] Public code references are enabled.
+2026-03-04 16:47:22.830 [info] Fetched model metadata in 375ms 9ff7d285-ec6d-4798-af8a-aef3c68b232e
+2026-03-04 16:47:22.903 [info] ccreq:1e1ef953.copilotmd | markdown
+2026-03-04 17:42:22.004 [info] Logged in as xxsisyphusxx-star
+2026-03-04 17:42:22.612 [info] Got Copilot token for xxsisyphusxx-star
+2026-03-04 17:42:22.612 [info] Copilot Chat: 0.37.9, VS Code: 1.109.5
+2026-03-04 17:42:22.616 [info] AuthenticationService: firing onDidAuthenticationChange from handleAuthChangeEvent. Has token: true
+2026-03-04 17:42:22.616 [info] copilot token sku: free_limited_copilot
+2026-03-04 17:42:22.616 [info] ConversationFeature: onDidAuthenticationChange has token: true
+2026-03-04 17:42:22.616 [info] [code-referencing] Public code references are enabled.
+2026-03-04 17:42:23.000 [info] Fetched model metadata in 384ms 3eeade8f-c626-41e7-b172-207a9e9d9ce3
+2026-03-04 17:42:23.076 [info] ccreq:38dd6239.copilotmd | markdown
+2026-03-04 18:37:23.002 [info] Logged in as xxsisyphusxx-star
+2026-03-04 18:37:23.516 [info] Got Copilot token for xxsisyphusxx-star
+2026-03-04 18:37:23.516 [info] Copilot Chat: 0.37.9, VS Code: 1.109.5
+2026-03-04 18:37:23.520 [info] AuthenticationService: firing onDidAuthenticationChange from handleAuthChangeEvent. Has token: true
+2026-03-04 18:37:23.520 [info] copilot token sku: free_limited_copilot
+2026-03-04 18:37:23.520 [info] ConversationFeature: onDidAuthenticationChange has token: true
+2026-03-04 18:37:23.520 [info] [code-referencing] Public code references are enabled.
+2026-03-04 18:37:23.950 [info] Fetched model metadata in 430ms ec4d49c5-3514-4ce5-a308-f949ca7f496e
+2026-03-04 18:37:24.026 [info] ccreq:01ca4d52.copilotmd | markdown
+2026-03-04 19:32:24.001 [info] Logged in as xxsisyphusxx-star
+2026-03-04 19:32:24.448 [info] Got Copilot token for xxsisyphusxx-star
+2026-03-04 19:32:24.449 [info] Copilot Chat: 0.37.9, VS Code: 1.109.5
+2026-03-04 19:32:24.453 [info] AuthenticationService: firing onDidAuthenticationChange from handleAuthChangeEvent. Has token: true
+2026-03-04 19:32:24.453 [info] copilot token sku: free_limited_copilot
+2026-03-04 19:32:24.453 [info] ConversationFeature: onDidAuthenticationChange has token: true
+2026-03-04 19:32:24.453 [info] [code-referencing] Public code references are enabled.
+2026-03-04 19:32:24.824 [info] Fetched model metadata in 372ms 5bf9fa73-9719-4062-b17e-fda17cdb7987
+2026-03-04 19:32:24.900 [info] ccreq:4ee9990c.copilotmd | markdown
+2026-03-04 20:27:24.002 [info] Logged in as xxsisyphusxx-star
+2026-03-04 20:27:24.434 [info] Got Copilot token for xxsisyphusxx-star
+2026-03-04 20:27:24.434 [info] Copilot Chat: 0.37.9, VS Code: 1.109.5
+2026-03-04 20:27:24.438 [info] AuthenticationService: firing onDidAuthenticationChange from handleAuthChangeEvent. Has token: true
+2026-03-04 20:27:24.438 [info] copilot token sku: free_limited_copilot
+2026-03-04 20:27:24.438 [info] ConversationFeature: onDidAuthenticationChange has token: true
+2026-03-04 20:27:24.438 [info] [code-referencing] Public code references are enabled.
+2026-03-04 20:27:24.862 [info] Fetched model metadata in 424ms 4692a7f8-d616-47f4-b36d-f6b1c958f955
+2026-03-04 20:27:24.937 [info] ccreq:e69a64fb.copilotmd | markdown
+2026-03-04 21:22:24.002 [info] Logged in as xxsisyphusxx-star
+2026-03-04 21:22:24.438 [info] Got Copilot token for xxsisyphusxx-star
+2026-03-04 21:22:24.438 [info] Copilot Chat: 0.37.9, VS Code: 1.109.5
+2026-03-04 21:22:24.442 [info] AuthenticationService: firing onDidAuthenticationChange from handleAuthChangeEvent. Has token: true
+2026-03-04 21:22:24.442 [info] copilot token sku: free_limited_copilot
+2026-03-04 21:22:24.442 [info] ConversationFeature: onDidAuthenticationChange has token: true
+2026-03-04 21:22:24.442 [info] [code-referencing] Public code references are enabled.
+2026-03-04 21:22:24.812 [info] Fetched model metadata in 370ms bd5e6d2b-279e-4be9-bf55-51549651ea57
+2026-03-04 21:22:24.889 [info] ccreq:748328f3.copilotmd | markdown
+2026-03-04 22:17:24.001 [info] Logged in as xxsisyphusxx-star
+2026-03-04 22:17:24.442 [info] Got Copilot token for xxsisyphusxx-star
+2026-03-04 22:17:24.442 [info] Copilot Chat: 0.37.9, VS Code: 1.109.5
+2026-03-04 22:17:24.447 [info] AuthenticationService: firing onDidAuthenticationChange from handleAuthChangeEvent. Has token: true
+2026-03-04 22:17:24.447 [info] copilot token sku: free_limited_copilot
+2026-03-04 22:17:24.447 [info] ConversationFeature: onDidAuthenticationChange has token: true
+2026-03-04 22:17:24.447 [info] [code-referencing] Public code references are enabled.
+2026-03-04 22:17:24.846 [info] Fetched model metadata in 400ms 3e99dd87-bc39-4afe-aa98-bc9b7cbc9a07
+2026-03-04 22:17:24.920 [info] ccreq:a56499fb.copilotmd | markdown
+2026-03-04 23:12:24.003 [info] Logged in as xxsisyphusxx-star
+2026-03-04 23:12:24.421 [info] Got Copilot token for xxsisyphusxx-star
+2026-03-04 23:12:24.421 [info] Copilot Chat: 0.37.9, VS Code: 1.109.5
+2026-03-04 23:12:24.425 [info] AuthenticationService: firing onDidAuthenticationChange from handleAuthChangeEvent. Has token: true
+2026-03-04 23:12:24.425 [info] copilot token sku: free_limited_copilot
+2026-03-04 23:12:24.425 [info] ConversationFeature: onDidAuthenticationChange has token: true
+2026-03-04 23:12:24.425 [info] [code-referencing] Public code references are enabled.
+2026-03-04 23:12:24.799 [info] Fetched model metadata in 374ms d8155a91-0071-4b3d-a8d3-0db2b9de0c4a
+2026-03-04 23:12:24.872 [info] ccreq:1f8c8440.copilotmd | markdown
+2026-03-05 00:07:24.002 [info] Logged in as xxsisyphusxx-star
+2026-03-05 00:07:24.442 [info] Got Copilot token for xxsisyphusxx-star
+2026-03-05 00:07:24.442 [info] Copilot Chat: 0.37.9, VS Code: 1.109.5
+2026-03-05 00:07:24.446 [info] AuthenticationService: firing onDidAuthenticationChange from handleAuthChangeEvent. Has token: true
+2026-03-05 00:07:24.446 [info] copilot token sku: free_limited_copilot
+2026-03-05 00:07:24.446 [info] ConversationFeature: onDidAuthenticationChange has token: true
+2026-03-05 00:07:24.446 [info] [code-referencing] Public code references are enabled.
+2026-03-05 00:07:24.813 [info] Fetched model metadata in 367ms dcdc01a6-57d6-4287-9b10-733dfb20327c
+2026-03-05 00:07:24.889 [info] ccreq:994e29ee.copilotmd | markdown
+2026-03-05 01:02:24.002 [info] Logged in as xxsisyphusxx-star
+2026-03-05 01:02:24.467 [info] Got Copilot token for xxsisyphusxx-star
+2026-03-05 01:02:24.467 [info] Copilot Chat: 0.37.9, VS Code: 1.109.5
+2026-03-05 01:02:24.472 [info] AuthenticationService: firing onDidAuthenticationChange from handleAuthChangeEvent. Has token: true
+2026-03-05 01:02:24.472 [info] copilot token sku: free_limited_copilot
+2026-03-05 01:02:24.472 [info] ConversationFeature: onDidAuthenticationChange has token: true
+2026-03-05 01:02:24.472 [info] [code-referencing] Public code references are enabled.
+2026-03-05 01:02:24.844 [info] Fetched model metadata in 373ms d7eff600-452a-4a8d-83bf-14648c697cb9
+2026-03-05 01:02:24.923 [info] ccreq:f9842e5a.copilotmd | markdown
+2026-03-05 01:57:24.002 [info] Logged in as xxsisyphusxx-star
+2026-03-05 01:57:24.431 [info] Got Copilot token for xxsisyphusxx-star
+2026-03-05 01:57:24.431 [info] Copilot Chat: 0.37.9, VS Code: 1.109.5
+2026-03-05 01:57:24.435 [info] AuthenticationService: firing onDidAuthenticationChange from handleAuthChangeEvent. Has token: true
+2026-03-05 01:57:24.435 [info] copilot token sku: free_limited_copilot
+2026-03-05 01:57:24.435 [info] ConversationFeature: onDidAuthenticationChange has token: true
+2026-03-05 01:57:24.435 [info] [code-referencing] Public code references are enabled.
+2026-03-05 01:57:24.840 [info] Fetched model metadata in 405ms 5cd87a6d-56f8-45af-9fd9-ea3264c5892a
+2026-03-05 01:57:24.915 [info] ccreq:676be6aa.copilotmd | markdown
+2026-03-05 02:52:25.001 [info] Logged in as xxsisyphusxx-star
+2026-03-05 02:52:25.456 [info] Got Copilot token for xxsisyphusxx-star
+2026-03-05 02:52:25.456 [info] Copilot Chat: 0.37.9, VS Code: 1.109.5
+2026-03-05 02:52:25.461 [info] AuthenticationService: firing onDidAuthenticationChange from handleAuthChangeEvent. Has token: true
+2026-03-05 02:52:25.461 [info] copilot token sku: free_limited_copilot
+2026-03-05 02:52:25.461 [info] ConversationFeature: onDidAuthenticationChange has token: true
+2026-03-05 02:52:25.461 [info] [code-referencing] Public code references are enabled.
+2026-03-05 02:52:25.849 [info] Fetched model metadata in 389ms c0780300-b558-45f7-a66e-6f1d5caabb99
+2026-03-05 02:52:25.925 [info] ccreq:f6d0d577.copilotmd | markdown
+2026-03-05 03:47:25.002 [info] Logged in as xxsisyphusxx-star
+2026-03-05 03:47:25.437 [info] Got Copilot token for xxsisyphusxx-star
+2026-03-05 03:47:25.437 [info] Copilot Chat: 0.37.9, VS Code: 1.109.5
+2026-03-05 03:47:25.441 [info] AuthenticationService: firing onDidAuthenticationChange from handleAuthChangeEvent. Has token: true
+2026-03-05 03:47:25.441 [info] copilot token sku: free_limited_copilot
+2026-03-05 03:47:25.441 [info] ConversationFeature: onDidAuthenticationChange has token: true
+2026-03-05 03:47:25.441 [info] [code-referencing] Public code references are enabled.
+2026-03-05 03:47:25.891 [info] Fetched model metadata in 450ms 03bfab26-c3a9-4a3c-8ec8-274edd207ad0
+2026-03-05 03:47:25.967 [info] ccreq:820ceba6.copilotmd | markdown
+2026-03-05 04:42:26.003 [info] Logged in as xxsisyphusxx-star
+2026-03-05 04:42:26.514 [info] Got Copilot token for xxsisyphusxx-star
+2026-03-05 04:42:26.514 [info] Copilot Chat: 0.37.9, VS Code: 1.109.5
+2026-03-05 04:42:26.518 [info] AuthenticationService: firing onDidAuthenticationChange from handleAuthChangeEvent. Has token: true
+2026-03-05 04:42:26.518 [info] copilot token sku: free_limited_copilot
+2026-03-05 04:42:26.518 [info] ConversationFeature: onDidAuthenticationChange has token: true
+2026-03-05 04:42:26.518 [info] [code-referencing] Public code references are enabled.
+2026-03-05 04:42:27.017 [info] Fetched model metadata in 499ms d89b644b-1cb4-43ed-8d53-2a9cbfe9f5f6
+2026-03-05 04:42:27.096 [info] ccreq:ef5e65b4.copilotmd | markdown
+2026-03-05 05:37:27.002 [info] Logged in as xxsisyphusxx-star
+2026-03-05 05:37:27.443 [info] Got Copilot token for xxsisyphusxx-star
+2026-03-05 05:37:27.443 [info] Copilot Chat: 0.37.9, VS Code: 1.109.5
+2026-03-05 05:37:27.448 [info] AuthenticationService: firing onDidAuthenticationChange from handleAuthChangeEvent. Has token: true
+2026-03-05 05:37:27.448 [info] copilot token sku: free_limited_copilot
+2026-03-05 05:37:27.448 [info] ConversationFeature: onDidAuthenticationChange has token: true
+2026-03-05 05:37:27.448 [info] [code-referencing] Public code references are enabled.
+2026-03-05 05:37:27.877 [info] Fetched model metadata in 430ms 0f765230-d2b3-48e4-abef-8223bb1e1d54
+2026-03-05 05:37:27.949 [info] ccreq:2ed700ef.copilotmd | markdown
+2026-03-05 05:37:33.304 [info] Refetch model metadata: Succeeded in 351ms 1167b902-b0ff-4d91-b0f2-007661453639 (DAB6:3B170D:125AC3:143DFB:69A9790D) using node-fetch with status 200.
+2026-03-05 05:37:34.702 [info] Refetch model metadata: Succeeded in 1398ms 2cb5fcc6-a0fe-4993-aa34-9ad6effa23c7 (DABC:66930:12BD07:149F4E:69A9790D) using node-http with status 200.
+2026-03-05 05:37:35.291 [info] Refetch model metadata: Succeeded in 589ms a2bf0dd5-625c-4b78-a79b-529938ebfcb1 (DABE:2F9C83:12FEBF:14DED7:69A9790E) using electron-fetch with status 200.
+2026-03-05 06:32:28.003 [info] Logged in as xxsisyphusxx-star
+2026-03-05 06:32:28.788 [info] Got Copilot token for xxsisyphusxx-star
+2026-03-05 06:32:28.788 [info] Copilot Chat: 0.37.9, VS Code: 1.109.5
+2026-03-05 06:32:28.792 [info] AuthenticationService: firing onDidAuthenticationChange from handleAuthChangeEvent. Has token: true
+2026-03-05 06:32:28.792 [info] copilot token sku: free_limited_copilot
+2026-03-05 06:32:28.792 [info] ConversationFeature: onDidAuthenticationChange has token: true
+2026-03-05 06:32:28.792 [info] [code-referencing] Public code references are enabled.
+2026-03-05 06:32:29.159 [info] Fetched model metadata in 367ms 1d5b6e15-77aa-4b23-aefc-07ff1096c7dd
+2026-03-05 06:32:29.232 [info] ccreq:cd2b678d.copilotmd | markdown
+2026-03-05 07:27:29.002 [info] Logged in as xxsisyphusxx-star
+2026-03-05 07:27:29.523 [info] Got Copilot token for xxsisyphusxx-star
+2026-03-05 07:27:29.523 [info] Copilot Chat: 0.37.9, VS Code: 1.109.5
+2026-03-05 07:27:29.527 [info] AuthenticationService: firing onDidAuthenticationChange from handleAuthChangeEvent. Has token: true
+2026-03-05 07:27:29.527 [info] copilot token sku: free_limited_copilot
+2026-03-05 07:27:29.527 [info] ConversationFeature: onDidAuthenticationChange has token: true
+2026-03-05 07:27:29.527 [info] [code-referencing] Public code references are enabled.
+2026-03-05 07:27:30.132 [info] Fetched model metadata in 605ms 5edc3ec7-0ff7-4373-841a-c342fcd4f028
+2026-03-05 07:27:30.203 [info] ccreq:5eb41a10.copilotmd | markdown
+2026-03-05 08:22:30.002 [info] Logged in as xxsisyphusxx-star
+2026-03-05 08:22:30.514 [info] Got Copilot token for xxsisyphusxx-star
+2026-03-05 08:22:30.514 [info] Copilot Chat: 0.37.9, VS Code: 1.109.5
+2026-03-05 08:22:30.518 [info] AuthenticationService: firing onDidAuthenticationChange from handleAuthChangeEvent. Has token: true
+2026-03-05 08:22:30.518 [info] copilot token sku: free_limited_copilot
+2026-03-05 08:22:30.518 [info] ConversationFeature: onDidAuthenticationChange has token: true
+2026-03-05 08:22:30.518 [info] [code-referencing] Public code references are enabled.
+2026-03-05 08:22:30.919 [info] Fetched model metadata in 401ms d76a2bc7-9f3f-4cc6-b465-0a369918c59a
+2026-03-05 08:22:30.998 [info] ccreq:a1458188.copilotmd | markdown
+2026-03-05 09:17:31.002 [info] Logged in as xxsisyphusxx-star
+2026-03-05 09:17:31.446 [info] Got Copilot token for xxsisyphusxx-star
+2026-03-05 09:17:31.446 [info] Copilot Chat: 0.37.9, VS Code: 1.109.5
+2026-03-05 09:17:31.450 [info] AuthenticationService: firing onDidAuthenticationChange from handleAuthChangeEvent. Has token: true
+2026-03-05 09:17:31.450 [info] copilot token sku: free_limited_copilot
+2026-03-05 09:17:31.450 [info] ConversationFeature: onDidAuthenticationChange has token: true
+2026-03-05 09:17:31.450 [info] [code-referencing] Public code references are enabled.
+2026-03-05 09:17:31.951 [info] Fetched model metadata in 501ms cd9e0872-7f62-4052-b45b-7d7ee627eceb
+2026-03-05 09:17:32.037 [info] ccreq:0abf3562.copilotmd | markdown
+2026-03-05 10:12:32.002 [info] Logged in as xxsisyphusxx-star
+2026-03-05 10:12:32.428 [info] Got Copilot token for xxsisyphusxx-star
+2026-03-05 10:12:32.428 [info] Copilot Chat: 0.37.9, VS Code: 1.109.5
+2026-03-05 10:12:32.432 [info] AuthenticationService: firing onDidAuthenticationChange from handleAuthChangeEvent. Has token: true
+2026-03-05 10:12:32.432 [info] copilot token sku: free_limited_copilot
+2026-03-05 10:12:32.432 [info] ConversationFeature: onDidAuthenticationChange has token: true
+2026-03-05 10:12:32.432 [info] [code-referencing] Public code references are enabled.
+2026-03-05 10:12:32.841 [info] Fetched model metadata in 409ms a7036483-4ab0-49b1-af1e-4f760cd87d3f
+2026-03-05 10:12:32.916 [info] ccreq:215ddc7c.copilotmd | markdown
+2026-03-05 11:07:32.002 [info] Logged in as xxsisyphusxx-star
+2026-03-05 11:07:32.424 [info] Got Copilot token for xxsisyphusxx-star
+2026-03-05 11:07:32.424 [info] Copilot Chat: 0.37.9, VS Code: 1.109.5
+2026-03-05 11:07:32.428 [info] AuthenticationService: firing onDidAuthenticationChange from handleAuthChangeEvent. Has token: true
+2026-03-05 11:07:32.428 [info] copilot token sku: free_limited_copilot
+2026-03-05 11:07:32.428 [info] ConversationFeature: onDidAuthenticationChange has token: true
+2026-03-05 11:07:32.428 [info] [code-referencing] Public code references are enabled.
+2026-03-05 11:07:32.875 [info] Fetched model metadata in 447ms ff583acb-9e03-46d7-a1e0-506b65aa2e14
+2026-03-05 11:07:32.946 [info] ccreq:cadc7af9.copilotmd | markdown
+2026-03-05 12:02:33.002 [info] Logged in as xxsisyphusxx-star
+2026-03-05 12:02:33.435 [info] Got Copilot token for xxsisyphusxx-star
+2026-03-05 12:02:33.435 [info] Copilot Chat: 0.37.9, VS Code: 1.109.5
+2026-03-05 12:02:33.439 [info] AuthenticationService: firing onDidAuthenticationChange from handleAuthChangeEvent. Has token: true
+2026-03-05 12:02:33.439 [info] copilot token sku: free_limited_copilot
+2026-03-05 12:02:33.439 [info] ConversationFeature: onDidAuthenticationChange has token: true
+2026-03-05 12:02:33.439 [info] [code-referencing] Public code references are enabled.
+2026-03-05 12:02:33.829 [info] Fetched model metadata in 390ms 2f0561b3-e3a9-4b70-ae95-11814588d007
+2026-03-05 12:02:33.902 [info] ccreq:b31e137e.copilotmd | markdown
+2026-03-05 12:57:33.002 [info] Logged in as xxsisyphusxx-star
+2026-03-05 12:57:33.506 [info] Got Copilot token for xxsisyphusxx-star
+2026-03-05 12:57:33.506 [info] Copilot Chat: 0.37.9, VS Code: 1.109.5
+2026-03-05 12:57:33.510 [info] AuthenticationService: firing onDidAuthenticationChange from handleAuthChangeEvent. Has token: true
+2026-03-05 12:57:33.510 [info] copilot token sku: free_limited_copilot
+2026-03-05 12:57:33.510 [info] ConversationFeature: onDidAuthenticationChange has token: true
+2026-03-05 12:57:33.510 [info] [code-referencing] Public code references are enabled.
+2026-03-05 12:57:33.881 [info] Fetched model metadata in 371ms 5fe950d1-1f69-4b3b-b94b-40063e76d29b
+2026-03-05 12:57:33.955 [info] ccreq:93975c1a.copilotmd | markdown
+2026-03-05 13:52:34.009 [info] Logged in as xxsisyphusxx-star
+2026-03-05 13:52:34.571 [info] Got Copilot token for xxsisyphusxx-star
+2026-03-05 13:52:34.571 [info] Copilot Chat: 0.37.9, VS Code: 1.109.5
+2026-03-05 13:52:34.583 [info] AuthenticationService: firing onDidAuthenticationChange from handleAuthChangeEvent. Has token: true
+2026-03-05 13:52:34.583 [info] copilot token sku: free_limited_copilot
+2026-03-05 13:52:34.583 [info] ConversationFeature: onDidAuthenticationChange has token: true
+2026-03-05 13:52:34.583 [info] [code-referencing] Public code references are enabled.
+2026-03-05 13:52:34.982 [info] Fetched model metadata in 399ms ecb4c007-eeab-4e30-af2e-b86a4cd0d731
+2026-03-05 13:52:35.057 [info] ccreq:7fc88601.copilotmd | markdown
+2026-03-05 14:47:35.002 [info] Logged in as xxsisyphusxx-star
+2026-03-05 14:47:35.592 [info] Got Copilot token for xxsisyphusxx-star
+2026-03-05 14:47:35.592 [info] Copilot Chat: 0.37.9, VS Code: 1.109.5
+2026-03-05 14:47:35.596 [info] AuthenticationService: firing onDidAuthenticationChange from handleAuthChangeEvent. Has token: true
+2026-03-05 14:47:35.596 [info] copilot token sku: free_limited_copilot
+2026-03-05 14:47:35.596 [info] ConversationFeature: onDidAuthenticationChange has token: true
+2026-03-05 14:47:35.596 [info] [code-referencing] Public code references are enabled.
+2026-03-05 14:47:36.005 [info] Fetched model metadata in 409ms 81bcdb71-da76-4c48-8aa9-4ece69fdee86
+2026-03-05 14:47:36.081 [info] ccreq:a6f613fd.copilotmd | markdown
+2026-03-05 15:42:36.002 [info] Logged in as xxsisyphusxx-star
+2026-03-05 15:42:36.605 [info] Got Copilot token for xxsisyphusxx-star
+2026-03-05 15:42:36.605 [info] Copilot Chat: 0.37.9, VS Code: 1.109.5
+2026-03-05 15:42:36.609 [info] AuthenticationService: firing onDidAuthenticationChange from handleAuthChangeEvent. Has token: true
+2026-03-05 15:42:36.609 [info] copilot token sku: free_limited_copilot
+2026-03-05 15:42:36.609 [info] ConversationFeature: onDidAuthenticationChange has token: true
+2026-03-05 15:42:36.609 [info] [code-referencing] Public code references are enabled.
+2026-03-05 15:42:36.983 [info] Fetched model metadata in 374ms d4e1c83f-e7a3-4af9-a9d1-18771a1ccb97
+2026-03-05 15:42:37.059 [info] ccreq:4fdd16e9.copilotmd | markdown
+2026-03-05 16:37:37.001 [info] Logged in as xxsisyphusxx-star
+2026-03-05 16:37:37.425 [info] Got Copilot token for xxsisyphusxx-star
+2026-03-05 16:37:37.425 [info] Copilot Chat: 0.37.9, VS Code: 1.109.5
+2026-03-05 16:37:37.429 [info] AuthenticationService: firing onDidAuthenticationChange from handleAuthChangeEvent. Has token: true
+2026-03-05 16:37:37.429 [info] copilot token sku: free_limited_copilot
+2026-03-05 16:37:37.429 [info] ConversationFeature: onDidAuthenticationChange has token: true
+2026-03-05 16:37:37.429 [info] [code-referencing] Public code references are enabled.
+2026-03-05 16:37:37.814 [info] Fetched model metadata in 385ms 4e20eec8-837a-4b2f-b5c3-4149d34aa89b
+2026-03-05 16:37:37.891 [info] ccreq:f0727c81.copilotmd | markdown
+2026-03-05 17:32:37.001 [info] Logged in as xxsisyphusxx-star
+2026-03-05 17:32:37.428 [info] Got Copilot token for xxsisyphusxx-star
+2026-03-05 17:32:37.428 [info] Copilot Chat: 0.37.9, VS Code: 1.109.5
+2026-03-05 17:32:37.432 [info] AuthenticationService: firing onDidAuthenticationChange from handleAuthChangeEvent. Has token: true
+2026-03-05 17:32:37.432 [info] copilot token sku: free_limited_copilot
+2026-03-05 17:32:37.432 [info] ConversationFeature: onDidAuthenticationChange has token: true
+2026-03-05 17:32:37.432 [info] [code-referencing] Public code references are enabled.
+2026-03-05 17:32:37.785 [info] Fetched model metadata in 353ms 1f325477-2aae-4219-9607-9e7cb8c403f5
+2026-03-05 17:32:37.856 [info] ccreq:e7cfdc1a.copilotmd | markdown
+2026-03-05 18:27:37.003 [info] Logged in as xxsisyphusxx-star
+2026-03-05 18:27:37.427 [info] Got Copilot token for xxsisyphusxx-star
+2026-03-05 18:27:37.427 [info] Copilot Chat: 0.37.9, VS Code: 1.109.5
+2026-03-05 18:27:37.432 [info] AuthenticationService: firing onDidAuthenticationChange from handleAuthChangeEvent. Has token: true
+2026-03-05 18:27:37.432 [info] copilot token sku: free_limited_copilot
+2026-03-05 18:27:37.432 [info] ConversationFeature: onDidAuthenticationChange has token: true
+2026-03-05 18:27:37.432 [info] [code-referencing] Public code references are enabled.
+2026-03-05 18:27:37.824 [info] Fetched model metadata in 393ms 65d4bef2-17b1-4479-8a8e-a25596a2fb7a
+2026-03-05 18:27:37.899 [info] ccreq:9b313747.copilotmd | markdown
+2026-03-05 19:22:37.001 [info] Logged in as xxsisyphusxx-star
+2026-03-05 19:22:37.519 [info] Got Copilot token for xxsisyphusxx-star
+2026-03-05 19:22:37.519 [info] Copilot Chat: 0.37.9, VS Code: 1.109.5
+2026-03-05 19:22:37.524 [info] AuthenticationService: firing onDidAuthenticationChange from handleAuthChangeEvent. Has token: true
+2026-03-05 19:22:37.524 [info] copilot token sku: free_limited_copilot
+2026-03-05 19:22:37.524 [info] ConversationFeature: onDidAuthenticationChange has token: true
+2026-03-05 19:22:37.524 [info] [code-referencing] Public code references are enabled.
+2026-03-05 19:22:37.881 [info] Fetched model metadata in 358ms dd389f9d-96bb-4b3d-ba8a-39ef898b9ffc
+2026-03-05 19:22:37.956 [info] ccreq:d905c3d4.copilotmd | markdown
+2026-03-05 20:17:38.002 [info] Logged in as xxsisyphusxx-star
+2026-03-05 20:17:38.403 [info] Got Copilot token for xxsisyphusxx-star
+2026-03-05 20:17:38.403 [info] Copilot Chat: 0.37.9, VS Code: 1.109.5
+2026-03-05 20:17:38.407 [info] AuthenticationService: firing onDidAuthenticationChange from handleAuthChangeEvent. Has token: true
+2026-03-05 20:17:38.407 [info] copilot token sku: free_limited_copilot
+2026-03-05 20:17:38.407 [info] ConversationFeature: onDidAuthenticationChange has token: true
+2026-03-05 20:17:38.407 [info] [code-referencing] Public code references are enabled.
+2026-03-05 20:17:38.832 [info] Fetched model metadata in 425ms 46d77b30-38a7-43ce-8532-be42ed6179b9
+2026-03-05 20:17:38.902 [info] ccreq:18a61874.copilotmd | markdown
+2026-03-05 21:12:38.002 [info] Logged in as xxsisyphusxx-star
+2026-03-05 21:12:38.419 [info] Got Copilot token for xxsisyphusxx-star
+2026-03-05 21:12:38.419 [info] Copilot Chat: 0.37.9, VS Code: 1.109.5
+2026-03-05 21:12:38.423 [info] AuthenticationService: firing onDidAuthenticationChange from handleAuthChangeEvent. Has token: true
+2026-03-05 21:12:38.423 [info] copilot token sku: free_limited_copilot
+2026-03-05 21:12:38.423 [info] ConversationFeature: onDidAuthenticationChange has token: true
+2026-03-05 21:12:38.423 [info] [code-referencing] Public code references are enabled.
+2026-03-05 21:12:38.816 [info] Fetched model metadata in 393ms 9e6cf29f-728e-478d-9a13-6b309786a307
+2026-03-05 21:12:38.894 [info] ccreq:132eabdd.copilotmd | markdown
+2026-03-05 21:50:20.128 [warning] [relatedFiles] unknown language shellscript
+2026-03-05 21:50:20.259 [info] [fetchCompletions] Request fb87da3b-32d8-4b98-9ffd-92a491be880f at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 401 status after 117.3707309961319ms
+2026-03-05 21:50:20.265 [warning] [fetchCompletions] Response status was 401: unauthorized: token expired
+
+2026-03-05 21:50:20.285 [info] ccreq:5d0acfd3.copilotmd | markdown
+2026-03-05 21:50:20.320 [info] Logged in as xxsisyphusxx-star
+2026-03-05 21:50:20.740 [info] Got Copilot token for xxsisyphusxx-star
+2026-03-05 21:50:20.740 [info] Copilot Chat: 0.37.9, VS Code: 1.109.5
+2026-03-05 21:50:20.745 [info] AuthenticationService: firing onDidAuthenticationChange from handleAuthChangeEvent. Has token: true
+2026-03-05 21:50:20.745 [info] copilot token sku: free_limited_copilot
+2026-03-05 21:50:20.745 [info] ConversationFeature: onDidAuthenticationChange has token: true
+2026-03-05 21:50:20.745 [info] [code-referencing] Public code references are enabled.
+2026-03-05 21:50:20.765 [info] AuthenticationService: firing onDidAuthenticationChange from handleAuthChangeEvent. Has token: true
+2026-03-05 21:50:20.765 [info] copilot token sku: free_limited_copilot
+2026-03-05 21:50:20.765 [info] ConversationFeature: onDidAuthenticationChange has token: true
+2026-03-05 21:50:20.765 [info] [code-referencing] Public code references are enabled.
+2026-03-05 21:50:21.121 [info] Fetched model metadata in 376ms 455f9275-cbe4-4339-a388-8107956c851b
+2026-03-05 21:50:21.196 [info] ccreq:455a75e4.copilotmd | markdown
+2026-03-05 21:50:22.458 [info] message 0 returned. finish reason: [stop]
+2026-03-05 21:50:22.459 [info] request done: requestId: [46c674a6-82dd-4678-9b58-90be8e6e6045] model deployment ID: []
+2026-03-05 21:50:22.616 [info] ccreq:5be1f70b.copilotmd | success | nes-callisto-003 | 369ms | [XtabProvider]
+2026-03-05 21:50:22.619 [info] ccreq:6843bcd8.copilotmd | markdown
+2026-03-05 21:50:45.448 [info] ccreq:90761f1b.copilotmd | markdown
+2026-03-05 21:50:45.744 [info] message 0 returned. finish reason: [stop]
+2026-03-05 21:50:45.744 [info] request done: requestId: [6dbec96f-bf94-447d-a9fc-719782a88411] model deployment ID: []
+2026-03-05 21:50:45.892 [info] ccreq:c67bd2b9.copilotmd | success | nes-callisto-003 | 342ms | [XtabProvider]
+2026-03-05 21:50:46.237 [info] ccreq:b293d315.copilotmd | markdown
+2026-03-05 21:50:52.473 [info] ccreq:6e2df330.copilotmd | markdown
+2026-03-05 21:50:53.968 [info] ccreq:4b8b2d8c.copilotmd | markdown
+2026-03-05 21:50:54.254 [info] message 0 returned. finish reason: [stop]
+2026-03-05 21:50:54.254 [info] request done: requestId: [09e27ca3-a015-434d-90d1-c3c50d1202a3] model deployment ID: []
+2026-03-05 21:50:54.255 [info] ccreq:072ab7ae.copilotmd | success | nes-callisto-003 | 187ms | [XtabProvider]
+2026-03-05 21:50:55.214 [info] ccreq:b167de1d.copilotmd | markdown
+2026-03-05 21:51:12.710 [info] ccreq:9e284c18.copilotmd | markdown
+2026-03-05 21:51:12.941 [info] ccreq:68d9039f.copilotmd | markdown
+2026-03-05 21:51:13.026 [info] message 0 returned. finish reason: [stop]
+2026-03-05 21:51:13.027 [info] request done: requestId: [376f87f8-66b6-47e0-bdde-b2733186a6a6] model deployment ID: []
+2026-03-05 21:51:13.153 [info] ccreq:625998ef.copilotmd | success | nes-callisto-003 | 341ms | [XtabProvider]
+2026-03-05 21:51:13.154 [info] ccreq:88fa2fc7.copilotmd | markdown
+2026-03-05 21:51:13.442 [info] message 0 returned. finish reason: [stop]
+2026-03-05 21:51:13.442 [info] request done: requestId: [95c67259-9944-4233-8c80-cd15faad1725] model deployment ID: []
+2026-03-05 21:51:13.443 [info] ccreq:09fc2471.copilotmd | success | nes-callisto-003 | 190ms | [XtabProvider]
+2026-03-05 21:51:13.539 [info] ccreq:b3156e6a.copilotmd | markdown
+2026-03-05 21:51:13.550 [info] ccreq:d52ab694.copilotmd | markdown
+2026-03-05 21:51:13.583 [info] ccreq:08347b24.copilotmd | markdown
+2026-03-05 21:51:13.633 [info] ccreq:fe265c2b.copilotmd | markdown
+2026-03-05 21:51:13.667 [info] ccreq:f452466d.copilotmd | markdown
+2026-03-05 21:51:13.718 [info] ccreq:f1b15dd8.copilotmd | markdown
+2026-03-05 21:51:13.751 [info] ccreq:d13fc490.copilotmd | markdown
+2026-03-05 21:51:13.800 [info] ccreq:f1dbb7e1.copilotmd | markdown
+2026-03-05 21:51:13.833 [info] ccreq:90542f86.copilotmd | markdown
+2026-03-05 21:51:13.866 [info] ccreq:e386f998.copilotmd | markdown
+2026-03-05 21:51:13.917 [info] ccreq:371baea3.copilotmd | markdown
+2026-03-05 21:51:13.950 [info] ccreq:87607154.copilotmd | markdown
+2026-03-05 21:51:14.002 [info] ccreq:a61ecb5c.copilotmd | markdown
+2026-03-05 21:51:14.033 [info] ccreq:6393ca74.copilotmd | markdown
+2026-03-05 21:51:14.067 [info] ccreq:75a61e23.copilotmd | markdown
+2026-03-05 21:51:14.117 [info] ccreq:0201306e.copilotmd | markdown
+2026-03-05 21:51:14.150 [info] ccreq:191e0daa.copilotmd | markdown
+2026-03-05 21:51:14.200 [info] ccreq:b4b8baa1.copilotmd | markdown
+2026-03-05 21:51:14.234 [info] ccreq:d23f671c.copilotmd | markdown
+2026-03-05 21:51:14.283 [info] ccreq:7fed5f17.copilotmd | markdown
+2026-03-05 21:51:14.316 [info] ccreq:08e95cf4.copilotmd | markdown
+2026-03-05 21:51:14.657 [info] message 0 returned. finish reason: [stop]
+2026-03-05 21:51:14.657 [info] request done: requestId: [e844d173-7ce1-4dfe-ab8f-c6945fb3500a] model deployment ID: []
+2026-03-05 21:51:14.658 [info] ccreq:c05cddba.copilotmd | success | nes-callisto-003 | 240ms | [XtabProvider]
+2026-03-05 21:51:14.666 [info] ccreq:514723ef.copilotmd | markdown
+2026-03-05 21:51:14.684 [info] ccreq:7873c6f7.copilotmd | markdown
+2026-03-05 21:51:15.016 [info] message 0 returned. finish reason: [stop]
+2026-03-05 21:51:15.016 [info] request done: requestId: [5e0c1ab9-a6a3-46ae-988e-4215375e78b3] model deployment ID: []
+2026-03-05 21:51:15.017 [info] ccreq:f93d80f9.copilotmd | success | nes-callisto-003 | 233ms | [XtabProvider]
+2026-03-05 21:51:15.026 [info] ccreq:ac9a899a.copilotmd | markdown
+2026-03-05 21:51:15.034 [info] ccreq:0a514beb.copilotmd | markdown
+2026-03-05 21:51:15.320 [info] message 0 returned. finish reason: [stop]
+2026-03-05 21:51:15.320 [info] request done: requestId: [d84c7c28-a5ec-456f-be1d-3da30c504d95] model deployment ID: []
+2026-03-05 21:51:15.322 [info] ccreq:1f0c5d50.copilotmd | success | nes-callisto-003 | 188ms | [XtabProvider]
+2026-03-05 21:51:16.277 [info] ccreq:3865b326.copilotmd | markdown
+2026-03-05 21:51:16.717 [info] ccreq:24f8674c.copilotmd | markdown
+2026-03-05 21:51:17.035 [info] message 0 returned. finish reason: [stop]
+2026-03-05 21:51:17.035 [info] request done: requestId: [22e11361-b901-40e7-a15a-9b801057c6ce] model deployment ID: []
+2026-03-05 21:51:17.036 [info] ccreq:814fdd82.copilotmd | success | nes-callisto-003 | 217ms | [XtabProvider]
+2026-03-05 21:51:17.966 [info] ccreq:4fd19f8f.copilotmd | markdown
+2026-03-05 22:45:21.002 [info] Logged in as xxsisyphusxx-star
+2026-03-05 22:45:21.523 [info] Got Copilot token for xxsisyphusxx-star
+2026-03-05 22:45:21.523 [info] Copilot Chat: 0.37.9, VS Code: 1.109.5
+2026-03-05 22:45:21.528 [info] AuthenticationService: firing onDidAuthenticationChange from handleAuthChangeEvent. Has token: true
+2026-03-05 22:45:21.528 [info] copilot token sku: free_limited_copilot
+2026-03-05 22:45:21.528 [info] ConversationFeature: onDidAuthenticationChange has token: true
+2026-03-05 22:45:21.528 [info] [code-referencing] Public code references are enabled.
+2026-03-05 22:45:21.935 [info] Fetched model metadata in 407ms 6174c302-3332-419f-bb8c-f41eb729a0f5
+2026-03-05 22:45:22.011 [info] ccreq:ba377f7f.copilotmd | markdown
+2026-03-05 23:40:22.001 [info] Logged in as xxsisyphusxx-star
+2026-03-05 23:40:22.460 [info] Got Copilot token for xxsisyphusxx-star
+2026-03-05 23:40:22.460 [info] Copilot Chat: 0.37.9, VS Code: 1.109.5
+2026-03-05 23:40:22.465 [info] AuthenticationService: firing onDidAuthenticationChange from handleAuthChangeEvent. Has token: true
+2026-03-05 23:40:22.465 [info] copilot token sku: free_limited_copilot
+2026-03-05 23:40:22.465 [info] ConversationFeature: onDidAuthenticationChange has token: true
+2026-03-05 23:40:22.465 [info] [code-referencing] Public code references are enabled.
+2026-03-05 23:40:22.821 [info] Fetched model metadata in 356ms 8fc4d8fc-ae8c-49f2-a5c2-f021d7e629c6
+2026-03-05 23:40:22.895 [info] ccreq:586275f5.copilotmd | markdown
+2026-03-06 00:35:22.002 [info] Logged in as xxsisyphusxx-star
+2026-03-06 00:35:22.424 [info] Got Copilot token for xxsisyphusxx-star
+2026-03-06 00:35:22.424 [info] Copilot Chat: 0.37.9, VS Code: 1.109.5
+2026-03-06 00:35:22.429 [info] AuthenticationService: firing onDidAuthenticationChange from handleAuthChangeEvent. Has token: true
+2026-03-06 00:35:22.429 [info] copilot token sku: free_limited_copilot
+2026-03-06 00:35:22.429 [info] ConversationFeature: onDidAuthenticationChange has token: true
+2026-03-06 00:35:22.429 [info] [code-referencing] Public code references are enabled.
+2026-03-06 00:35:22.811 [info] Fetched model metadata in 383ms 7df8ee42-a406-4f75-84cd-900ab82d414c
+2026-03-06 00:35:22.883 [info] ccreq:74023d6a.copilotmd | markdown
+2026-03-06 01:30:22.003 [info] Logged in as xxsisyphusxx-star
+2026-03-06 01:30:22.569 [info] Got Copilot token for xxsisyphusxx-star
+2026-03-06 01:30:22.569 [info] Copilot Chat: 0.37.9, VS Code: 1.109.5
+2026-03-06 01:30:22.573 [info] AuthenticationService: firing onDidAuthenticationChange from handleAuthChangeEvent. Has token: true
+2026-03-06 01:30:22.573 [info] copilot token sku: free_limited_copilot
+2026-03-06 01:30:22.573 [info] ConversationFeature: onDidAuthenticationChange has token: true
+2026-03-06 01:30:22.573 [info] [code-referencing] Public code references are enabled.
+2026-03-06 01:30:22.960 [info] Fetched model metadata in 387ms 247750e2-ec0e-4731-9363-2d9528a98d25
+2026-03-06 01:30:23.037 [info] ccreq:e1d83909.copilotmd | markdown
+2026-03-06 02:25:23.003 [info] Logged in as xxsisyphusxx-star
+2026-03-06 02:25:23.465 [info] Got Copilot token for xxsisyphusxx-star
+2026-03-06 02:25:23.465 [info] Copilot Chat: 0.37.9, VS Code: 1.109.5
+2026-03-06 02:25:23.469 [info] AuthenticationService: firing onDidAuthenticationChange from handleAuthChangeEvent. Has token: true
+2026-03-06 02:25:23.469 [info] copilot token sku: free_limited_copilot
+2026-03-06 02:25:23.469 [info] ConversationFeature: onDidAuthenticationChange has token: true
+2026-03-06 02:25:23.469 [info] [code-referencing] Public code references are enabled.
+2026-03-06 02:25:23.916 [info] Fetched model metadata in 447ms 35f8639e-bab1-42af-911e-d4816bae20bc
+2026-03-06 02:25:23.986 [info] ccreq:681414c0.copilotmd | markdown
+2026-03-06 03:20:24.002 [info] Logged in as xxsisyphusxx-star
+2026-03-06 03:20:24.692 [info] Got Copilot token for xxsisyphusxx-star
+2026-03-06 03:20:24.692 [info] Copilot Chat: 0.37.9, VS Code: 1.109.5
+2026-03-06 03:20:24.697 [info] AuthenticationService: firing onDidAuthenticationChange from handleAuthChangeEvent. Has token: true
+2026-03-06 03:20:24.697 [info] copilot token sku: free_limited_copilot
+2026-03-06 03:20:24.697 [info] ConversationFeature: onDidAuthenticationChange has token: true
+2026-03-06 03:20:24.697 [info] [code-referencing] Public code references are enabled.
+2026-03-06 03:20:25.116 [info] Fetched model metadata in 419ms c0533824-e755-4590-bc8c-260be0a0c4b4
+2026-03-06 03:20:25.192 [info] ccreq:eb3a72ff.copilotmd | markdown
+2026-03-06 04:15:25.002 [info] Logged in as xxsisyphusxx-star
+2026-03-06 04:15:25.483 [info] Got Copilot token for xxsisyphusxx-star
+2026-03-06 04:15:25.483 [info] Copilot Chat: 0.37.9, VS Code: 1.109.5
+2026-03-06 04:15:25.488 [info] AuthenticationService: firing onDidAuthenticationChange from handleAuthChangeEvent. Has token: true
+2026-03-06 04:15:25.488 [info] copilot token sku: free_limited_copilot
+2026-03-06 04:15:25.488 [info] ConversationFeature: onDidAuthenticationChange has token: true
+2026-03-06 04:15:25.488 [info] [code-referencing] Public code references are enabled.
+2026-03-06 04:15:25.863 [info] Fetched model metadata in 375ms 92977af0-65fa-48d1-a7e5-725d127fd672
+2026-03-06 04:15:25.940 [info] ccreq:42f66db6.copilotmd | markdown
+2026-03-06 05:10:26.003 [info] Logged in as xxsisyphusxx-star
+2026-03-06 05:10:26.548 [info] Got Copilot token for xxsisyphusxx-star
+2026-03-06 05:10:26.548 [info] Copilot Chat: 0.37.9, VS Code: 1.109.5
+2026-03-06 05:10:26.552 [info] AuthenticationService: firing onDidAuthenticationChange from handleAuthChangeEvent. Has token: true
+2026-03-06 05:10:26.552 [info] copilot token sku: free_limited_copilot
+2026-03-06 05:10:26.552 [info] ConversationFeature: onDidAuthenticationChange has token: true
+2026-03-06 05:10:26.552 [info] [code-referencing] Public code references are enabled.
+2026-03-06 05:10:26.938 [info] Fetched model metadata in 386ms 03dd7377-5133-4931-ad9e-11a1a61a3975
+2026-03-06 05:10:27.015 [info] ccreq:7ba49fae.copilotmd | markdown
+2026-03-06 06:05:27.002 [info] Logged in as xxsisyphusxx-star
+2026-03-06 06:05:27.477 [info] Got Copilot token for xxsisyphusxx-star
+2026-03-06 06:05:27.477 [info] Copilot Chat: 0.37.9, VS Code: 1.109.5
+2026-03-06 06:05:27.481 [info] AuthenticationService: firing onDidAuthenticationChange from handleAuthChangeEvent. Has token: true
+2026-03-06 06:05:27.481 [info] copilot token sku: free_limited_copilot
+2026-03-06 06:05:27.481 [info] ConversationFeature: onDidAuthenticationChange has token: true
+2026-03-06 06:05:27.481 [info] [code-referencing] Public code references are enabled.
+2026-03-06 06:05:27.911 [info] Fetched model metadata in 430ms 9f20716b-28d2-470e-9289-e5e4e16591b2
+2026-03-06 06:05:27.985 [info] ccreq:452ff44a.copilotmd | markdown
+2026-03-06 07:00:28.002 [info] Logged in as xxsisyphusxx-star
+2026-03-06 07:00:28.468 [info] Got Copilot token for xxsisyphusxx-star
+2026-03-06 07:00:28.468 [info] Copilot Chat: 0.37.9, VS Code: 1.109.5
+2026-03-06 07:00:28.474 [info] AuthenticationService: firing onDidAuthenticationChange from handleAuthChangeEvent. Has token: true
+2026-03-06 07:00:28.474 [info] copilot token sku: free_limited_copilot
+2026-03-06 07:00:28.474 [info] ConversationFeature: onDidAuthenticationChange has token: true
+2026-03-06 07:00:28.474 [info] [code-referencing] Public code references are enabled.
+2026-03-06 07:00:28.868 [info] Fetched model metadata in 394ms 5dae4bfc-caa9-449a-96ac-539a1c45055b
+2026-03-06 07:00:28.944 [info] ccreq:46865e75.copilotmd | markdown
+2026-03-06 07:55:29.002 [info] Logged in as xxsisyphusxx-star
+2026-03-06 07:55:29.543 [info] Got Copilot token for xxsisyphusxx-star
+2026-03-06 07:55:29.543 [info] Copilot Chat: 0.37.9, VS Code: 1.109.5
+2026-03-06 07:55:29.548 [info] AuthenticationService: firing onDidAuthenticationChange from handleAuthChangeEvent. Has token: true
+2026-03-06 07:55:29.548 [info] copilot token sku: free_limited_copilot
+2026-03-06 07:55:29.548 [info] ConversationFeature: onDidAuthenticationChange has token: true
+2026-03-06 07:55:29.548 [info] [code-referencing] Public code references are enabled.
+2026-03-06 07:55:29.948 [info] Fetched model metadata in 400ms 6c18a1f0-e05f-4154-aa09-baaf7fd85e01
+2026-03-06 07:55:30.020 [info] ccreq:b49fa3a1.copilotmd | markdown
+2026-03-06 07:55:35.364 [info] Refetch model metadata: Succeeded in 340ms 99225ac6-c89a-42fa-8637-1cd7f5d05d33 (D6BC:3E039E:3E1D64B:44E6E1C:69AAEAE7) using node-http with status 200.
+2026-03-06 07:55:35.688 [info] Refetch model metadata: Succeeded in 324ms cebb2284-5e17-4fbb-a433-0e51a3a925ef (D6C6:C2BFB:3D1E8E7:43EEB55:69AAEAE7) using electron-fetch with status 200.
+2026-03-06 07:55:36.055 [info] Refetch model metadata: Succeeded in 367ms 15cb486d-e08f-4d63-a88c-37f964a9d62b (CAC4:B24FA:3E35F16:44FF186:69AAEAE7) using node-fetch with status 200.
+2026-03-06 08:50:30.003 [info] Logged in as xxsisyphusxx-star
+2026-03-06 08:50:30.625 [info] Got Copilot token for xxsisyphusxx-star
+2026-03-06 08:50:30.625 [info] Copilot Chat: 0.37.9, VS Code: 1.109.5
+2026-03-06 08:50:30.630 [info] AuthenticationService: firing onDidAuthenticationChange from handleAuthChangeEvent. Has token: true
+2026-03-06 08:50:30.630 [info] copilot token sku: free_limited_copilot
+2026-03-06 08:50:30.630 [info] ConversationFeature: onDidAuthenticationChange has token: true
+2026-03-06 08:50:30.630 [info] [code-referencing] Public code references are enabled.
+2026-03-06 08:50:31.015 [info] Fetched model metadata in 385ms d1476959-bc00-4264-8291-46c46d439cdd
+2026-03-06 08:50:31.091 [info] ccreq:e3c73ed2.copilotmd | markdown
+2026-03-06 09:45:31.002 [info] Logged in as xxsisyphusxx-star
+2026-03-06 09:45:31.524 [info] Got Copilot token for xxsisyphusxx-star
+2026-03-06 09:45:31.524 [info] Copilot Chat: 0.37.9, VS Code: 1.109.5
+2026-03-06 09:45:31.529 [info] AuthenticationService: firing onDidAuthenticationChange from handleAuthChangeEvent. Has token: true
+2026-03-06 09:45:31.529 [info] copilot token sku: free_limited_copilot
+2026-03-06 09:45:31.529 [info] ConversationFeature: onDidAuthenticationChange has token: true
+2026-03-06 09:45:31.529 [info] [code-referencing] Public code references are enabled.
+2026-03-06 09:45:31.952 [info] Fetched model metadata in 423ms b6ba6994-255b-4314-ae8b-2c85d705f2c7
+2026-03-06 09:45:32.029 [info] ccreq:f1356149.copilotmd | markdown
+2026-03-06 10:40:32.001 [info] Logged in as xxsisyphusxx-star
+2026-03-06 10:40:32.439 [info] Got Copilot token for xxsisyphusxx-star
+2026-03-06 10:40:32.439 [info] Copilot Chat: 0.37.9, VS Code: 1.109.5
+2026-03-06 10:40:32.443 [info] AuthenticationService: firing onDidAuthenticationChange from handleAuthChangeEvent. Has token: true
+2026-03-06 10:40:32.443 [info] copilot token sku: free_limited_copilot
+2026-03-06 10:40:32.443 [info] ConversationFeature: onDidAuthenticationChange has token: true
+2026-03-06 10:40:32.443 [info] [code-referencing] Public code references are enabled.
+2026-03-06 10:40:32.847 [info] Fetched model metadata in 404ms 52ac1f62-d425-4ff5-a617-9630a05c1330
+2026-03-06 10:40:32.922 [info] ccreq:39d74075.copilotmd | markdown
+2026-03-06 11:35:32.003 [info] Logged in as xxsisyphusxx-star
+2026-03-06 11:35:32.454 [info] Got Copilot token for xxsisyphusxx-star
+2026-03-06 11:35:32.454 [info] Copilot Chat: 0.37.9, VS Code: 1.109.5
+2026-03-06 11:35:32.458 [info] AuthenticationService: firing onDidAuthenticationChange from handleAuthChangeEvent. Has token: true
+2026-03-06 11:35:32.458 [info] copilot token sku: free_limited_copilot
+2026-03-06 11:35:32.458 [info] ConversationFeature: onDidAuthenticationChange has token: true
+2026-03-06 11:35:32.458 [info] [code-referencing] Public code references are enabled.
+2026-03-06 11:35:32.906 [info] Fetched model metadata in 448ms e88b2392-5601-4f2d-a582-1b411be63cda
+2026-03-06 11:35:32.978 [info] ccreq:4d09389b.copilotmd | markdown
+2026-03-06 12:30:33.002 [info] Logged in as xxsisyphusxx-star
+2026-03-06 12:30:33.481 [info] Got Copilot token for xxsisyphusxx-star
+2026-03-06 12:30:33.481 [info] Copilot Chat: 0.37.9, VS Code: 1.109.5
+2026-03-06 12:30:33.486 [info] AuthenticationService: firing onDidAuthenticationChange from handleAuthChangeEvent. Has token: true
+2026-03-06 12:30:33.486 [info] copilot token sku: free_limited_copilot
+2026-03-06 12:30:33.486 [info] ConversationFeature: onDidAuthenticationChange has token: true
+2026-03-06 12:30:33.486 [info] [code-referencing] Public code references are enabled.
+2026-03-06 12:30:34.048 [info] Fetched model metadata in 562ms 9fe105de-fd6e-4ea1-9f89-13cb06286d26
+2026-03-06 12:30:34.199 [info] ccreq:d9e5d0b1.copilotmd | markdown
+2026-03-06 13:25:34.002 [info] Logged in as xxsisyphusxx-star
+2026-03-06 13:25:34.465 [info] Got Copilot token for xxsisyphusxx-star
+2026-03-06 13:25:34.465 [info] Copilot Chat: 0.37.9, VS Code: 1.109.5
+2026-03-06 13:25:34.469 [info] AuthenticationService: firing onDidAuthenticationChange from handleAuthChangeEvent. Has token: true
+2026-03-06 13:25:34.469 [info] copilot token sku: free_limited_copilot
+2026-03-06 13:25:34.469 [info] ConversationFeature: onDidAuthenticationChange has token: true
+2026-03-06 13:25:34.469 [info] [code-referencing] Public code references are enabled.
+2026-03-06 13:25:34.843 [info] Fetched model metadata in 374ms c59efe57-590a-4bc9-9b8e-17a759bf21a2
+2026-03-06 13:25:34.921 [info] ccreq:06c24055.copilotmd | markdown
+2026-03-06 14:20:34.003 [info] Logged in as xxsisyphusxx-star
+2026-03-06 14:20:34.538 [info] Got Copilot token for xxsisyphusxx-star
+2026-03-06 14:20:34.538 [info] Copilot Chat: 0.37.9, VS Code: 1.109.5
+2026-03-06 14:20:34.543 [info] AuthenticationService: firing onDidAuthenticationChange from handleAuthChangeEvent. Has token: true
+2026-03-06 14:20:34.543 [info] copilot token sku: free_limited_copilot
+2026-03-06 14:20:34.543 [info] ConversationFeature: onDidAuthenticationChange has token: true
+2026-03-06 14:20:34.543 [info] [code-referencing] Public code references are enabled.
+2026-03-06 14:20:34.940 [info] Fetched model metadata in 397ms b56b38c8-a28c-4469-9ff9-1f51f53576ed
+2026-03-06 14:20:35.013 [info] ccreq:b95b68f3.copilotmd | markdown
+2026-03-06 15:15:35.003 [info] Logged in as xxsisyphusxx-star
+2026-03-06 15:15:35.433 [info] Got Copilot token for xxsisyphusxx-star
+2026-03-06 15:15:35.433 [info] Copilot Chat: 0.37.9, VS Code: 1.109.5
+2026-03-06 15:15:35.438 [info] AuthenticationService: firing onDidAuthenticationChange from handleAuthChangeEvent. Has token: true
+2026-03-06 15:15:35.438 [info] copilot token sku: free_limited_copilot
+2026-03-06 15:15:35.438 [info] ConversationFeature: onDidAuthenticationChange has token: true
+2026-03-06 15:15:35.438 [info] [code-referencing] Public code references are enabled.
+2026-03-06 15:15:35.841 [info] Fetched model metadata in 403ms 5276288f-e4f2-4d81-a1d8-963d46ccbea2
+2026-03-06 15:15:35.918 [info] ccreq:15619e07.copilotmd | markdown
+2026-03-06 16:10:35.002 [info] Logged in as xxsisyphusxx-star
+2026-03-06 16:10:35.425 [info] Got Copilot token for xxsisyphusxx-star
+2026-03-06 16:10:35.425 [info] Copilot Chat: 0.37.9, VS Code: 1.109.5
+2026-03-06 16:10:35.429 [info] AuthenticationService: firing onDidAuthenticationChange from handleAuthChangeEvent. Has token: true
+2026-03-06 16:10:35.429 [info] copilot token sku: free_limited_copilot
+2026-03-06 16:10:35.429 [info] ConversationFeature: onDidAuthenticationChange has token: true
+2026-03-06 16:10:35.429 [info] [code-referencing] Public code references are enabled.
+2026-03-06 16:10:35.827 [info] Fetched model metadata in 398ms ec2bde79-80ed-41e3-b089-53dc8e2387c3
+2026-03-06 16:10:35.907 [info] ccreq:74d42a38.copilotmd | markdown

@@ -1,0 +1,63 @@
+#!/usr/bin/env bash
+
+# 1. DEFENSIVE PLAYER CHOICE: Prioritize Spotify over web browsers
+# Check if Spotify is actively running or paused in the background
+if playerctl --list-all 2>/dev/null | grep -q "spotify"; then
+    PLAYER_FLAG="--player=spotify"
+else
+    # Fallback to any other active media source (like firefox, chromium, vlc)
+    PLAYER_FLAG=""
+fi
+
+# 2. Execute the media control instruction explicitly targeting our chosen player
+playerctl $PLAYER_FLAG "$1"
+
+# Give the selected player a solid moment to broadcast updated network metadata
+sleep 0.25
+
+# 3. Extract song info cleanly using the same player filter flag
+STATUS=$(playerctl $PLAYER_FLAG status 2>/dev/null)
+TITLE=$(playerctl $PLAYER_FLAG metadata title 2>/dev/null)
+ARTIST=$(playerctl $PLAYER_FLAG metadata artist 2>/dev/null)
+ART_URL=$(playerctl $PLAYER_FLAG metadata mpris:artUrl 2>/dev/null)
+
+# Exit silently if no media player is active or the data isn't ready
+if [ -z "$STATUS" ] || [ -z "$TITLE" ]; then
+    exit 0
+fi
+
+# Limit string length for long titles to prevent UI clipping
+TITLE=$(echo "$TITLE" | cut -c 1-50)
+ARTIST=$(echo "$ARTIST" | cut -c 1-50)
+
+# Local temporary path for caching the artwork file
+LOCAL_ART="/tmp/spotify_current_art.png"
+ICON_PATH="media-playback-start" # Default fallback icon
+
+# 4. Handle Album Art Extraction (Web URL vs Local File)
+if [[ "$ART_URL" == http* ]]; then
+    FIXED_URL=$(echo "$ART_URL" | sed "s/open\.spotify\.com/i.scdn.co/")
+    if curl -s --max-time 2 "$FIXED_URL" -o "$LOCAL_ART"; then
+        if [ -s "$LOCAL_ART" ]; then
+            ICON_PATH="$LOCAL_ART"
+        fi
+    fi
+elif [[ "$ART_URL" == file://* ]]; then
+    CLEAN_PATH=$(echo "$ART_URL" | sed 's/file:\/\///')
+    if [ -f "$CLEAN_PATH" ]; then
+        ICON_PATH="$CLEAN_PATH"
+    fi
+fi
+
+# Override default icon if player status is explicitly paused
+if [ "$STATUS" = "Paused" ] && [ "$ICON_PATH" = "media-playback-start" ]; then
+    ICON_PATH="media-playback-pause"
+fi
+
+# 5. Fire the clean payload to Dunst
+if [ "$STATUS" = "Paused" ]; then
+    notify-send -h string:x-dunst-stack-tag:media -a "Media Player" -i "$ICON_PATH" "Paused" "$TITLE\nby $ARTIST" -t 2000
+else
+    notify-send -h string:x-dunst-stack-tag:media -a "Media Player" -i "$ICON_PATH" "Now Playing" "$TITLE\nby $ARTIST" -t 3000
+fi
+

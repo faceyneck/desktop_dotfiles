@@ -1,0 +1,52 @@
+2026-03-03 03:47:43.806 [info] [GitExtensionServiceImpl] Initializing Git extension service.
+2026-03-03 03:47:43.806 [info] [GitExtensionServiceImpl] Successfully activated the vscode.git extension.
+2026-03-03 03:47:43.806 [info] [GitExtensionServiceImpl] Enablement state of the vscode.git extension: true.
+2026-03-03 03:47:43.806 [info] [GitExtensionServiceImpl] Successfully registered Git commit message provider.
+2026-03-03 03:47:43.831 [info] Logged in as xxsisyphusxx-star
+2026-03-03 03:47:43.834 [info] Using the Electron fetcher.
+2026-03-03 03:47:43.986 [info] ConversationFeature: Waiting for copilot token to activate conversation feature
+2026-03-03 03:47:43.987 [info] Creating node-pty shim: source=/usr/share/code/resources/app/node_modules/node-pty/build/Release, dest=/home/faceyneck/.vscode/extensions/github.copilot-chat-0.37.9/node_modules/@github/copilot/sdk/prebuilds/linux-x64
+2026-03-03 03:47:43.987 [info] Creating ripgrep shim: source=/usr/share/code/resources/app/node_modules/@vscode/ripgrep/bin, dest=/home/faceyneck/.vscode/extensions/github.copilot-chat-0.37.9/node_modules/@github/copilot/sdk/ripgrep/bin/linux-x64
+2026-03-03 03:47:44.033 [info] Found 1 entries to copy: rg
+2026-03-03 03:47:44.033 [info] Found 1 entries to copy: pty.node
+2026-03-03 03:47:44.035 [info] [CopilotCLI] MCP server started. Lock file: /home/faceyneck/.copilot/ide/ce5b669c-2897-47d3-8ded-9ba11b7490c7.lock
+2026-03-03 03:47:44.035 [info] [CopilotCLI] Server URI: unix:/tmp/mcp-9QoRK2/mcp.sock#%2Fmcp
+2026-03-03 03:47:44.460 [info] Got Copilot token for xxsisyphusxx-star
+2026-03-03 03:47:44.460 [info] Copilot Chat: 0.37.9, VS Code: 1.109.5
+2026-03-03 03:47:44.465 [info] [context keys] Setting context key: github.copilot-chat.activated
+2026-03-03 03:47:44.466 [info] activationBlocker from 'languageModelAccess' took for 501ms
+2026-03-03 03:47:44.509 [info] AuthenticationService: firing onDidAuthenticationChange from handleAuthChangeEvent. Has token: true
+2026-03-03 03:47:44.509 [info] copilot token sku: free_limited_copilot
+2026-03-03 03:47:44.509 [info] ConversationFeature: Activating contributions
+2026-03-03 03:47:44.509 [info] GitHub.vscode-pull-request-github extension is not yet activated.
+2026-03-03 03:47:44.517 [info] Registering default platform agent...
+2026-03-03 03:47:44.518 [info] ConversationFeature: onDidAuthenticationChange has token: true
+2026-03-03 03:47:44.518 [info] [code-referencing] Public code references are enabled.
+2026-03-03 03:47:44.518 [info] activationBlocker from 'conversationFeature' took for 558ms
+2026-03-03 03:47:44.534 [info] BYOK: Copilot Chat known models list fetched successfully.
+2026-03-03 03:47:44.563 [info] GithubAvailableEmbeddingTypesManager: Got embeddings. Primary: metis-1024-I16-Binary. Deprecated: 
+2026-03-03 03:47:44.564 [info] WorkspaceChunkSearchService: using embedding type metis-1024-I16-Binary
+2026-03-03 03:47:44.848 [info] Fetched model metadata in 873ms 8889671b-69e0-4ff8-a9ba-8f46ed502904
+2026-03-03 03:47:44.924 [info] Latest entry: ccreq:latest.copilotmd
+2026-03-03 03:47:44.924 [info] ccreq:e45f3e1f.copilotmd | markdown
+2026-03-03 04:05:41.805 [info] [fetchCompletions] Request 6d67f055-6067-48f2-b72e-12398345e64e at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 214.97223800001666ms
+2026-03-03 04:05:41.902 [info] [streamChoices] solution 0 returned. finish reason: [stop]
+2026-03-03 04:05:41.910 [info] ccreq:4327b431.copilotmd | markdown
+2026-03-03 04:05:42.066 [info] [fetchCompletions] Request d626e2cd-1770-4bde-adac-9def00df89bc at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 148.17797299986705ms
+2026-03-03 04:05:42.140 [info] [streamChoices] solution 0 returned. finish reason: [null]
+2026-03-03 04:05:43.829 [info] [fetchCompletions] Request 180b334c-86a3-4ae8-a95b-f6ffd0be0cda at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 165.18131399992853ms
+2026-03-03 04:05:43.835 [info] [streamChoices] solution 0 returned. finish reason: [stop]
+2026-03-03 04:05:43.863 [info] ccreq:5d3f4dcb.copilotmd | markdown
+2026-03-03 04:05:44.025 [info] [fetchCompletions] Request 66043d5b-e5a4-4490-8079-e4813358acc2 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 156.457499000011ms
+2026-03-03 04:05:44.116 [info] [streamChoices] solution 0 returned. finish reason: [null]
+2026-03-03 04:05:49.143 [info] ccreq:06099232.copilotmd | markdown
+2026-03-03 04:05:49.300 [info] [fetchCompletions] Request 40bf7adc-c201-43fd-aeb4-d22b12439235 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 150.37915399996564ms
+2026-03-03 04:05:49.304 [info] [streamChoices] solution 0 returned. finish reason: [stop]
+2026-03-03 04:06:26.665 [info] [fetchCompletions] Request b51f9ae8-2f9e-4363-8aa9-f78055c84bda at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 151.05452100001276ms
+2026-03-03 04:06:26.734 [info] [streamChoices] solution 0 returned. finish reason: [stop]
+2026-03-03 04:06:26.738 [info] ccreq:d980f012.copilotmd | markdown
+2026-03-03 04:06:26.912 [info] [fetchCompletions] Request d24cf1a1-261c-45a5-8790-ee810f82752e at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 170.42115400009789ms
+2026-03-03 04:06:26.917 [info] [streamChoices] solution 0 returned. finish reason: [stop]
+2026-03-03 04:06:31.984 [info] [fetchCompletions] Request 2bd05ab3-a231-49cb-96c8-e4899e5ad41b at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 143.99522899999283ms
+2026-03-03 04:06:31.989 [info] [streamChoices] solution 0 returned. finish reason: [stop]
+2026-03-03 04:06:32.056 [info] ccreq:dbcfea03.copilotmd | markdown

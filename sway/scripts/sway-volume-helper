@@ -1,0 +1,25 @@
+#!/usr/bin/env bash
+
+# Fetch defaults and arguments passed by Sway keybindings
+COMMAND="$1"
+STEP="${2:-5%}"
+
+if [ "$COMMAND" = "toggle-mute" ]; then
+    wpctl set-mute @DEFAULT_AUDIO_SINK@ toggle
+else
+    wpctl set-volume @DEFAULT_AUDIO_SINK@ "$STEP"$COMMAND
+fi
+
+# Query the updated state directly out of WirePlumber
+VOLUME_RAW=$(wpctl get-volume @DEFAULT_AUDIO_SINK@)
+
+if [[ "$VOLUME_RAW" == *"[MUTED]"* ]]; then
+    # Pass a synchronized stack tag to Dunst so windows don't pile up
+    notify-send -h string:x-dunst-stack-tag:volume -a "System" -i audio-volume-muted "Muted" "Audio output turned off" -t 1500
+else
+    # Parse decimal fraction values straight into clean whole integers (e.g., 0.45 -> 45)
+    VOLUME_PERCENT=$(echo "$VOLUME_RAW" | awk '{print int($2 * 100)}')
+    
+    # Send progress tracking payloads directly to Dunst's native progress-bar module
+    notify-send -h string:x-dunst-stack-tag:volume -h int:value:"$VOLUME_PERCENT" -a "System" -i audio-volume-high "Volume" "${VOLUME_PERCENT}%" -t 1500
+fi
