@@ -2,6 +2,17 @@
 " MODERN VIM CONFIGURATION (~/.config/vim/vimrc)
 " ==========================================
 
+" Plugin stuff
+call plug#begin()
+
+" List your plugins here
+Plug 'rrethy/vim-hexokinase', { 'do': 'make hexokinase' }
+
+call plug#end()
+
+" Trying to set hexokinase color setting
+let g:Hexokinase_highlighters = ['background']
+
 " Force True Color (24-bit RGB) support inside modern term wrappers like tmux
 if has('termguicolors')
     set termguicolors
@@ -12,3 +23,5 @@ set background=dark
 
 " Enable syntax highlighting
 syntax on
+
+
