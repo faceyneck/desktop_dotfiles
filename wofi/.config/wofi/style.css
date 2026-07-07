@@ -1,0 +1,33 @@
+/* The main outer window container */
+window {
+    font-family: "Noto Sans", sans-serif;
+    font-size: 16px;
+    background-color: rgba(20, 20, 24, 0.80);
+    color: #ffffff;
+    border-radius: 8px;
+    /*Adding a solid border around the entire edge */
+    border: 2px solid #5294E2;
+}
+
+/* The search input box */
+#input {
+    background-color: rgba(40, 40, 45, 0.60);
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    padding: 8px;
+    margin: 10px;
+}
+
+/* Individual application items in the list */
+#entry {
+    padding: 6px;
+    margin: 2px 10px;
+    border-radius: 4px;
+}
+
+/* What happens when you hover or select an app */
+#entry:selected {
+    background-color: rgba(255, 255, 255, 0.15);
+}
+
