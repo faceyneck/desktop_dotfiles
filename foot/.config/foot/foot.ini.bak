@@ -1,0 +1,11 @@
+[main]
+# Keep text standard, but pump up the size for your standalone Nerd Font icons!
+font = JetBrains Mono:size=11, Symbols Nerd Font:size=14
+letter-spacing = 1
+line-height = 14
+pad = 6x6
+
+# Let Foot render geometry natively for perfect smoothness
+box-drawings-uses-font-glyphs = no
+
+
