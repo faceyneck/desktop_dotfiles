@@ -20,6 +20,7 @@
 
     ],
     "modules-right": [
+	"power-profiles-daemon",
         "mpd",
         "idle_inhibitor",
         "pulseaudio",
@@ -30,7 +31,7 @@
         "backlight",
         //"keyboard-state",
         // "sway/language",
-        // "battery",
+        "battery",
         // "battery#bat2",
         "tray"
     ],
@@ -137,7 +138,7 @@
         // }
     },
     "clock": {
-        // "timezone": "America/New_York",
+        "timezone": "America/New_York",
 	"interval": 1,
 	"format": "{:%a, %b %d %H:%M:%S}",
         "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>",

@@ -1,0 +1,82 @@
+/* =========================================================================
+   UNIVERSAL MANGO/WAYBAR WORKSPACE ENGINE OVERRIDES
+   ========================================================================= */
+
+/* The outer container holding the entire tag block array */
+#workspaces, #mango-workspaces {
+    background-color: #1a1b26; /* Deep dark slate base matching Tony's theme */
+    border-radius: 8px;
+    margin: 4px;
+    padding: 2px 6px;
+}
+
+/* Base style for ALL 1-9 buttons inside the workspace module */
+#workspaces button, 
+#mango-workspaces button {
+    padding: 0 8px;
+    margin: 0 2px;
+    border-radius: 4px;
+    transition: all 0.2s ease;
+    background: transparent;
+    border-bottom: 3px solid transparent;
+}
+
+/* STATE 1: Active Tag Group (The workspace you are looking at right now) */
+#workspaces button.focused, 
+#workspaces button.active,
+#mango-workspaces button.focused,
+#mango-workspaces button.active {
+    color: #0db9d7;            /* Crisp cyan text highlight */
+    border-bottom: 3px solid #ad8ee6; /* Elegant purple accent border */
+    font-weight: bold;
+}
+
+/* STATE 2: Occupied Tags (Has active windows, but not currently focused) */
+#workspaces button.occupied, 
+#mango-workspaces button.occupied {
+    color: #9ece6a;            /* Soft distinct green text state */
+    font-weight: bold;
+}
+
+/* STATE 3: Empty Tags (Persistent placeholders with no open windows) */
+#workspaces button.empty, 
+#mango-workspaces button.empty {
+    color: #444b6a;            /* Muted/dimmed out gray text */
+    border-bottom: 3px solid transparent;
+}
+
+/* Extra safety rule: If an empty tag becomes active */
+#workspaces button.empty.active,
+#mango-workspaces button.empty.active {
+    color: #0db9d7;
+    border-bottom: 3px solid #ad8ee6;
+}
+
+/* Hover glow effect for clean mouse tracking */
+#workspaces button:hover, 
+#mango-workspaces button:hover {
+    background-color: #32344a;
+    color: #ffffff;
+}
+/* Add space between the individual modules on the bar */
+#workspaces,
+#clock,
+#pulseaudio,
+#network,
+#cpu,
+#memory,
+#temperature,
+#backlight,
+#battery,
+#tray,
+#mpd {
+    margin: 0 6px;       /* Adds outer space to the left and right of each module */
+    padding: 0 8px;      /* Adds inner space so text doesn't touch the edges */
+}
+
+/* Force space between the icon and the text inside a module */
+#pulseaudio, #network, #cpu, #memory, #temperature, #backlight, #battery {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
