@@ -1,5 +1,13 @@
 # More option see https://github.com/DreamMaoMao/mango/wiki/
 
+
+# ===============================================================================
+# ADDING FUCKING NUMLOCK FUCKING FUCK!!!!!
+# ===============================================================================
+numlockon=1
+
+
+
 # ==============================================================================
 # UNIVERSAL WAYLAND ENVIRONMENT
 # ==============================================================================
@@ -36,6 +44,10 @@ bind = NONE, XF86AudioPrev, spawn, playerctl previous
 # ==============================================================================
 bind = NONE, XF86MonBrightnessUp, spawn, brightnessctl set +5%
 bind = NONE, XF86MonBrightnessDown, spawn, brightnessctl set 5%-
+
+
+# Start swaybg for background image
+exec-once = swaybg --image /home/faceyneck/.local/share/wallpapers/02.png -m fill
 
 # Start Notification Daemon
 exec-once = mako
@@ -210,64 +222,63 @@ tagrule=id:9,layout_name:tile
 # key name refer to `xev` or `wev` command output,
 # mod keys name: super,ctrl,alt,shift,none
 
-# reload config
+# Core System Controls (Sway Style)
 bind=SUPER+SHIFT,c,reload_config
-
-# menu and terminal
-bind=SUPER,d,spawn,rofi -show drun
-bind=SUPER,Return,spawn,wezterm
-
-# exit
 bind=SUPER+SHIFT,e,quit
 bind=SUPER+SHIFT,q,killclient,
 
-# switch window focus
-bind=SUPER,Tab,focusstack,next
-bind=ALT,Left,focusdir,left
-bind=ALT,Right,focusdir,right
-bind=ALT,Up,focusdir,up
-bind=ALT,Down,focusdir,down
+# Menu and Terminal Spawners
+bind=SUPER,d,spawn,rofi -show drun
+bind=SUPER,Return,spawn,foot
+# Launch rofimoji picker
+bind = SUPER,period,spawn,rofimoji
 
-# swap window
+# ------------------------------------------------------------------------------
+# WINDOW FOCUS DIRECTIONAL CLUSTER (Sway Arrows Behavior)
+# ------------------------------------------------------------------------------
+bind=SUPER,Tab,focusstack,next
+bind=SUPER,Left,focusdir,left
+bind=SUPER,Right,focusdir,right
+bind=SUPER,Up,focusdir,up
+bind=SUPER,Down,focusdir,down
+
+# ------------------------------------------------------------------------------
+# MOVE/SWAP WINDOW POSITIONS (SUPER + SHIFT + ARROWS)
+# ------------------------------------------------------------------------------
 bind=SUPER+SHIFT,Up,exchange_client,up
 bind=SUPER+SHIFT,Down,exchange_client,down
 bind=SUPER+SHIFT,Left,exchange_client,left
 bind=SUPER+SHIFT,Right,exchange_client,right
 
-# switch window status
+# Window Geometry Rules (Shifted to clear application shortcuts)
 bind=SUPER,g,toggleglobal,
-bind=ALT,Tab,togglejump,
-bind=ALT,backslash,togglefloating,
-bind=ALT,a,togglemaximizescreen,
-bind=ALT,f,togglefullscreen,
-bind=ALT+SHIFT,f,togglefakefullscreen,
+bind=SUPER+SHIFT,Tab,togglejump,
+bind=SUPER,backslash,togglefloating,
+bind=SUPER+SHIFT,a,togglemaximizescreen,
+bind=SUPER,f,togglefullscreen,
+bind=SUPER+SHIFT,f,togglefakefullscreen,
 bind=SUPER,i,minimized,
 bind=SUPER,o,toggleoverlay,
-bind=SUPER+SHIFT,I,restore_minimized
+bind=SUPER+SHIFT,I,restore_minimized,
 bind=ALT,z,toggle_scratchpad
 
-# scroller layout
+# Dynamic Tiling Layout Controls
 bind=ALT,e,set_proportion,1.0
 bind=ALT,x,switch_proportion_preset,
+bind=SUPER,n,switch_layout
+
+# Advanced Scroller Layout Bindings
 bind=alt+super+ctrl,Left,scroller_stack,left
 bind=alt+super+ctrl,Right,scroller_stack,right
 bind=alt+super+ctrl,Up,scroller_stack,up
 bind=alt+super+ctrl,Down,scroller_stack,down
 
-#dwindle layout(manual split mode)
+# Dwindle Layout Auto-Split
 bind=alt+shift,Return,dwindle_toggle_split_direction
 
-# switch layout
-bind=SUPER,n,switch_layout
-
-# tag switch
-bind=SUPER,Left,viewtoleft,0
-bind=CTRL,Left,viewtoleft_have_client,0
-bind=SUPER,Right,viewtoright,0
-bind=CTRL,Right,viewtoright_have_client,0
-bind=CTRL+SUPER,Left,tagtoleft,0
-bind=CTRL+SUPER,Right,tagtoright,0
-
+# ==============================================================================
+# WORKSPACE NAVIGATION (SUPER + 1-9)
+# ==============================================================================
 bind=SUPER,1,view,1,0
 bind=SUPER,2,view,2,0
 bind=SUPER,3,view,3,0
@@ -278,78 +289,102 @@ bind=SUPER,7,view,7,0
 bind=SUPER,8,view,8,0
 bind=SUPER,9,view,9,0
 
-# tag: move client to the tag and focus it
-# tagsilent: move client to the tag and not focus it
-# bind=Alt,1,tagsilent,1
-bind=Alt,1,tag,1,0
-bind=Alt,2,tag,2,0
-bind=Alt,3,tag,3,0
-bind=Alt,4,tag,4,0
-bind=Alt,5,tag,5,0
-bind=Alt,6,tag,6,0
-bind=Alt,7,tag,7,0
-bind=Alt,8,tag,8,0
-bind=Alt,9,tag,9,0
+# Switch to workspace using the Numpad
+# Switch to tag (NumLock ON -> Fires numeric strings)
+bind=SUPER,KP_1,view,1,0
+bind=SUPER,KP_2,view,2,0
+bind=SUPER,KP_3,view,3,0
+bind=SUPER,KP_4,view,4,0
+bind=SUPER,KP_5,view,5,0
+bind=SUPER,KP_6,view,6,0
+bind=SUPER,KP_7,view,7,0
+bind=SUPER,KP_8,view,8,0
+bind=SUPER,KP_9,view,9,0
+bind=SUPER,KP_0,view,10,0
 
-# monitor switch
+# Move window to tag (NumLock ON + SHIFT -> Inverts keys to positional strings)
+bind=SUPER+SHIFT,KP_End,tag,1,0
+bind=SUPER+SHIFT,KP_Down,tag,2,0
+bind=SUPER+SHIFT,KP_Page_Down,tag,3,0
+bind=SUPER+SHIFT,KP_Left,tag,4,0
+bind=SUPER+SHIFT,KP_Begin,tag,5,0
+bind=SUPER+SHIFT,KP_Right,tag,6,0
+bind=SUPER+SHIFT,KP_Home,tag,7,0
+bind=SUPER+SHIFT,KP_Up,tag,8,0
+bind=SUPER+SHIFT,KP_Page_Up,tag,9,0
+bind=SUPER+SHIFT,KP_Insert,tag,10,0
+
+# ==============================================================================
+# SEND WINDOW TO WORKSPACE (SUPER + SHIFT + 1-9)
+# ==============================================================================
+bind=SUPER+SHIFT,1,tag,1,0
+bind=SUPER+SHIFT,2,tag,2,0
+bind=SUPER+SHIFT,3,tag,3,0
+bind=SUPER+SHIFT,4,tag,4,0
+bind=SUPER+SHIFT,5,tag,5,0
+bind=SUPER+SHIFT,6,tag,6,0
+bind=SUPER+SHIFT,7,tag,7,0
+bind=SUPER+SHIFT,8,tag,8,0
+bind=SUPER+SHIFT,9,tag,9,0
+
+# Monitor Display Multi-Head Routing
 bind=alt+shift,Left,focusmon,left
 bind=alt+shift,Right,focusmon,right
 bind=SUPER+Alt,Left,tagmon,left
 bind=SUPER+Alt,Right,tagmon,right
 
-# gaps
+# Window Gaps Modifications
 bind=ALT+SHIFT,X,incgaps,1
 bind=ALT+SHIFT,Z,incgaps,-1
 bind=ALT+SHIFT,R,togglegaps
 
-# movewin
+# Absolute Tiling Adjustments
 bind=CTRL+SHIFT,Up,movewin,+0,-50
 bind=CTRL+SHIFT,Down,movewin,+0,+50
 bind=CTRL+SHIFT,Left,movewin,-50,+0
 bind=CTRL+SHIFT,Right,movewin,+50,+0
 
-# resizewin
+# Manual Resize Layout Engine
 bind=CTRL+ALT,Up,resizewin,+0,-50
 bind=CTRL+ALT,Down,resizewin,+0,+50
 bind=CTRL+ALT,Left,resizewin,-50,+0
 bind=CTRL+ALT,Right,resizewin,+50,+0
 
-# Mouse Button Bindings
-# btn_left and btn_right can't bind none mod key
+# Mouse Button Controls
 mousebind=SUPER,btn_left,moveresize,curmove
 mousebind=NONE,btn_middle,togglemaximizescreen,0
 mousebind=SUPER,btn_right,moveresize,curresize
 
-
-# Axis Bindings
+# Layout Axis Bindings
 axisbind=SUPER,UP,viewtoleft_have_client
 axisbind=SUPER,DOWN,viewtoright_have_client
 
-
-# layer rule
+# External Layer Overlays
 layerrule=animation_type_open:zoom,layer_name:rofi
 layerrule=animation_type_close:zoom,layer_name:rofi
 
-#==================================================
-# Scratchpads
-#==================================================
-#==================================================
-# Native Named Scratchpads (Strict Format)
-#==================================================
+# ==============================================================================
+# gammasteppy
+# ==============================================================================
+bind=SUPER+SHIFT,g,spawn,/home/faceyneck/scripts/gammasteppy
 
-# 1. Define the Window Rules (Forces floating state and centers it)
-# windowrule=isnamedscratchpad:1,width:1280,height:800,appid:st-scratch
-# 2. The Key Bindings (No spaces around commas!)
-# Option A: Standalone F12 key (No modifiers needed)
-#bind=NONE,F12,toggle_named_scratchpad,wezterm-main,none,wezterm -T wezterm-main
-# 1. Map the window rule targeting the Wayland app_id signature
-windowrule=isnamedscratchpad:1,width:1200,height:750,appid:wezterm-main
+# ==============================================================================
+# SCRATCHPAD MANAGEMENT & FOOT TERMINAL STUFF
+# ==============================================================================
+windowrule=isnamedscratchpad:1,width:1820,height:1020,appid:foot-scratch
 
-# 2. Bind the lowercase f12 key layout using WezTerm's explicit class flag
-bind=none,f12,toggle_named_scratchpad,wezterm-main,none,wezterm start --class wezterm-main
+bind=none,f12,toggle_named_scratchpad,foot-scratch,none,foot --app-id=foot-scratch
 
-# Binding: Match the layout of 'st -c' exactly using WezTerm's native execution flags
-bind=SUPER,f12,toggle_named_scratchpad,wezterm-main,none,wezterm -T wezterm-main
+# ==============================================================================
+# SECONDARY AUDIO MIXER SCRATCHPAD (PAVUCONTROL)
+# ==============================================================================
+# 1. Define the Window Rule (Matches pavucontrol's native Wayland app_id)
+windowrule=isnamedscratchpad:2,width:1000,height:650,appid:pavucontrol
 
-#Setting up for st:
-#bind=SUPER,f12,toggle_named_scratchpad,st-scratch,none,st -c st-scratch
+# 2. Bind SUPER + U to toggle the volume mixer panel instantly
+bind=SUPER,u,toggle_named_scratchpad,pavucontrol,none,pavucontrol
+
+# Toggle HDR on the currently focused monitor (Mnemonic: B = Brightness/Blaze)
+bind=SUPER+ALT,b,spawn,mmsg dispatch togglehdr
+
+
