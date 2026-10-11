@@ -1,6 +1,10 @@
 /* =========================================================================
    UNIVERSAL MANGO/WAYBAR WORKSPACE ENGINE OVERRIDES
    ========================================================================= */
+* {
+    font-family: "FiraMono Nerd Font", sans-serif;
+    background: transparent;
+}
 
 /* The outer container holding the entire tag block array */
 #workspaces, #mango-workspaces {
@@ -73,5 +77,92 @@
 #mpd {
     margin: 0 3px;       /* Dropped to 3px to bring modules tight and clean */
     padding: 0 4px;      /* Standard internal buffer */
+}
+
+
+
+/* =========================================================================
+   SQUARED-OFF LAYOUT BLOCK (0px Radius)
+   ========================================================================= */
+#layout {
+    font-weight: bold;
+    color: #e0af68;            /* Warm amber text color */
+    background-color: #24283b; /* Dark block background */
+    border: 1px solid rgba(224, 175, 104, 0.3);
+    border-radius: 0px;        /* Pure retro sharp corners */
+    margin: 4px;
+    padding: 2px 10px;
+}
+
+/* =========================================================================
+   RIGHT SIDE STATUS BLOCKS (0px Radius Contrast Mapping)
+   ========================================================================= */
+#pulseaudio {
+    background-color: rgba(224, 175, 104, 0.15); /* Amber tint */
+    border: 1px solid rgba(224, 175, 104, 0.4);
+    border-radius: 0px;
+    color: #e0af68;
+}
+
+#network {
+    background-color: rgba(13, 185, 215, 0.15);  /* Cyan tint */
+    border: 1px solid rgba(13, 185, 215, 0.4);
+    border-radius: 0px;
+    color: #0db9d7;
+    min-width: 90px;
+}
+
+#cpu {
+    background-color: rgba(158, 206, 106, 0.15); /* Green tint */
+    border: 1px solid rgba(158, 206, 106, 0.4);
+    border-radius: 0px;
+    color: #9ece6a;
+}
+
+#memory {
+    background-color: rgba(187, 154, 247, 0.15); /* Purple tint */
+    border: 1px solid rgba(187, 154, 247, 0.4);
+    border-radius: 0px;
+    color: #bb9af7;
+}
+
+#temperature {
+    background-color: rgba(247, 118, 142, 0.15); /* Coral red tint */
+    border: 1px solid rgba(247, 118, 142, 0.4);
+    border-radius: 0px;
+    color: #f7768e;
+}
+
+#backlight {
+    background-color: rgba(122, 162, 247, 0.15); /* Blue tint */
+    border: 1px solid rgba(122, 162, 247, 0.4);
+    border-radius: 0px;
+    color: #7aa2f7;
+}
+
+#battery {
+    background-color: #24283b;
+    border: 1px solid #444b6a;
+    border-radius: 0px;
+    color: #c0caf5;
+}
+
+#battery.charging, 
+#battery.plugged {
+    background-color: rgba(158, 206, 106, 0.2);
+    border-color: #9ece6a;
+    color: #9ece6a;
+}
+
+#tray {
+    background-color: #1a1b26;
+    border: 1px solid #444b6a;
+    border-radius: 0px;
+}
+
+#mpd {
+    background-color: rgba(158, 206, 106, 0.1);
+    border-radius: 0px;
+    color: #9ece6a;
 }
 

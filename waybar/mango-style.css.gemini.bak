@@ -1,0 +1,139 @@
+/* --- Unification of Tony Banters's Color Definitions --- */
+@define-color bg    #1a1b26; 
+@define-color fg    #a9b1d6; 
+@define-color blk   #32344a; 
+@define-color red   #f7768e; 
+@define-color grn   #9ece6a; 
+@define-color ylw   #e0af68; 
+@define-color blu   #7aa2f7; 
+@define-color mag   #ad8ee6; 
+@define-color cyn   #0db9d7; 
+@define-color brblk #444b6a; 
+@define-color white #ffffff; 
+
+* {
+    font-family: "FiraMono Nerd Font", sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+window#waybar {
+    background-color: @bg;
+    color: @fg;
+}
+
+/* =========================================================================
+   FIXED MANGO WORKSPACE ENGINE OVERRIDES 
+   ========================================================================= */
+
+/* Outer tag block container frame */
+#workspaces, #mango-workspaces {
+    background-color: @blk; 
+    border-radius: 8px;
+    margin: 4px;
+    padding: 2px 6px;
+}
+
+/* BASE RULE: Force everything to default to dimmed out first */
+#workspaces button,
+#mango-workspaces button {
+    padding: 0 8px;
+    margin: 0 2px;
+    border-radius: 4px;
+    background: transparent;
+    border-bottom: 3px solid transparent;
+    transition: all 0.2s ease;
+    
+    /* CRITICAL FIX: Explicitly color the inner text node so it stops defaulting to white */
+    color: @brblk !important; 
+}
+
+/* STATE 1: Active Tag Group (The workspace you are looking at right now) */
+#workspaces button.focused,
+#workspaces button.active,
+#mango-workspaces button.focused,
+#mango-workspaces button.active {
+    color: @cyn !important;           /* Override text color to clear Cyan */
+    border-bottom: 3px solid @mag;    /* Vibrant Magenta border under the number */
+}
+
+/* STATE 2: Occupied Tags (Has active windows, but not currently focused) */
+#workspaces button.occupied,
+#mango-workspaces button.occupied {
+    color: @grn !important;           /* Soft distinct green text state */
+}
+
+/* STATE 3: Empty/Persistent Placeholders (Explicitly targeting both possible classes) */
+#workspaces button.empty, 
+#workspaces button.persistent,
+#mango-workspaces button.empty,
+#mango-workspaces button.persistent {
+    color: @brblk !important;         /* Lock this to dimmed out slate grey */
+    border-bottom: 3px solid transparent;
+}
+
+/* Safety override rule: If an empty tag group becomes active */
+#workspaces button.empty.active,
+#workspaces button.persistent.active,
+#mango-workspaces button.empty.active,
+#mango-workspaces button.persistent.active {
+    color: @cyn !important;
+    border-bottom: 3px solid @mag;
+}
+
+/* Hover glow effect for clean mouse tracking */
+#workspaces button:hover,
+#mango-workspaces button:hover {
+    background-color: @blk;
+    color: @white !important;
+}
+
+/* STATE 4: Urgent Alert (e.g. terminal bell, app ping) */
+#workspaces button.urgent,
+#mango-workspaces button.urgent {
+    background-color: @red;
+    color: @white !important;
+}
+
+/* =========================================================================
+   NATIVE MANGO MODULE FORMATTING (NON-WORKSPACE)
+   ========================================================================= */
+#mango-layout,
+#mango-window {
+    padding: 0 10px;
+    color: @fg;
+}
+
+/* Unified tight layout boundaries */
+#clock,
+#custom-weather,
+#custom-luna,
+#pulseaudio,
+#network,
+#cpu,
+#memory,
+#temperature,
+#backlight,
+#battery,
+#tray,
+#mpd {
+    margin: 0 3px;       
+    padding: 0 8px;      
+    color: @white;
+}
+
+/* Accent bottom styling matches */
+#clock       { color: @cyn; border-bottom: 4px solid @cyn; }
+#battery     { color: @blu; border-bottom: 4px solid @blu; }
+#temperature { color: @blu; border-bottom: 4px solid @blu; }
+#backlight   { color: @ylw; border-bottom: 4px solid @ylw; }
+#memory      { color: @mag; border-bottom: 4px solid @mag; }
+#cpu         { color: @grn; border-bottom: 4px solid @grn; }
+#network     { color: @red; border-bottom: 4px solid @red; }
+#network.disconnected { background-color: @red; }
+
+#tray {
+    background-color: #2980b9;
+    border-radius: 4px;
+}
+
